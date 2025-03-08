@@ -1,0 +1,103 @@
+{
+  "home": {
+    "button": "Preisübersicht"
+  },
+  "nav": {
+    "ponudba": "Angebot",
+    "prednosti": "Vorteile",
+    "dimenzije": "Abmessungen",
+    "cenik": "Preisübersicht",
+    "kontakt": "Kontakt"
+  },
+  "ponudba": {
+    "naslov": "ANGEBOT",
+    "komplet_1": {
+      "naslov": "SET 1",
+      "stojalo": "Ständer mit Ablage vorne",
+      "navadno": "Gewöhnlicher Ständer 2x"
+    },
+    "komplet_2": {
+      "naslov": "SET 2",
+      "stojalo": "Ständer mit seitlicher Ablage 1x",
+      "navadno": "Gewöhnlicher Ständer 1x"
+    },
+    "posamicno": {
+      "naslov": "EINZELN",
+      "stojalo": "Schrank mit Ablage vorne 1x",
+      "navadno": "Schrank mit seitlichen Ablagen 1x",
+      "stojalo2": "Gewöhnlicher Ständer 3x"
+    }
+  },
+  "prednosti": {
+    "stik": {
+      "title": "Direkter Kontakt",
+      "text": "Ermöglicht Ihnen die direkte Interaktion mit Ihren Kunden. Dies stärkt das Vertrauen und die Beziehungen zu potenziellen Käufern."
+    },
+    "prepoznavnost": {
+      "title": "Erhöhte Sichtbarkeit",
+      "text": "Ein kreativ gestalteter Ständer zieht Aufmerksamkeit auf sich und kann zu einem markanten Punkt auf Veranstaltungen werden."
+    },
+    "prihranek": {
+      "title": "Kosteneinsparung",
+      "text": "Durch die Miete unseres Ständers sparen Sie Geld und können professionelle Ausstattung nur dann nutzen, wenn Sie sie benötigen."
+    },
+    "predstavitev": {
+      "title": "Neue Produktpräsentation",
+      "text": "Das Mieten eines Ständers schafft einen idealen Raum zur Präsentation neuer Produkte oder Dienstleistungen und fördert direkt den Verkauf."
+    },
+    "marketing": {
+      "title": "Effektives Marketing und Werbung",
+      "text": "Ermöglicht kreative Ansätze, die die Markenbotschaft unterstützen und die Sichtbarkeit erhöhen."
+    },
+    "dogodki": {
+      "title": "Ideal für Veranstaltungen",
+      "text": "Die Teilnahme an Messen und anderen Veranstaltungen mit einem professionellen Ständer steigert die Aufmerksamkeit und Attraktivität Ihrer Marke."
+    }
+  },
+  "dimenzije": {
+    "naslov": "ABMESSUNGEN DER LED-BELEUCHTETEN STÄNDER",
+    "sirina": "BREITE",
+    "visina": "HÖHE",
+    "globina": "TIEFE",
+    "enote": {
+      "first": "1. EINHEIT",
+      "second": "2. EINHEIT",
+      "third": "3. EINHEIT",
+      "fourth": "4. EINHEIT",
+      "fifth": "5. EINHEIT"
+    }
+  },
+  "najem": {
+    "naslov": "STÄNDER MIETEN",
+    "podnaslov": "Wählen Sie die Mietdauer",
+    "trajanje": {
+      "one": "1 Woche",
+      "two": "2 Wochen",
+      "three": "3 Wochen",
+      "four": "1 Monat"
+    },
+
+    "tabela": {
+      "stevilo_enot": "Anzahl der Einheiten",
+      "popust": "Rabatt",
+      "dodatni_popust": "Zusätzlicher Rabatt",
+      "cena": "Preis pro Einheit pro Woche",
+      "skupna": "Gesamtpreis"
+    },
+    "enote": {
+      "third": "3/SET 1",
+      "fifth": "5/SET 2"
+    },
+    "cene_ddv": "Preise ohne Mehrwertsteuer",
+    "pripada_orange": "Bei der Miete des Ständers erhalten Sie:",
+    "pripada": "Personalisierter Ständer mit Logo • Werbeplane • Transport und Montage",
+    "dodatna_orange": "Zusätzliches Angebot",
+    "dodatna_ponudba": "Transport und Montage des Ständers an den gewünschten Standort in Slowenien • Beleuchtetes Logo • Ständer in Wunschfarbe bekleben • Langzeitmiete • Erstellung weiterer Werbematerialien.",
+    "kontakt": "Kontakt",
+    "kontakt_popup": "Kontaktieren Sie uns",
+    "kontakt_zapri": "Schließen"
+  },
+  "kontakt": {
+    "naslov": "Kontaktieren Sie uns"
+  }
+}

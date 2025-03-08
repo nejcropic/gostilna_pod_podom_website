@@ -1,0 +1,103 @@
+{
+  "home": {
+    "button": "Prezzi"
+  },
+  "nav": {
+    "ponudba": "Offerta",
+    "prednosti": "Vantaggi",
+    "dimenzije": "Dimensioni",
+    "cenik": "Prezzi",
+    "kontakt": "Contatto"
+  },
+  "ponudba": {
+    "naslov": "OFFERTA",
+    "komplet_1": {
+      "naslov": "SET 1",
+      "stojalo": "Supporto con ripiano frontale",
+      "navadno": "Supporto normale 2x"
+    },
+    "komplet_2": {
+      "naslov": "SET 2",
+      "stojalo": "Supporto con ripiano laterale 1x",
+      "navadno": "Supporto normale 1x"
+    },
+    "posamicno": {
+      "naslov": "INDIVIDUALE",
+      "stojalo": "Armadio con ripiano frontale 1x",
+      "navadno": "Armadio con ripiani laterali 1x",
+      "stojalo2": "Supporto normale 3x"
+    }
+  },
+  "prednosti": {
+    "stik": {
+      "title": "Contatto diretto",
+      "text": "Ti permette di interagire direttamente con i tuoi clienti. Questo rafforza la fiducia e le relazioni con i potenziali acquirenti."
+    },
+    "prepoznavnost": {
+      "title": "Maggiore visibilità",
+      "text": "Un supporto progettato in modo creativo attira l'attenzione e può diventare un punto di riferimento negli eventi."
+    },
+    "prihranek": {
+      "title": "Risparmio sui costi",
+      "text": "Affittando il nostro supporto, risparmi denaro e puoi utilizzare attrezzature professionali solo quando necessario."
+    },
+    "predstavitev": {
+      "title": "Presentazione di nuovi prodotti",
+      "text": "L'affitto di un supporto crea un ottimo spazio per presentare nuovi prodotti o servizi, stimolando direttamente le vendite."
+    },
+    "marketing": {
+      "title": "Marketing e pubblicità efficaci",
+      "text": "Permette approcci creativi che supportano il messaggio del tuo marchio e aumentano la visibilità."
+    },
+    "dogodki": {
+      "title": "Ideale per eventi",
+      "text": "Partecipare a fiere ed eventi con un supporto professionale aumenta l'attenzione e l'attrattiva del tuo marchio."
+    }
+  },
+  "dimenzije": {
+    "naslov": "DIMENSIONI DEI SUPPORTI A LED",
+    "sirina": "LARGHEZZA",
+    "visina": "ALTEZZA",
+    "globina": "PROFONDITÀ",
+    "enote": {
+      "first": "1° UNITÀ",
+      "second": "2° UNITÀ",
+      "third": "3° UNITÀ",
+      "fourth": "4° UNITÀ",
+      "fifth": "5° UNITÀ"
+    }
+  },
+  "najem": {
+    "naslov": "NOLEGGIO SUPPORTO",
+    "podnaslov": "Seleziona la durata del noleggio",
+    "trajanje": {
+      "one": "1 settimana",
+      "two": "2 settimane",
+      "three": "3 settimane",
+      "four": "1 mese"
+    },
+
+    "tabela": {
+      "stevilo_enot": "Numero di unità",
+      "popust": "Sconto",
+      "dodatni_popust": "Sconto aggiuntivo",
+      "cena": "Prezzo per unità a settimana",
+      "skupna": "Prezzo totale"
+    },
+    "enote": {
+      "third": "3/SET 1",
+      "fifth": "5/SET 2"
+    },
+    "cene_ddv": "I prezzi sono senza IVA",
+    "pripada_orange": "Con il noleggio del supporto ricevi:",
+    "pripada": "Personalizzazione del supporto con logo • Tela promozionale • Trasporto e montaggio",
+    "dodatna_orange": "Offerta aggiuntiva",
+    "dodatna_ponudba": "Trasporto e montaggio del supporto nella posizione desiderata in Slovenia • Logo illuminato • Rivestimento del supporto nel colore desiderato • Noleggio a lungo termine • Produzione di altro materiale pubblicitario.",
+    "kontakt": "Contatto",
+    "kontakt_popup": "Contattaci",
+    "kontakt_zapri": "Chiudi"
+  },
+  "kontakt": {
+    "naslov": "Contattaci"
+  }
+}

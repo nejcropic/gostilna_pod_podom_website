@@ -1,0 +1,106 @@
+{
+  "hero": {
+    "galerija": "Galerija",
+    "meni": "Meni",
+    "title": "Gostišče pod podom",
+    "okolica": "Okolica",
+    "lokacija": "Lokacija"
+  },
+  "nav": {
+    "ponudba": "ponudba",
+    "prednosti": "prednosti",
+    "dimenzije": "dimenzije",
+    "cenik": "cenik",
+    "kontakt": "kontakt"
+  },
+  "ponudba": {
+    "naslov": "PONUDBA",
+    "komplet_1": {
+      "naslov": "KOMPLET 1",
+      "stojalo": "Stojalo s polico spredaj",
+      "navadno": "Navadno stojalo 2x"
+    },
+    "komplet_2": {
+      "naslov": "KOMPLET 2",
+      "stojalo": "Stojalo s polico ob strani 1x",
+      "navadno": "Navadnos stojalo 1x"
+    },
+    "posamicno": {
+      "naslov": "POSAMIČNO",
+      "stojalo": "Omarica s polico spredaj 1x",
+      "navadno": "Omarica s policami ob strani 1x",
+      "stojalo2": "Navadno stojalo 3x"
+    }
+  },
+  "prednosti": {
+    "stik": {
+      "title": "Neposreden stik",
+      "text": "Omogoča vam neposredno interakcijo s svojimi strankami. Tako krepite zaupanje in odnose s potencialnimi kupci."
+    },
+    "prepoznavnost": {
+      "title": "Povečana prepoznavnost",
+      "text": "Kreativno oblikovano stojalo pritegne pozornost in lahko postane prepoznavna točka na dogodkih."
+    },
+    "prihranek": {
+      "title": "Prihranek stroškov",
+      "text": "Z najemom našega stojala prihranite denar in lahko profesionalno opremo uporabljate le v času, ko jo potrebujete."
+    },
+    "predstavitev": {
+      "title": "Predstavitev novih produktov",
+      "text": "Z najemom stojala ustvarite odličen prostor za predstavljaje svojih novih izdelkov ali storitev, kar neposredno spodbuja prodajo."
+    },
+    "marketing": {
+      "title": "Učinkovit marketing in oglaševanje",
+      "text": "Omogoča vam kreativne pristope, ki podpirajo sporočilo vaše blagovne znamke in povečujejo prepoznavnost."
+    },
+    "dogodki": {
+      "title": "Idealno za dogodke",
+      "text": "Udeležba na sejmih in drugih dogodkih s profesionalnim stojalom povečuje pozornost in privlačnost vaše blagovne znamke"
+    }
+  },
+  "dimenzije": {
+    "naslov": "DIMENZIJE LED OSVETLJENIH STOJAL",
+    "sirina": "ŠIRINA",
+    "visina": "VIŠINA",
+    "globina": "GLOBINA",
+    "enote": {
+      "first": "1. ENOTA",
+      "second": "2. ENOTA",
+      "third": "3. ENOTA",
+      "fourth": "4. ENOTA",
+      "fifth": "5. ENOTA"
+    }
+  },
+  "najem": {
+    "naslov": "NAJEM STOJALA",
+    "podnaslov": "Izberite trajanje najema",
+    "trajanje": {
+      "one": "1 teden",
+      "two": "2 tedna",
+      "three": "3 tedni",
+      "four": "1 mesec"
+    },
+    "tabela": {
+      "stevilo_enot": "Število enot",
+      "popust": "Popust",
+      "dodatni_popust": "Dodatni popust",
+      "cena": "Cena enote na teden",
+      "skupna": "Skupna cena"
+    },
+    "enote": {
+      "third": "3/KOMPLET 1",
+      "fifth": "5/KOMPLET 2"
+    },
+    "cene_ddv": "Cene so brez DDV",
+    "pripada_orange": "Ob najemu stojala vam pripada:",
+    "pripada": "Personalizacija stojala z logotipom \u2022 Promocijsko platno \u2022 Transport in montaža",
+    "dodatna_orange": "Dodatna ponudba",
+    "dodatna_ponudba": "transport in montaža stojala na željeno mesto po Sloveniji \u2022 Osvetljeni logo \u2022 Polepitev stojala v željeno barvo \u2022 najem za daljše časovno obdobje \u2022 izdelava ostalega reklamnega materiala.",
+    "kontakt": "Kontakt",
+    "kontakt_popup": "Kontaktirajte nas",
+    "kontakt_zapri": "Zapri"
+  },
+  "kontakt": {
+    "naslov": "Kontaktirajte nas"
+  }
+}

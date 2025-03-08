@@ -1,0 +1,103 @@
+{
+  "home": {
+    "button": "Cjenik"
+  },
+  "nav": {
+    "ponudba": "Ponuda",
+    "prednosti": "Prednosti",
+    "dimenzije": "Dimenzije",
+    "cenik": "Cjenik",
+    "kontakt": "Kontakt"
+  },
+  "ponudba": {
+    "naslov": "PONUDA",
+    "komplet_1": {
+      "naslov": "SET 1",
+      "stojalo": "Stalak s policom sprijeda",
+      "navadno": "Obični stalak 2x"
+    },
+    "komplet_2": {
+      "naslov": "SET 2",
+      "stojalo": "Stalak s bočnom policom 1x",
+      "navadno": "Obični stalak 1x"
+    },
+    "posamicno": {
+      "naslov": "POJEDINAČNO",
+      "stojalo": "Ormarić s policom sprijeda 1x",
+      "navadno": "Ormarić s bočnim policama 1x",
+      "stojalo2": "Obični stalak 3x"
+    }
+  },
+  "prednosti": {
+    "stik": {
+      "title": "Izravni kontakt",
+      "text": "Omogućuje vam izravnu interakciju s vašim kupcima. Time jačate povjerenje i odnose s potencijalnim kupcima."
+    },
+    "prepoznavnost": {
+      "title": "Povećana prepoznatljivost",
+      "text": "Kreativno dizajnirani stalak privlači pažnju i može postati prepoznatljivo mjesto na događanjima."
+    },
+    "prihranek": {
+      "title": "Ušteda troškova",
+      "text": "Najmom našeg stalka štedite novac i možete koristiti profesionalnu opremu samo kada vam je potrebna."
+    },
+    "predstavitev": {
+      "title": "Predstavljanje novih proizvoda",
+      "text": "Najmom stalka stvarate izvrsno mjesto za predstavljanje novih proizvoda ili usluga, što izravno potiče prodaju."
+    },
+    "marketing": {
+      "title": "Učinkovit marketing i oglašavanje",
+      "text": "Omogućuje kreativne pristupe koji podržavaju poruku vašeg brenda i povećavaju prepoznatljivost."
+    },
+    "dogodki": {
+      "title": "Idealno za događaje",
+      "text": "Sudjelovanje na sajmovima i drugim događanjima s profesionalnim stalkom povećava pažnju i atraktivnost vašeg brenda."
+    }
+  },
+  "dimenzije": {
+    "naslov": "DIMENZIJE LED OSVJETLJENIH STALAKA",
+    "sirina": "ŠIRINA",
+    "visina": "VISINA",
+    "globina": "DUBINA",
+    "enote": {
+      "first": "1. JEDINICA",
+      "second": "2. JEDINICA",
+      "third": "3. JEDINICA",
+      "fourth": "4. JEDINICA",
+      "fifth": "5. JEDINICA"
+    }
+  },
+  "najem": {
+    "naslov": "NAJAM STALAKA",
+    "podnaslov": "Odaberite trajanje najma",
+    "trajanje": {
+      "one": "1 tjedan",
+      "two": "2 tjedna",
+      "three": "3 tjedna",
+      "four": "1 mjesec"
+    },
+
+    "tabela": {
+      "stevilo_enot": "Broj jedinica",
+      "popust": "Popust",
+      "dodatni_popust": "Dodatni popust",
+      "cena": "Cijena jedinice tjedno",
+      "skupna": "Ukupna cijena"
+    },
+    "enote": {
+      "third": "3/SET 1",
+      "fifth": "5/SET 2"
+    },
+    "cene_ddv": "Cijene su bez PDV-a",
+    "pripada_orange": "Uz najam stalka dobivate:",
+    "pripada": "Personalizacija stalka s logotipom • Promotivna tkanina • Transport i montaža",
+    "dodatna_orange": "Dodatna ponuda",
+    "dodatna_ponudba": "Transport i montaža stalka na željenu lokaciju u Sloveniji • Osvijetljeni logo • Obljepljivanje stalka u željenu boju • Dugoročni najam • Izrada ostalog promotivnog materijala.",
+    "kontakt": "Kontakt",
+    "kontakt_popup": "Kontaktirajte nas",
+    "kontakt_zapri": "Zatvori"
+  },
+  "kontakt": {
+    "naslov": "Kontaktirajte nas"
+  }
+}

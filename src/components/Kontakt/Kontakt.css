@@ -1,0 +1,39 @@
+.center {
+  text-align: center;
+}
+.kontakt-divider {
+  text-align: center;
+  text-decoration: none;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--fontSecond);
+  font-size: 1rem;
+}
+.kontakt-divider a {
+  color: var(--secondaryColor);
+  font-weight: 300;
+}
+.kontakt-divider p {
+  font-size: 0.8rem;
+}
+.link-divider {
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.kontakt-divider img {
+  margin-top: 2rem;
+  max-width: 20%;
+}
+
+@media screen and (max-width: 1000px) {
+  .kontakt-divider img {
+    max-width: 50%;
+  }
+}

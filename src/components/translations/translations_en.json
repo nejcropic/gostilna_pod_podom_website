@@ -1,0 +1,103 @@
+{
+  "home": {
+    "button": "Pricing"
+  },
+  "nav": {
+    "ponudba": "Offer",
+    "prednosti": "Advantages",
+    "dimenzije": "Dimensions",
+    "cenik": "Pricing",
+    "kontakt": "Contact"
+  },
+  "ponudba": {
+    "naslov": "OFFER",
+    "komplet_1": {
+      "naslov": "SET 1",
+      "stojalo": "Stand with a shelf in front",
+      "navadno": "Regular stand 2x"
+    },
+    "komplet_2": {
+      "naslov": "SET 2",
+      "stojalo": "Stand with a side shelf 1x",
+      "navadno": "Regular stand 1x"
+    },
+    "posamicno": {
+      "naslov": "INDIVIDUAL",
+      "stojalo": "Cabinet with a front shelf 1x",
+      "navadno": "Cabinet with side shelves 1x",
+      "stojalo2": "Regular stand 3x"
+    }
+  },
+  "prednosti": {
+    "stik": {
+      "title": "Direct Contact",
+      "text": "Allows you to interact directly with your customers. This strengthens trust and relationships with potential buyers."
+    },
+    "prepoznavnost": {
+      "title": "Increased Visibility",
+      "text": "A creatively designed stand attracts attention and can become a recognizable point at events."
+    },
+    "prihranek": {
+      "title": "Cost Savings",
+      "text": "By renting our stand, you save money and can use professional equipment only when needed."
+    },
+    "predstavitev": {
+      "title": "New Product Presentation",
+      "text": "Renting a stand creates a great space for showcasing your new products or services, directly boosting sales."
+    },
+    "marketing": {
+      "title": "Effective Marketing and Advertising",
+      "text": "Allows for creative approaches that support your brand message and increase visibility."
+    },
+    "dogodki": {
+      "title": "Ideal for Events",
+      "text": "Participation in fairs and other events with a professional stand increases attention and attractiveness of your brand."
+    }
+  },
+  "dimenzije": {
+    "naslov": "DIMENSIONS OF LED-LIT STANDS",
+    "sirina": "WIDTH",
+    "visina": "HEIGHT",
+    "globina": "DEPTH",
+    "enote": {
+      "first": "1ST UNIT",
+      "second": "2ND UNIT",
+      "third": "3RD UNIT",
+      "fourth": "4TH UNIT",
+      "fifth": "5TH UNIT"
+    }
+  },
+  "najem": {
+    "naslov": "STAND RENTAL",
+    "podnaslov": "Select rental duration",
+    "trajanje": {
+      "one": "1 week",
+      "two": "2 weeks",
+      "three": "3 weeks",
+      "four": "1 month"
+    },
+
+    "tabela": {
+      "stevilo_enot": "Number of units",
+      "popust": "Discount",
+      "dodatni_popust": "Additional discount",
+      "cena": "Unit price per week",
+      "skupna": "Total price"
+    },
+    "enote": {
+      "third": "3/SET 1",
+      "fifth": "5/SET 2"
+    },
+    "cene_ddv": "Prices exclude VAT",
+    "pripada_orange": "With stand rental you get:",
+    "pripada": "Personalized stand with logo • Promotional canvas • Transport and assembly",
+    "dodatna_orange": "Additional Offer",
+    "dodatna_ponudba": "Transport and assembly of the stand to the desired location in Slovenia • Illuminated logo • Stand wrapping in desired color • Long-term rental • Production of other promotional materials.",
+    "kontakt": "Contact",
+    "kontakt_popup": "Contact us",
+    "kontakt_zapri": "Close"
+  },
+  "kontakt": {
+    "naslov": "Contact Us"
+  }
+}

@@ -1,0 +1,56 @@
+/* HomeText section with fixed background */
+.home-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+  background-image: url("../../images/naslovna1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Zoom out image on smaller screens */
+@media (max-width: 768px) {
+  .home-container {
+    background-size: cover;
+  }
+}
+
+.home-text {
+  color: var(--white);
+  background: var(--backgroundColor);
+  text-align: center;
+  width: 100%;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30vh;
+}
+
+.home-text h3 {
+  font-family: var(--fontMain);
+  font-size: 2.5rem; /* 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); */
+}
+
+.home-text p {
+  font-family: var(--fontMain);
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .home-container h3 {
+    font-size: 2rem;
+  }
+  .home-container p {
+    font-size: 1.2rem;
+  }
+}
