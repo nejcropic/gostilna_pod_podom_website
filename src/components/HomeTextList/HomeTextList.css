@@ -1,0 +1,49 @@
+/* HomeText section with fixed background */
+.home-section {
+  position: relative;
+  height: 100%;
+  padding: 10vh 0;
+}
+
+.home-text {
+  width: 85%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .home-text {
+    width: calc(100% - 40px);
+  }
+}
+.home-text h1 {
+  font-size: 1.5rem;
+  font-family: var(--fontMain);
+  color: var(--mainColor);
+  margin-bottom: 1rem;
+}
+
+.home-text p {
+  font-size: 1.2rem;
+  font-family: var(--fontMain);
+  color: var(--mainColor);
+}
+
+.home-text ul {
+  list-style: none;
+  padding: 0;
+}
+.home-text ul li::before {
+  content: "•";
+  color: var(--mainColor);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 1.5em; /* Increase the font size to make the dot bigger */
+}
+
+.home-text ul li {
+  font-size: 1.2rem;
+  font-family: var(--fontMain);
+  color: var(--mainColor);
+}

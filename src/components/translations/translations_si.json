@@ -13,6 +13,20 @@
     "uvod": {
       "naslov": "Prava pica, prava izkušnja!",
       "tekst": "Vabimo vas, da poskusite naše odlične pice, pripravljene z ljubeznijo in mojstrsko roko izkušenega picopeka. Poleg hrustljavih pic vam nudimo tudi druge dobrote, ki jih pripravljava posebej za vas."
+    },
+    "ambient": {
+      "naslov": "Ambient - prijetno vzdušje za vse generacije",
+      "tekst": "Naša notranjost je zasnovana tako, da vam omogoča sproščeno uživanje v hrani, ob tem pa vas pričakuje prijazna postrežba in domače vzdušje.",
+      "list1": "Večerje v dvoje",
+      "list2": "Družinska srečanja",
+      "list3": "Prijetna druženja s prijatelji"
+    },
+    "terasa": {
+      "naslov": "Terasa - uživajte na soncu",
+      "tekst": "Ko sonce zasije, je naša terasa popolno mesto za sprostitev! Uživate lahko v okusni pici, ob osvežilni pijači, obdani s prijetnim vzdušjem in svežim zrakom. ",
+      "list1": "Sprostitev na svežem zraku",
+      "list2": "Udoben ambient za kosila in večerje  ",
+      "list3": "Odličen razgled in prijetna družba  "
     }
   },
   "ponudba": {

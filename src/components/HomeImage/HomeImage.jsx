@@ -1,9 +1,12 @@
 import React from "react";
-
-function HomeImage({ title }) {
+import "./HomeImage.css";
+function HomeImage({ image }) {
   return (
     <section className="home-image">
-      <div className="home-image-background"></div>
+      <div
+        className="home-background"
+        style={{ backgroundImage: `url(${image})` }}
+      ></div>
     </section>
   );
 }
