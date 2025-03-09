@@ -7,7 +7,8 @@
     "prednosti": "prednosti",
     "dimenzije": "dimenzije",
     "cenik": "cenik",
-    "kontakt": "kontakt"
+    "kontakt": "kontakt",
+    "naroci": "Naroči"
   },
   "home": {
     "uvod": {
@@ -25,14 +26,14 @@
       "list3": "Prijetna druženja s prijatelji",
       "button": "Preglej prostore"
     },
-    "terasa": {
-      "main": "Terasa",
-      "naslov": "uživajte na soncu",
-      "tekst": "Ko sonce zasije, je naša terasa popolno mesto za sprostitev! Uživate lahko v okusni pici, ob osvežilni pijači, obdani s prijetnim vzdušjem in svežim zrakom. ",
-      "list1": "Sprostitev na svežem zraku",
-      "list2": "Udoben ambient za kosila in večerje",
-      "list3": "Odličen razgled in prijetna družba",
-      "button": "Oglej si galerijo"
+    "okolica": {
+      "main": "Okolica",
+      "naslov": "Narava in razgledi",
+      "tekst": "Naše gostišče se nahaja na slikovitem hribu, s prekrasnim razgledom na dolino reke Krke. Le nekaj korakov stran se dviga hrib Bovljek, priljubljena točka za krajše pohode in sprostitev v naravi. Po osvežujočem pohodu ali izletu se lahko pri nas okrepite z okusnimi picami, osvežilnimi pijačami ter uživate v svežem zraku in prijetnem ambientu.",
+      "list1": "Nepozaben razgled na dolino reke Krke",
+      "list2": "Odlično izhodišče za krajše pohode",
+      "list3": "Prijetno okolje za sprostitev in druženje",
+      "button": "Spoznaj okolico"
     }
   },
   "kontakt": {

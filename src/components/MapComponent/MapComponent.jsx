@@ -3,10 +3,11 @@ import "./MapComponent.css";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 
 function MapComponent() {
-  const googleMapsApiKey = process.env.REACT_APP_WEATHER_API_KEY;
+  const googleApi = process.env.REACT_APP_API_KEY;
+
   const containerStyle = {
-    width: "100%",
-    height: "300px",
+    width: "100%", // Default 100% width
+    height: "100%",
   };
 
   const center = {
@@ -16,7 +17,7 @@ function MapComponent() {
 
   const MapComponentMap = () => {
     return (
-      <LoadScript googleMapsApiKey={process.env.REACT_APP_WEATHER_API_KEY}>
+      <LoadScript googleMapsApiKey={googleApi}>
         <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={10}>
           <Marker position={center} />
         </GoogleMap>
@@ -25,7 +26,7 @@ function MapComponent() {
   };
 
   return (
-    <div>
+    <div className="map-wrapper">
       <MapComponentMap />
     </div>
   );

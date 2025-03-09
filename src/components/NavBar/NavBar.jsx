@@ -3,12 +3,14 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 import { NavBarItems } from "./NavBarItems";
+import LanguageDropdown from "../LanguageDropdown/LanguageDropdown";
 import { navAnimation, navAnimationPhone } from "../animations";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import MenuWhite from "../../icons/menu_white.png";
 import MenuCross from "../../icons/cross.png";
 function NavBar() {
+  const { t } = useTranslation("global");
   const [navState, setNavState] = useState(false);
   const [navMenu, setNavMenu] = useState(false);
   const [showBorder, setShowBorder] = useState(false);
@@ -54,8 +56,9 @@ function NavBar() {
           ))}
         </div>
         <button className="nav-icon">
-          <Link>NAROČI</Link>
+          <a href="tel:+38631307279">{t("nav.naroci")}</a>
         </button>
+        <LanguageDropdown />
         <button onClick={showNavBar}>
           <img src={navMenu ? MenuCross : MenuWhite} alt="Menu Icon" />
         </button>

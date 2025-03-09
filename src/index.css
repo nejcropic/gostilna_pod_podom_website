@@ -3,7 +3,7 @@
   --mainColor: #56342a;
   --secondaryColor: #56342a;
   --textColor: #eee;
-  --backgroundColor: #c19a6b;
+  --backgroundColor: #f4f4f4;
   --white: hsla(0, 0%, 100%, 1);
   --black: hsla(0, 0%, 0%, 1);
   --gray: gray;
@@ -39,6 +39,7 @@
 .App {
   text-align: center;
   overflow-x: hidden;
+  background-color: var(--backgroundColor);
 }
 
 a {

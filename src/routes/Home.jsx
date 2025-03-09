@@ -1,11 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import MapComponent from "../components/MapComponent/MapComponent";
 import Hero from "../components/Hero/Hero";
 import HomeText from "../components/HomeText/HomeText";
 import HomeTextList from "../components/HomeTextList/HomeTextList";
 import HomeGallery from "../components/HomeGallery/HomeGallery";
-import Kontakt from "../components/Kontakt/Kontakt";
 import HomeImage from "../components/HomeImage/HomeImage";
 import Mnenja from "../components/Mnenja/Mnenja";
 
@@ -16,6 +14,7 @@ import Hrana1 from "../images/pice_1.jpg";
 import Hrana2 from "../images/kalamari.jpg";
 import Hrana4 from "../images/pice_2.jpg";
 import Hrana3 from "../images/pice_3.jpg";
+
 function getGalleryImages(category) {
   const imageSets = {
     hrana: [Hrana1, Hrana2, Hrana3, Hrana4],
@@ -24,12 +23,13 @@ function getGalleryImages(category) {
 
   return imageSets[category] || [];
 }
+
 function Home() {
   const { t } = useTranslation("global");
   return (
     <div>
       <Hero />
-
+      {/* Uvod */}
       <HomeText
         main={t("home.uvod.main")}
         title={t("home.uvod.naslov")}
@@ -53,23 +53,22 @@ function Home() {
       />
       {/* Galerija */}
       <HomeGallery images={getGalleryImages("hrana")} />
+      {/* Mnenja */}
       <Mnenja />
       {/* Terasa */}
       <HomeImage image={Slika2} />
       <HomeTextList
-        main={t("home.terasa.main")}
-        title={t("home.terasa.naslov")}
-        description={t("home.terasa.tekst")}
+        main={t("home.okolica.main")}
+        title={t("home.okolica.naslov")}
+        description={t("home.okolica.tekst")}
         list={{
-          tekst1: t("home.terasa.list1"),
-          tekst2: t("home.terasa.list2"),
-          tekst3: t("home.terasa.list3"),
+          tekst1: t("home.okolica.list1"),
+          tekst2: t("home.okolica.list2"),
+          tekst3: t("home.okolica.list3"),
         }}
-        buttonText={t("home.terasa.button")}
+        buttonText={t("home.okolica.button")}
         link="/galerija"
       />
-      <MapComponent />
-      <Kontakt />
     </div>
   );
 }

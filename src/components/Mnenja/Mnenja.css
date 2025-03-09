@@ -8,7 +8,6 @@
   width: 85%;
   max-width: 1024px;
   margin: 0 auto;
-  padding-bottom: 2rem;
   font-family: var(--fontMain);
   color: var(--mainColor);
   text-align: left;
@@ -20,23 +19,29 @@
   font-size: 1.4rem;
 }
 .mnenja-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  width: 100%;
-  max-width: 600px;
+  width: 80%;
   margin: auto;
   position: relative;
   height: 50vh;
+}
+
+@media (max-width: 768px) {
+  .mnenja-container {
+    grid-template-columns: 1fr;
+    width: 90%;
+    height: 50vh;
+  }
 }
 
 .mnenja-card {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centers content vertically */
-  align-items: center; /* Centers content horizontally */
+  justify-content: center;
+  align-items: center;
   background: white;
   padding: 20px;
   border-radius: 10px;
@@ -46,10 +51,10 @@
   transition: transform 0.5s ease-in-out;
 }
 .mnenja-text {
-  flex-grow: 1; /* Allows text to expand and center properly */
+  flex-grow: 1;
   display: flex;
-  align-items: center; /* Centers text vertically */
-  justify-content: center; /* Centers text horizontally */
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 .mnenja-name {
@@ -67,7 +72,7 @@
 }
 .mnenja-card p {
   text-transform: none;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .mnenja-name {
@@ -90,4 +95,10 @@
 .prev-button:hover,
 .next-button:hover {
   color: #ff7b00;
+}
+
+.mnenja-wrapper hr {
+  width: 60%;
+  margin: 2rem auto;
+  border: 1px solid var(--mainColor);
 }

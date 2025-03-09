@@ -17,7 +17,7 @@ export const NavBarItems = [
     url: "/galerija",
   },
   {
-    key: "kontakt",
-    url: "/kontakt",
+    key: "lokacija",
+    url: "/lokacija",
   },
 ];
