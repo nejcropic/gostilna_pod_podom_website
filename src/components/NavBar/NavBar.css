@@ -1,0 +1,96 @@
+.nav-wrapper {
+  position: fixed;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.6) 30%,
+    rgba(0, 0, 0, 0.4) 65%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  width: 100%;
+  z-index: 100;
+  height: 100px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-wrapper button {
+  background: none;
+  cursor: pointer;
+  border: none;
+  margin: auto 0rem;
+  height: 2.5rem;
+  align-items: center;
+  padding: 0;
+}
+.nav-wrapper button a {
+  color: var(--white);
+  font-family: var(--fontSecond);
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.nav-wrapper .nav-icon {
+  background: none;
+  border: 1px solid var(--white);
+  color: var(--white);
+  font-size: 1.5rem;
+  cursor: pointer; /* 
+  margin-right: 0rem; */
+  margin: auto 2rem;
+  padding: 0rem 0.5rem;
+}
+
+.nav-wrapper img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.menu-title {
+  color: var(--white);
+  margin-left: 0rem;
+  font-size: 1.5rem;
+}
+.menu-title p {
+  font-family: var(--fontMain);
+  text-transform: uppercase;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--white);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: -100%;
+  opacity: 0;
+  transition: right 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  padding: 15vh 3rem 0;
+}
+
+.nav-container.active {
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+  display: flex;
+}
+
+.nav-container a {
+  width: 100%;
+  font-size: 2rem;
+  padding: 0.6rem 0;
+  color: var(--mainColor);
+  font-family: var(--fontMain);
+}
+
+.nav-links {
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: right;
+  padding: 2rem;
+}

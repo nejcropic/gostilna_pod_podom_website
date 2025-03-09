@@ -1,10 +1,6 @@
 {
   "hero": {
-    "galerija": "Galerija",
-    "meni": "Meni",
-    "title": "Gostišče pod podom",
-    "okolica": "Okolica",
-    "lokacija": "Lokacija"
+    "title": "Gostišče pod podom"
   },
   "nav": {
     "ponudba": "ponudba",
@@ -12,6 +8,12 @@
     "dimenzije": "dimenzije",
     "cenik": "cenik",
     "kontakt": "kontakt"
+  },
+  "home": {
+    "uvod": {
+      "naslov": "Prava pica, prava izkušnja!",
+      "tekst": "Vabimo vas, da poskusite naše odlične pice, pripravljene z ljubeznijo in mojstrsko roko izkušenega picopeka. Poleg hrustljavih pic vam nudimo tudi druge dobrote, ki jih pripravljava posebej za vas."
+    }
   },
   "ponudba": {
     "naslov": "PONUDBA",

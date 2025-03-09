@@ -1,56 +1,30 @@
 /* HomeText section with fixed background */
-.home-container {
+.home-section {
   position: relative;
   height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: var(--white);
-  background-image: url("../../images/naslovna1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-/* Zoom out image on smaller screens */
-@media (max-width: 768px) {
-  .home-container {
-    background-size: cover;
-  }
+  padding: 10vh 0;
 }
 
 .home-text {
-  color: var(--white);
-  background: var(--backgroundColor);
-  text-align: center;
-  width: 100%;
-  height: 50vh;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 30vh;
+  width: 85%;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
-.home-text h3 {
+@media screen and (max-width: 768px) {
+  .home-text {
+    width: calc(100% - 40px);
+  }
+}
+.home-text h1 {
+  font-size: 1.5rem;
   font-family: var(--fontMain);
-  font-size: 2.5rem; /* 
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); */
+  color: var(--mainColor);
+  margin-bottom: 1rem;
 }
 
 .home-text p {
+  font-size: 1.2rem;
   font-family: var(--fontMain);
-  font-size: 1.5rem;
-  line-height: 1.2;
-}
-
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-  .home-container h3 {
-    font-size: 2rem;
-  }
-  .home-container p {
-    font-size: 1.2rem;
-  }
+  color: var(--mainColor);
 }

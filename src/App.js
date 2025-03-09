@@ -6,12 +6,12 @@ import Galerija from "./routes/Galerija";
 import Meni from "./routes/Meni";
 import Okolica from "./routes/Okolica";
 import Lokacija from "./routes/Lokacija";
-import Sidebar from "./components/SideBar/SideBar";
+import NavBar from "./components/NavBar/NavBar";
 export default function App() {
   return (
     <>
       <div className="App">
-        <Sidebar />
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/galerija" element={<Galerija />} />

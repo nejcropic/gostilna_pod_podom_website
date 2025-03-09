@@ -12,9 +12,11 @@
     "ajv-keywords": "^5.1.0",
     "framer-motion": "^12.4.10",
     "i18next": "^23.0.0",
+    "photo-sphere-viewer": "^4.8.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-i18next": "^15.4.1",
+    "react-photo-sphere-viewer": "^6.0.1",
     "react-router-dom": "^7.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"

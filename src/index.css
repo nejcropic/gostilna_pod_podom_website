@@ -1,6 +1,6 @@
 :root {
   /* colors */
-  --mainColor: #d7c4a0;
+  --mainColor: #c19a6b;
   --secondaryColor: #f15821;
   --textColor: #eee;
   --backgroundColor: #c19a6b;
@@ -8,9 +8,9 @@
   --black: hsla(0, 0%, 0%, 1);
   --gray: gray;
   /* fonts */
-  --fontMain: "Merienda", cursive;
-
-  --fontSecond: "Oswald", sans-serif;
+  --fontMain: "Architects Daughter", cursive;
+  --fontSecond: "Patrick Hand", cursive;
+  /* --fontSecond: "Oswald", sans-serif; */
   /* font size */
   --fontSizePc: 2rem;
   --fontSizePhone: 1.5rem;
@@ -39,7 +39,6 @@
 .App {
   text-align: center;
   overflow-x: hidden;
-  background: var(--backgroundColor);
 }
 
 a {
