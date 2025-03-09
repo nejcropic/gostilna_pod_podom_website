@@ -1,7 +1,15 @@
 import React from "react";
 import "../HomeText/HomeText.css";
+import { Link } from "react-router-dom";
 
-export default function HomeTextList({ main, title, description, list }) {
+export default function HomeTextList({
+  main,
+  title,
+  description,
+  list,
+  buttonText,
+  link,
+}) {
   return (
     <div>
       <section className="home-section">
@@ -14,6 +22,9 @@ export default function HomeTextList({ main, title, description, list }) {
               <li key={index}>{item}</li>
             ))}
           </ul>
+        </div>
+        <div className="home-button">
+          <Link to={link}>{buttonText}</Link>
         </div>
       </section>
     </div>

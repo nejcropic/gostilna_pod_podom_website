@@ -22,21 +22,23 @@
 
 .home-text h3,
 .home-text h1,
-.home-text p {
+.home-text p,
+.home-text ul li {
   font-family: var(--fontSecond);
+  color: var(--mainColor);
 }
 .home-text h3 {
   text-transform: uppercase;
   font-size: 1.1rem;
 }
 .home-text h1 {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
-
+.home-text ul li,
 .home-text p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .home-text ul {
@@ -52,8 +54,29 @@
   font-size: 1.5em; /* Increase the font size to make the dot bigger */
 }
 
-.home-text ul li {
-  font-size: 1.2rem;
+.home-button {
+  margin-top: 5rem;
+  display: block;
+  height: 3.5rem;
+  width: auto;
+  max-width: 200px;
+  background-color: var(--secondaryColor);
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 1rem;
+}
+
+.home-button:hover {
+  background-color: var(--mainColor);
+}
+
+.home-button a {
   font-family: var(--fontSecond);
-  color: var(--mainColor);
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
 }

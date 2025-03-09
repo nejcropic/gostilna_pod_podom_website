@@ -1,7 +1,6 @@
 import React from "react";
 import "./Hero.css";
 import { useTranslation } from "react-i18next";
-import { Naslovnica } from "../..";
 import { Link } from "react-router-dom";
 
 function Hero() {

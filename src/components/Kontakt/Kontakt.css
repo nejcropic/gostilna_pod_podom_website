@@ -5,10 +5,19 @@
   text-decoration: none;
   padding: 1rem 0;
 }
+
+.kontakt-wrapper p,
 .kontakt-wrapper a {
-  text-decoration: none;
-  color: white;
+  font-family: var(--fontSecond);
+  font-size: 1.3rem;
 }
+.kontakt-wrapper p {
+  color: var(--mainColor);
+}
+.kontakt-wrapper a {
+  color: #000;
+}
+
 .kontakt-container {
   display: flex;
   justify-content: center;
@@ -29,7 +38,7 @@
 .kontakt-item a,
 .kontakt-item h2,
 .kontakt-item p {
-  text-align: left;
+  text-align: center;
   margin: 0;
   padding: 0;
   font-family: var(--fontSecond);
@@ -37,7 +46,7 @@
   color: var(--mainColor);
 }
 .kontakt-item h2 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
@@ -48,14 +57,17 @@
   }
 }
 
+.kontakt-item button {
+  border: none;
+  background: none;
+  padding: 1rem;
+}
+.kontakt-item i {
+  color: blue;
+  font-size: 3rem;
+}
 .kontakt-wrapper hr {
   width: 80%;
   color: black;
   margin: 0.5rem auto;
-}
-
-.kontakt-wrapper p,
-.kontakt-wrapper a {
-  font-family: var(--fontSecond);
-  color: var(--mainColor);
 }

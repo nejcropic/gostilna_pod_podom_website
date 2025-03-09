@@ -13,7 +13,11 @@ export default function Kontakt() {
           <p>Kuželjevec 7a, 1303 Zagradec</p>
           <a href="tel:+38631307279">031/ 307-279</a>
           <a href="mailto:gpodpodom@gmail.com">gpodpodom@gmail.com</a>
-          <a href="mailto:gpodpodom@gmail.com">Facebook ikona</a>
+          <Link to="https://www.facebook.com/p/Gostišče-Pod-Podom-61557147044531">
+            <button>
+              <i class="fa-brands fa-facebook"></i>
+            </button>
+          </Link>
         </div>
         <div className="kontakt-item">
           <h2>{t("kontakt.odpiralnicas")}:</h2>

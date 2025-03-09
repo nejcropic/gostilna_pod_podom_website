@@ -14,8 +14,10 @@ function HomeGallery({ images }) {
     );
   };
 
-  const closeLightbox = () => {
-    setSelectedIndex(null);
+  const closeLightbox = (e) => {
+    if (e.target.classList.contains("lightbox")) {
+      setSelectedIndex(null);
+    }
   };
 
   return (
@@ -27,8 +29,11 @@ function HomeGallery({ images }) {
       ))}
 
       {selectedIndex !== null && (
-        <div className="lightbox">
-          <button className="close-button" onClick={closeLightbox}>
+        <div className="lightbox" onClick={closeLightbox}>
+          <button
+            className="close-button"
+            onClick={() => setSelectedIndex(null)}
+          >
             &times;
           </button>
           <button className="prev-button" onClick={handlePrev}>
