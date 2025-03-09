@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/gostisce_pod_podom_website/static/css/main.670149d7.css",
-    "main.js": "/gostisce_pod_podom_website/static/js/main.699e3ce3.js",
-    "static/media/panorama_8.jpg": "/gostisce_pod_podom_website/static/media/panorama_8.cd6812bcbae173012da8.jpg",
-    "static/media/naslovna_main.jpg": "/gostisce_pod_podom_website/static/media/naslovna_main.ff5c05789fb98b9785f8.jpg",
-    "static/media/panorama_1.jpg": "/gostisce_pod_podom_website/static/media/panorama_1.d4eb40caf81f829893c9.jpg",
-    "static/media/hrana_1.jpg": "/gostisce_pod_podom_website/static/media/hrana_1.0516fc0fb68c19880ac1.jpg",
-    "static/media/panorama_2_lowered.jpg": "/gostisce_pod_podom_website/static/media/panorama_2_lowered.9ee928053aca226f128c.jpg",
-    "static/media/naslovna.jpg": "/gostisce_pod_podom_website/static/media/naslovna.d69f22f961a127931f44.jpg",
-    "static/media/pice_1.jpg": "/gostisce_pod_podom_website/static/media/pice_1.02eeff92fd26eda63408.jpg",
-    "static/media/kalamari.jpg": "/gostisce_pod_podom_website/static/media/kalamari.60e2ede35f2ebca048bd.jpg",
-    "static/media/pice_2.jpg": "/gostisce_pod_podom_website/static/media/pice_2.07d8e73186e76d0ec38d.jpg",
-    "static/media/pice_3.jpg": "/gostisce_pod_podom_website/static/media/pice_3.4c9b7e7ccf1658704adf.jpg",
-    "index.html": "/gostisce_pod_podom_website/index.html",
-    "main.670149d7.css.map": "/gostisce_pod_podom_website/static/css/main.670149d7.css.map",
-    "main.699e3ce3.js.map": "/gostisce_pod_podom_website/static/js/main.699e3ce3.js.map"
+    "main.css": "/gostilna_pod_podom_website/static/css/main.b83df41b.css",
+    "main.js": "/gostilna_pod_podom_website/static/js/main.3a8e53f3.js",
+    "static/media/panorama_8.jpg": "/gostilna_pod_podom_website/static/media/panorama_8.cd6812bcbae173012da8.jpg",
+    "static/media/naslovna_main.jpg": "/gostilna_pod_podom_website/static/media/naslovna_main.ff5c05789fb98b9785f8.jpg",
+    "static/media/panorama_1.jpg": "/gostilna_pod_podom_website/static/media/panorama_1.d4eb40caf81f829893c9.jpg",
+    "static/media/hrana_1.jpg": "/gostilna_pod_podom_website/static/media/hrana_1.0516fc0fb68c19880ac1.jpg",
+    "static/media/panorama_2_lowered.jpg": "/gostilna_pod_podom_website/static/media/panorama_2_lowered.9ee928053aca226f128c.jpg",
+    "static/media/naslovna.jpg": "/gostilna_pod_podom_website/static/media/naslovna.d69f22f961a127931f44.jpg",
+    "static/media/pice_1.jpg": "/gostilna_pod_podom_website/static/media/pice_1.02eeff92fd26eda63408.jpg",
+    "static/media/kalamari.jpg": "/gostilna_pod_podom_website/static/media/kalamari.60e2ede35f2ebca048bd.jpg",
+    "static/media/pice_2.jpg": "/gostilna_pod_podom_website/static/media/pice_2.07d8e73186e76d0ec38d.jpg",
+    "static/media/pice_3.jpg": "/gostilna_pod_podom_website/static/media/pice_3.4c9b7e7ccf1658704adf.jpg",
+    "index.html": "/gostilna_pod_podom_website/index.html",
+    "main.b83df41b.css.map": "/gostilna_pod_podom_website/static/css/main.b83df41b.css.map",
+    "main.3a8e53f3.js.map": "/gostilna_pod_podom_website/static/js/main.3a8e53f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.670149d7.css",
-    "static/js/main.699e3ce3.js"
+    "static/css/main.b83df41b.css",
+    "static/js/main.3a8e53f3.js"
   ]
 }
