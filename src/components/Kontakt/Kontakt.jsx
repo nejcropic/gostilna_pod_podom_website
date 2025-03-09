@@ -17,9 +17,9 @@ export default function Kontakt() {
         </div>
         <div className="kontakt-item">
           <h2>{t("kontakt.odpiralnicas")}:</h2>
-          <p>Petek: 14-21</p>
-          <p>Sobota: 12-22</p>
-          <p>Nedelja: 12-22</p>
+          <p>{t("kontakt.dnevi.petek")}: 14-21</p>
+          <p>{t("kontakt.dnevi.sobota")}: 12-22</p>
+          <p>{t("kontakt.dnevi.nedelja")}: 12-22</p>
         </div>
       </div>
       <hr />

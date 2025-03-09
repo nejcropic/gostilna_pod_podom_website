@@ -8,16 +8,14 @@ function Hero() {
   const { t } = useTranslation("global");
   return (
     <>
-      <div className="hero-container">
-        <img src={Naslovnica} alt="" />
+      <section className="hero-container">
+        <div className="hero-background"></div>
         <div className="hero-title">
           <h1>
             Gostišče <span class="break">Pod podom</span>
           </h1>
         </div>
-      </div>
-
-      <div className="overlay"></div>
+      </section>
     </>
   );
 }

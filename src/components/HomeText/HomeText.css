@@ -9,6 +9,9 @@
   width: 85%;
   max-width: 1024px;
   margin: 0 auto;
+  font-family: var(--fontMain);
+  color: var(--mainColor);
+  text-align: left;
 }
 
 @media screen and (max-width: 768px) {
@@ -16,15 +19,41 @@
     width: calc(100% - 40px);
   }
 }
+
+.home-text h3,
+.home-text h1,
+.home-text p {
+  font-family: var(--fontSecond);
+}
+.home-text h3 {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
 .home-text h1 {
-  font-size: 1.5rem;
-  font-family: var(--fontMain);
-  color: var(--mainColor);
+  font-size: 1.4rem;
   margin-bottom: 1rem;
+  text-transform: uppercase;
 }
 
 .home-text p {
   font-size: 1.2rem;
-  font-family: var(--fontMain);
+}
+
+.home-text ul {
+  list-style: none;
+  padding: 0;
+}
+.home-text ul li::before {
+  content: "•";
+  color: var(--mainColor);
+  display: inline-block;
+  width: 1em;
+  margin-left: 0em;
+  font-size: 1.5em; /* Increase the font size to make the dot bigger */
+}
+
+.home-text ul li {
+  font-size: 1.2rem;
+  font-family: var(--fontSecond);
   color: var(--mainColor);
 }

@@ -7,7 +7,7 @@ import { HashRouter } from "react-router-dom";
 import Naslovnica from "./images/naslovna_main.jpg"; // Main Hero Image (Preload)
 
 // ✅ Import large images (Will be lazy-loaded in <img>)
-import Jedi_zunaj from "./images/jedi_zunaj.jpg";
+import Jedi_zunaj from "./images/hrana_1.jpg";
 import Panorama from "./images/panorama_1.jpg";
 /* import Posamicno_2 from "./images/posamicno_2.jpg";
 import Posamicno_3 from "./images/posamicno_3.jpg";

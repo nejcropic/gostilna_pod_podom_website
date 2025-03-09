@@ -1,12 +1,12 @@
 import React from "react";
-import "./HomeTextList.css";
-import panoramaImage from "../../images/panorama_1.jpg"; // Your 360° image
+import "../HomeText/HomeText.css";
 
-export default function HomeTextList({ title, description, list }) {
+export default function HomeTextList({ main, title, description, list }) {
   return (
     <div>
       <section className="home-section">
         <div className="home-text">
+          <h3>{main}</h3>
           <h1>{title}</h1>
           <p>{description}</p>
           <ul>
