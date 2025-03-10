@@ -44,7 +44,6 @@
 .hero-title h1 {
   white-space: nowrap;
   text-align: center;
-  font-family: var(--fontMain);
 }
 
 .break {
@@ -67,4 +66,9 @@
   .hero-title h2 {
     display: none;
   }
+}
+
+.herosite {
+  bottom: 0%;
+  transform: translate(-50%, 0%);
 }

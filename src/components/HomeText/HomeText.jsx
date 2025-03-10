@@ -16,9 +16,11 @@ export default function HomeText({
         <h1>{title}</h1>
         <p>{description}</p>
       </div>
-      <div className="home-button">
-        <Link to={link}>{buttonText}</Link>
-      </div>
+      {buttonText && (
+        <div className="home-button">
+          <Link to={link}>{buttonText}</Link>
+        </div>
+      )}
     </section>
   );
 }

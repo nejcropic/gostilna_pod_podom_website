@@ -3,6 +3,7 @@
   position: relative;
   height: 100%;
   padding: 10vh 0;
+  min-height: 50vh;
 }
 
 .home-text {
@@ -15,6 +16,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .home-section {
+    min-height: 30vh;
+  }
   .home-text {
     width: calc(100% - 40px);
   }

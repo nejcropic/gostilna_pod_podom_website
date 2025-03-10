@@ -4,7 +4,7 @@ import { createRoot } from "react-dom/client";
 import { HashRouter } from "react-router-dom";
 
 // ✅ Import critical images (Logo + Hero image)
-import Naslovnica from "./images/naslovna_main.jpg"; // Main Hero Image (Preload)
+import Naslovnica from "./images/naslovna.jpg"; // Main Hero Image (Preload)
 
 // ✅ Import large images (Will be lazy-loaded in <img>)
 import Jedi_zunaj from "./images/hrana_1.jpg";

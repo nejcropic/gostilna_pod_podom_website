@@ -13,11 +13,11 @@ export const NavBarItems = [
     url: "/prostori",
   },
   {
-    key: "galerija",
-    url: "/galerija",
-  },
-  {
     key: "lokacija",
     url: "/lokacija",
+  },
+  {
+    key: "galerija",
+    url: "/galerija",
   },
 ];

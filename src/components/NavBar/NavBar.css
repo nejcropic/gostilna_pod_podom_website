@@ -59,7 +59,7 @@
   flex-direction: column;
   justify-content: flex-start;
   background-color: var(--white);
-  width: 100%;
+  width: 25%;
   height: 100vh;
   position: absolute;
   top: 0;
@@ -76,7 +76,11 @@
   transition: 0.3s ease-in-out;
   display: flex;
 }
-
+@media screen and (max-width: 768px) {
+  .nav-container {
+    width: 100%;
+  }
+}
 .nav-container a {
   width: 100%;
   font-size: 2rem;

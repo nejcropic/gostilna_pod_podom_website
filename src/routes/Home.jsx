@@ -14,6 +14,7 @@ import Hrana1 from "../images/pice_1.jpg";
 import Hrana2 from "../images/kalamari.jpg";
 import Hrana4 from "../images/pice_2.jpg";
 import Hrana3 from "../images/pice_3.jpg";
+import { Naslovnica } from "..";
 
 function getGalleryImages(category) {
   const imageSets = {
@@ -28,7 +29,7 @@ function Home() {
   const { t } = useTranslation("global");
   return (
     <div>
-      <Hero />
+      <Hero image={Naslovnica} title="Gostišče" span="pod podom" />
       {/* Uvod */}
       <HomeText
         main={t("home.uvod.main")}

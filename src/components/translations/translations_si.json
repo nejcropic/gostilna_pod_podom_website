@@ -36,6 +36,11 @@
       "button": "Spoznaj okolico"
     }
   },
+  "gostilna": {
+    "naslov": "Gostišče/Prostori/Opis",
+    "opis_1": "Pred časom so se nama uresničile sanje. V Suhi krajini, v vasi Kuželjevec, sva odprla svoje Gostišče Pod Podom. Vabiva vas, da poskusite naše odlične pice, pripravljene z ljubeznijo, in druge dobrote, ki jih ustvarjava za vas.",
+    "opis_2": "Vsak vaš obisk in vsaka pohvala nama pomenita ogromno – to naju žene naprej in nama daje še večjo motivacijo za delo. Hvala, ker verjamete v najin trud!"
+  },
   "kontakt": {
     "naslov": "Kontaktirajte nas",
     "odpiralnicas": "Odpiralni čas",
@@ -43,6 +48,281 @@
       "petek": "Petek",
       "sobota": "Sobota",
       "nedelja": "Nedelja"
+    }
+  },
+  "pice": {
+    "klasika": {
+      "ime": "Klasika",
+      "sestavine": "pelati, sir, kuhan pršut, sveži šampinjoni, oliva",
+      "cena": "10,90"
+    },
+    "kuhan_prsut": {
+      "ime": "Kuhan pršut",
+      "sestavine": "pelati, sir, kuhan pršut, oliva",
+      "cena": "10,00"
+    },
+    "pod_podom": {
+      "ime": "Pod podom",
+      "sestavine": "pelati, sir, suha salama, kuhan pršut, panceta, slanina, sveži jurčki, oliva",
+      "cena": "12,90"
+    },
+    "pikantna": {
+      "ime": "Pikantna",
+      "sestavine": "pelati, sir, kuhan pršut, pikantna salama, pekoči feferoni, sveži šampinjoni, pikantno olje, oliva",
+      "cena": "11,70"
+    },
+    "bovljek": {
+      "ime": "Bovljek",
+      "sestavine": "pelati, sir, ogrska salama, kuhan pršut,panceta, sveži šampinjoni, pekoči feferoni, oliva",
+      "cena": "11,90"
+    },
+    "kraska": {
+      "ime": "Kraška",
+      "sestavine": "pelati, sir,  šampinjoni, pršut, oliva",
+      "cena": "11,70"
+    },
+    "mexicana": {
+      "ime": "Mexicana",
+      "sestavine": "pelati, sir, bolonjska omaka, koruza,paprika,nacho sir, oliva",
+      "cena": "11,90"
+    },
+    "piscancja": {
+      "ime": "Piščančja",
+      "sestavine": "pelati, sir,piščančji file, paprika,češnjev paradižnik, domača tatarska omaka, oliva",
+      "cena": "11,90"
+    },
+    "morska": {
+      "ime": "Morska",
+      "sestavine": "pelati, sir, morski sadeži, tuna,česnova omaka, oliva",
+      "cena": "12,50"
+    },
+    "tuna": {
+      "ime": "Tuna",
+      "sestavine": "pelati, sir,tuna,česnova omaka, oliva",
+      "cena": "11,90"
+    },
+    "lignji": {
+      "ime": "Lignji",
+      "sestavine": "pelati,mozzarela, lignji,kapre,česnova omaka,  oliva",
+      "cena": "12,00"
+    },
+    "ribic": {
+      "ime": "Ribič",
+      "sestavine": "pelati, mozzarela, file šarenke, češnjev paradižnik, česnova omaka, oliva",
+      "cena": "13,80"
+    },
+    "vegia": {
+      "ime": "Vegi",
+      "sestavine": "pelati, sir,marinirani melancani, bučke, paprika, koruza, česnjev paradižnik,  sveži šampinjoni, oliva",
+      "cena": "10,90"
+    },
+    "poletna": {
+      "ime": "Poletna",
+      "sestavine": "pelati, mozzarela, sušen in češnjev paradižnik, sveži šampinjoni, oliva",
+      "cena": "12,30"
+    },
+    "picopek": {
+      "ime": "Picopek",
+      "sestavine": "pelati, mozzarela, panceta, pršut,pesto,sušen in češnjev paradižnik, rukola, oliva",
+      "cena": "12,70"
+    },
+    "tartufi": {
+      "ime": "Tartufi",
+      "sestavine": "omaka iz kisle smetane in tartufate, buffala sir, panceta, sveži jurčki, oljčno olje z okusom tartufoc, črne olive",
+      "cena": "13,70"
+    },
+    "buffala": {
+      "ime": "Buffala",
+      "sestavine": "pelati, buffala sir, kuhan pršut,češnjev paradižnik, bazilika",
+      "cena": "13,70"
+    },
+    "burrata": {
+      "ime": "Burrata",
+      "sestavine": "omaka iz kisle smetan in pesta, burrata sir, kuhan pršut, pistacija, sušen in češnjev paradižnik, rukola, extra deviško oljčno olje",
+      "cena": "14,50"
+    },
+    "margerita": {
+      "ime": "Margerita",
+      "sestavine": "pelati, sir, oliva",
+      "cena": "9,00"
+    },
+    "picici": {
+      "ime": "Pičiči",
+      "sestavine": "testo, sir + omake: domača tatarska omaka, nacho sir, pelati, kisla smetana ",
+      "cena": "9,50"
+    },
+    "sadna": {
+      "ime": "Sadna",
+      "sestavine": "testo, nutella, ricotta sir, banana, ananas",
+      "cena": "10,00"
+    }
+  },
+  "dodatki": {
+    "kuhan_prsut": {
+      "ime": "Kuhan pršut",
+      "cena": "1,50"
+    },
+    "prsut": {
+      "ime": "Pršut",
+      "cena": "2,00"
+    },
+    "slanina": {
+      "ime": "Slanina",
+      "cena": "1,00"
+    },
+    "panceta": {
+      "ime": "Panceta",
+      "cena": "1,50"
+    },
+    "suha_salama": {
+      "ime": "Suha salama",
+      "cena": "1,50"
+    },
+    "pikantna_salama": {
+      "ime": "Pikantna salama",
+      "cena": "1,50"
+    },
+    "ogrska_salama": {
+      "ime": "Ogrska salama",
+      "cena": "1,50"
+    },
+    "hrenovke": {
+      "ime": "Hrenovke",
+      "cena": "1,00"
+    },
+    "svezi_jurcki": {
+      "ime": "Sveži jurčki",
+      "cena": "3,00"
+    },
+    "svezi_sampinjoni": {
+      "ime": "Sveži šampinjoni",
+      "cena": "1,50"
+    },
+    "cesnjev_paradiznik": {
+      "ime": "Češnjev paradižnik",
+      "cena": "2,00"
+    },
+    "rukola": {
+      "ime": "Rukola",
+      "cena": "1,00"
+    },
+    "pekoci_feferoni": {
+      "ime": "Pekoči feferoni",
+      "cena": "0,80"
+    },
+    "koruza": {
+      "ime": "Koruza",
+      "cena": "0,60"
+    },
+    "olive": {
+      "ime": "Olive",
+      "cena": "1,00"
+    },
+    "paprika": {
+      "ime": "Paprika",
+      "cena": "1,00"
+    },
+    "bucke": {
+      "ime": "Bučke",
+      "cena": "1,00"
+    },
+    "melancani": {
+      "ime": "Melancani",
+      "cena": "1,00"
+    },
+    "cebula": {
+      "ime": "Čebula",
+      "cena": "0,80"
+    },
+    "mozzarela": {
+      "ime": "Mozzarela",
+      "cena": "1,50"
+    },
+    "burrata": {
+      "ime": "Burrata sir",
+      "cena": "3,00"
+    },
+    "buffala": {
+      "ime": "Buffala sir",
+      "cena": "2,50"
+    },
+    "kisla_smetana": {
+      "ime": "Kisla smetana",
+      "cena": "0,80"
+    },
+    "tatarska": {
+      "ime": "Domača tatarska omaka",
+      "cena": "2,00"
+    },
+    "cesnova_omaka": {
+      "ime": "Česnova omaka",
+      "cena": "1,50"
+    },
+    "nacho_sir": {
+      "ime": "Nacho sir",
+      "cena": "2,50"
+    },
+    "porcijski_kecap": {
+      "ime": "Porcijski kečap",
+      "cena": "0,80"
+    },
+    "jajce": {
+      "ime": "Jajce",
+      "cena": "1,00"
+    },
+    "embalaza_pica": {
+      "ime": "Embalža za pico",
+      "cena": "0,70"
+    },
+    "embalaza_mala": {
+      "ime": "Embalža mala",
+      "cena": "0,30"
+    }
+  },
+  "ostala_ponudba": {
+    "puranji_dunajski_zrezek": {
+      "ime": "Puranji dunajski zrezek",
+      "cena": "14,00"
+    },
+    "ocvrti_kalamari": {
+      "ime": "Ocvrti kalamari s pomfrijem",
+      "cena": "14,50"
+    },
+    "pomfri": {
+      "ime": "Pomfri",
+      "cena": "3,00"
+    },
+    "mesana_solata": {
+      "ime": "Mešana solata",
+      "cena": "3,00"
+    }
+  },
+  "sladice": {
+    "palacinke_marmelada": {
+      "ime": "Palačinke z marelično marmelado",
+      "cena": "3,50"
+    },
+    "palacinke_nutella": {
+      "ime": "Palačinke z nutello",
+      "cena": "4,00"
+    },
+    "palacinke_orehi": {
+      "ime": "Palačinke z orehovim nadevom",
+      "cena": "4,50"
+    },
+    "pannacotta": {
+      "ime": "Panna cotta z gozdnimi sadeži",
+      "cena": "4,00"
+    }
+  },
+  "sladice_poleti": {
+    "domaca_ledena_kava": {
+      "ime": "Domača ledena kava",
+      "cena": "4,50"
+    },
+    "sladoled_razlini": {
+      "ime": "Sladoled različni okusi",
+      "cena": ""
     }
   }
 }

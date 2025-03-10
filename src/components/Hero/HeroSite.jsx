@@ -12,9 +12,10 @@ function Hero({ title, image, span }) {
           className="hero-background"
           style={{ backgroundImage: `url(${image})` }}
         ></div>
-        <div className="hero-title">
+        <div className="hero-title herosite">
           <h1>
-            {title} <span class="break">{span}</span>
+            {title}
+            <span class="break"></span>
           </h1>
         </div>
       </section>
