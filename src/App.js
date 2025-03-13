@@ -8,10 +8,14 @@ import Prostori from "./routes/Prostori";
 import Lokacija from "./routes/Lokacija";
 import NavBar from "./components/NavBar/NavBar";
 import Kontakt from "./components/Kontakt/Kontakt";
+
+import ScrollToTop from "./components/ScrollToTop";
+
 export default function App() {
   return (
     <>
       <div className="App">
+        <ScrollToTop />
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />

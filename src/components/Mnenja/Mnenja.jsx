@@ -66,11 +66,9 @@ function Mnenja() {
           )
         )}
 
-        {!isMobile && (
-          <button className="next-button" onClick={handleNext}>
-            &#10095;
-          </button>
-        )}
+        <button className="next-button" onClick={handleNext}>
+          &#10095;
+        </button>
       </div>
       <hr />
     </div>

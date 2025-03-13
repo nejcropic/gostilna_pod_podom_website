@@ -45,13 +45,14 @@
 }
 
 .menu-title {
-  color: var(--white);
   margin-left: 0rem;
   font-size: 1.5rem;
+  text-decoration: none;
 }
-.menu-title p {
+.menu-title a {
   font-family: var(--fontMain);
   text-transform: uppercase;
+  color: var(--white);
 }
 
 .nav-container {

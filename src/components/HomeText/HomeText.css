@@ -2,14 +2,14 @@
 .home-section {
   position: relative;
   height: 100%;
-  padding: 10vh 0;
+  padding: 10vh 7.5%;
   min-height: 50vh;
 }
 
 .home-text {
-  width: 85%;
+  width: 100%;
   max-width: 1024px;
-  margin: 0 auto;
+  margin: 0 0;
   font-family: var(--fontMain);
   color: var(--mainColor);
   text-align: left;
@@ -33,18 +33,30 @@
 }
 .home-text h3 {
   text-transform: uppercase;
-  font-size: 1.1rem;
+  font-size: calc(var(--fontSizePc) - 0.4rem);
 }
 .home-text h1 {
-  font-size: 1.7rem;
+  font-size: calc(var(--fontSizePc) + 0.4rem);
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
 .home-text ul li,
 .home-text p {
-  font-size: 1.3rem;
+  font-size: var(--fontSizePc);
 }
 
+@media screen and (max-width: 768px) {
+  .home-text h1 {
+    font-size: calc(var(--fontSizePhone) + 0.4rem);
+  }
+  .home-text h3 {
+    font-size: calc(var(--fontSizePhone) - 0.4rem);
+  }
+  .home-text ul li,
+  .home-text p {
+    font-size: var(--fontSizePhone);
+  }
+}
 .home-text ul {
   list-style: none;
   padding: 0;
@@ -59,7 +71,6 @@
 }
 
 .home-button {
-  margin-top: 5rem;
   display: block;
   height: 3.5rem;
   width: auto;
@@ -69,7 +80,9 @@
   text-transform: uppercase;
   text-align: center;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-left: 0;
+  margin-top: 2.5rem;
   display: flex;
   padding: 1rem;
 }
@@ -78,9 +91,29 @@
   background-color: var(--mainColor);
 }
 
-.home-button a {
+.home-button p {
   font-family: var(--fontSecond);
   font-size: 1.2rem;
   text-decoration: none;
   color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .home-button {
+    justify-content: ceter;
+    margin-left: auto;
+  }
+}
+
+.home-line {
+  margin: 2.5rem 0 0 0;
+  width: 100px;
+  height: 4px;
+  background: var(--mainColor);
+}
+
+@media screen and (max-width: 768px) {
+  .home-line {
+    display: none;
+  }
 }

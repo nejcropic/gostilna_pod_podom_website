@@ -1,7 +1,8 @@
 .hero-container {
   position: relative;
-  height: 100svh;
+  height: 100%;
   width: 100%;
+  display: flex;
 }
 
 .hero-background {
@@ -12,6 +13,14 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+}
+@media (max-width: 768px) {
+  .moveLeft {
+    background-position: 20% center;
+  }
+  .moveRight {
+    background-position: 80% center;
+  }
 }
 
 .hero-title {
@@ -33,10 +42,9 @@
 }
 
 .hero-title h1,
-.hero-title h2,
 .hero-title span {
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-transform: uppercase;
   font-family: var(--fontMain);
 }

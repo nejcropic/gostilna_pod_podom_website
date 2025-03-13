@@ -23,9 +23,16 @@ export default function HomeTextList({
             ))}
           </ul>
         </div>
-        <div className="home-button">
-          <Link to={link}>{buttonText}</Link>
-        </div>
+        {buttonText && (
+          <>
+            <hr className="home-line" />{" "}
+            <Link to={link}>
+              <div className="home-button">
+                <p>{buttonText}</p>
+              </div>
+            </Link>
+          </>
+        )}
       </section>
     </div>
   );

@@ -34,7 +34,7 @@ function NavBar() {
     <>
       <nav className="nav-wrapper">
         <div className="menu-title">
-          <p>pod podom</p>
+          <Link to="/">pod podom</Link>
         </div>
         <div className={navMenu ? "nav-container active" : "nav-container"}>
           {NavBarItems.map((item, index) => (

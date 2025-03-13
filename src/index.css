@@ -3,17 +3,18 @@
   --mainColor: #56342a;
   --secondaryColor: #56342a;
   --textColor: #eee;
-  --backgroundColor: #f4f4f4;
+  --backgroundColor: #f7efeb;
   --white: hsla(0, 0%, 100%, 1);
   --black: hsla(0, 0%, 0%, 1);
   --gray: gray;
   /* fonts */
   --fontMain: "Architects Daughter", cursive;
+  /*  --fontSecond: "Roboto Mono", monospace;*/
   --fontSecond: "Patrick Hand", cursive;
   /* --fontSecond: "Oswald", sans-serif; */
   /* font size */
-  --fontSizePc: 2rem;
-  --fontSizePhone: 1.5rem;
+  --fontSizePc: 1.7rem;
+  --fontSizePhone: 1.3rem;
   --lineRadius: 15px;
   --phonewidth: 100%;
   --compwidth: 100%;
@@ -23,17 +24,13 @@
   margin: auto;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "Titillium Web", sans-serif;
+}
+*::-webkit-scrollbar {
+  display: none;
 }
 
-*::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-  background-color: var(--backgroundColor);
-  color: var(--mainColor);
-}
 *::-webkit-scrollbar-thumb {
-  color: var(--mainColor);
+  background-color: var(--mainColor);
 }
 
 .App {

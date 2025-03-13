@@ -2,7 +2,6 @@
   justify-content: center;
   align-items: center;
   min-height: 30vh;
-  text-decoration: none;
   padding: 1rem 10%;
   background-color: white;
 }
@@ -11,6 +10,9 @@
 .kontakt-wrapper a {
   font-family: var(--fontSecond);
   font-size: 1.3rem;
+}
+.kontakt-wrapper a {
+  text-decoration: underline;
 }
 .kontakt-wrapper p {
   color: var(--mainColor);

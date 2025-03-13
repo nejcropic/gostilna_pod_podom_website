@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import Hero from "../components/Hero/Hero";
 import HomeText from "../components/HomeText/HomeText";
-import HomeTextList from "../components/HomeTextList/HomeTextList";
+import HomeTextList from "../components/HomeText/HomeTextList";
 import HomeGallery from "../components/HomeGallery/HomeGallery";
 import HomeImage from "../components/HomeImage/HomeImage";
 import Mnenja from "../components/Mnenja/Mnenja";
@@ -36,7 +36,7 @@ function Home() {
         title={t("home.uvod.naslov")}
         description={t("home.uvod.tekst")}
         buttonText={t("home.uvod.button")}
-        link="/menu"
+        link="/meni"
       />
       {/* Ambient - notranjost */}
       <HomeImage image={Slika1} />
@@ -68,7 +68,7 @@ function Home() {
           tekst3: t("home.okolica.list3"),
         }}
         buttonText={t("home.okolica.button")}
-        link="/galerija"
+        link="/lokacija"
       />
     </div>
   );
