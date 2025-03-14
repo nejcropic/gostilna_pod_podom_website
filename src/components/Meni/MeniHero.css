@@ -39,10 +39,11 @@
 
 .meni-hero-card {
   width: 100%;
+  height: 300px;
   padding: 15px;
   border-radius: 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   text-align: center;
   transition: transform 0.2s ease-in-out;
@@ -53,11 +54,18 @@
   transform: scale(1.2);
 }
 
-.inverse {
-  flex-direction: row-reverse;
+@media screen and (max-width: 768px) {
+  .meni-hero-card {
+    flex-direction: row;
+    height: auto;
+  }
+  .inverse {
+    flex-direction: row-reverse;
+  }
 }
 .meni-hero-card:hover {
   transform: scale(1.05);
+  cursor: pointer;
 }
 
 .meni-hero-card h1 {

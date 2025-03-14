@@ -87,3 +87,15 @@
   color: black;
   margin: 0.5rem auto;
 }
+
+.kontakt-item img {
+  padding: 0.1;
+  width: 4rem;
+}
+
+.social-icons {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

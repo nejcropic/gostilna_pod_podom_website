@@ -8,8 +8,8 @@ import Sladice from "../../icons/meni_sladice.png";
 export default function MeniHero({ onCategoryClick }) {
   return (
     <section className="meni-hero-wrapper">
+      <h2>Izberi ponudbo</h2>
       <div className="meni-hero-container">
-        <h2>Izberi ponudbo</h2>
         <div className="meni-hero-card" onClick={() => onCategoryClick("pice")}>
           <div className="meni-card-text">
             <h1>Pice</h1>

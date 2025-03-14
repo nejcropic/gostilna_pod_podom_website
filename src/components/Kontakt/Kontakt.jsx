@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import MapComponent from "../MapComponent/MapComponent";
 
+import Tripadvisor from "../../icons/tripadvisor.png";
+
 export default function Kontakt() {
   const { t } = useTranslation("global");
   return (
@@ -16,11 +18,16 @@ export default function Kontakt() {
             <p>Kuželjevec 7a, 1303 Zagradec</p>
             <a href="tel:+38631307279">031/ 307-279</a>
             <a href="mailto:gpodpodom@gmail.com">gpodpodom@gmail.com</a>
-            <Link to="https://www.facebook.com/p/Gostišče-Pod-Podom-61557147044531">
-              <button>
-                <i class="fa-brands fa-facebook"></i>
-              </button>
-            </Link>
+            <div className="social-icons">
+              <Link to="https://www.tripadvisor.com/Restaurant_Review-g4581334-d33003913-Reviews-Gostisce_Pod_Podom-Zagradec_Lower_Carniola_Region.html">
+                <img src={Tripadvisor} alt="" />
+              </Link>
+              <Link to="https://www.facebook.com/p/Gostišče-Pod-Podom-61557147044531">
+                <button>
+                  <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                </button>
+              </Link>
+            </div>
           </div>
           <div className="kontakt-item">
             <h2>{t("kontakt.odpiralnicas")}:</h2>
