@@ -25,14 +25,13 @@
   width: 80%;
   margin: auto;
   position: relative;
-  height: 50vh;
+  min-height: 45vh;
 }
 
 @media (max-width: 768px) {
   .mnenja-container {
     grid-template-columns: 1fr;
     width: 90%;
-    height: 50vh;
   }
 }
 
@@ -42,10 +41,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: white;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
   width: 70%;
   transition: transform 0.5s ease-in-out;

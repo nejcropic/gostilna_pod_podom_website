@@ -1,10 +1,10 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import Hero from "../components/Hero/Hero";
-import HomeText from "../components/HomeText/HomeText";
-import HomeTextList from "../components/HomeText/HomeTextList";
-import HomeGallery from "../components/HomeGallery/HomeGallery";
-import HomeImage from "../components/HomeImage/HomeImage";
+import HomeText from "../components/Home/HomeText";
+import HomeTextList from "../components/Home/HomeTextList";
+import HomeGallery from "../components/Home/HomeGallery";
+import HomeImage from "../components/Home/HomeImage";
 import Mnenja from "../components/Mnenja/Mnenja";
 
 /* Slike */
@@ -13,7 +13,7 @@ import Slika2 from "../images/panorama_8.jpg";
 import Hrana1 from "../images/pice_1.jpg";
 import Hrana2 from "../images/kalamari.jpg";
 import Hrana4 from "../images/pice_2.jpg";
-import Hrana3 from "../images/pice_3.jpg";
+import Hrana3 from "../images/pica_klasika.jpg";
 import { Naslovnica } from "..";
 
 function getGalleryImages(category) {

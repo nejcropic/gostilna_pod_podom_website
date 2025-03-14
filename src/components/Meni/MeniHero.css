@@ -1,0 +1,71 @@
+.meni-hero-wrapper {
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--mainColor);
+  font-family: var(--fontSecond);
+}
+
+.meni-hero-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+}
+
+.meni-hero-top img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.meni-hero-container {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .meni-hero-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.meni-hero-card {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.meni-hero-card.active {
+  border: 3px solid var(--mainColor); /* Highlight selected */
+  transform: scale(1.2);
+}
+
+.inverse {
+  flex-direction: row-reverse;
+}
+.meni-hero-card:hover {
+  transform: scale(1.05);
+}
+
+.meni-hero-card h1 {
+  font-size: calc(var(--fontSizePc));
+  text-transform: uppercase;
+}
+
+.meni-hero-card img {
+  width: 200px;
+  height: auto;
+}
