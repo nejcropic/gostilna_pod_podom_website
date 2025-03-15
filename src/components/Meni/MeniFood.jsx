@@ -14,6 +14,9 @@ export default function MeniFood({ title, translations }) {
               <p>{pizza.sestavine}</p>
             </div>
             <span className="meni-price">{pizza.cena} €</span>
+            {/* Dynamically set image src */}
+            {/* 
+            <img src={pizza.slika} alt={pizza.ime} /> */}
           </div>
         ))}
       </div>

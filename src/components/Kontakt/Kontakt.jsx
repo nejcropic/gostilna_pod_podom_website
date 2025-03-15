@@ -15,7 +15,9 @@ export default function Kontakt() {
         <div className="kontakt-container">
           <div className="kontakt-item">
             <h2>{t("kontakt.naslov")}:</h2>
-            <p>Kuželjevec 7a, 1303 Zagradec</p>
+            <a href="https://maps.app.goo.gl/jK11yzpicywKAyr17">
+              Kuželjevec 7a, 1303 Zagradec
+            </a>
             <a href="tel:+38631307279">031/ 307-279</a>
             <a href="mailto:gpodpodom@gmail.com">gpodpodom@gmail.com</a>
             <div className="social-icons">
@@ -28,12 +30,15 @@ export default function Kontakt() {
                 </button>
               </Link>
             </div>
+            <a href="https://maps.app.goo.gl/jK11yzpicywKAyr17">
+              <button> {t("kontakt.navodila")}</button>
+            </a>
           </div>
           <div className="kontakt-item">
             <h2>{t("kontakt.odpiralnicas")}:</h2>
             <p>{t("kontakt.dnevi.petek")}: 14-21</p>
-            <p>{t("kontakt.dnevi.sobota")}: 12-22</p>
-            <p>{t("kontakt.dnevi.nedelja")}: 12-22</p>
+            <p>{t("kontakt.dnevi.sobota")}: 10-22</p>
+            <p>{t("kontakt.dnevi.nedelja")}: 10-20</p>
           </div>
         </div>
       </div>

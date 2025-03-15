@@ -12,8 +12,7 @@ export default function MeniHero({ onCategoryClick }) {
       <div className="meni-hero-container">
         <div className="meni-hero-card" onClick={() => onCategoryClick("pice")}>
           <div className="meni-card-text">
-            <h1>Pice</h1>
-            <p>Opis? Npr. pice napolitana, možnost pirine moke, blabla</p>
+            <h1>Pice napolitana</h1>
           </div>
           <img src={PicaMeni} alt="Pica Meni" />
         </div>
@@ -23,7 +22,8 @@ export default function MeniHero({ onCategoryClick }) {
         >
           <div className="meni-card-text">
             <h1>Ostala ponudba</h1>
-            <p>Opis? Nudimo tudi ostale jedi, dunajc, kalamari.. </p>
+            {/*    <p>Opis? Nudimo tudi ostale jedi, dunajc, kalamari.. </p>
+             */}{" "}
           </div>
           <img src={OstaleJedi} alt="Ostala Ponudba" />
         </div>
@@ -33,7 +33,8 @@ export default function MeniHero({ onCategoryClick }) {
         >
           <div className="meni-card-text">
             <h1>Sladice</h1>
-            <p>Sladice poleti..</p>
+            {/*    <p>Sladice poleti..</p>
+             */}{" "}
           </div>
           <img src={Sladice} alt="Sladice" />
         </div>

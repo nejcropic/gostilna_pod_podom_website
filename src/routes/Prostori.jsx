@@ -5,9 +5,9 @@ import "../components/SiteText/SiteText.css";
 import HeroSlika from "../images/panorama_7_wide.jpg";
 import Slika1 from "../images/pek_1.jpg";
 import Slika2 from "../images/panorama_2.jpg";
-import Slika3 from "../images/sladice_6.jpg";
-import Slika4 from "../images/sladice_3.jpg";
-import Slika5 from "../images/sladice_2.jpg";
+import Slika3 from "../images/prostori_3.jpeg";
+import Slika4 from "../images/prostori_4.jpg";
+import Slika5 from "../images/prostori_2.jpg";
 import SiteText from "../components/SiteText/SiteText";
 import SiteImage from "../components/SiteImage/SiteImage";
 function Prostori() {

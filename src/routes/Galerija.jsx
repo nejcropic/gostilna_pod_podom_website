@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSite from "../components/Hero/HeroSite";
-import HeroSlika from "../images/terasa_main.jpg";
+import HeroSlika from "../images/terasa.jpg";
 import GalerijaMain from "../components/Galerija/GalerijaHero";
 
 function Galerija() {

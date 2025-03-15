@@ -11,9 +11,9 @@ import Mnenja from "../components/Mnenja/Mnenja";
 import Slika1 from "../images/panorama_2_lowered.jpg";
 import Slika2 from "../images/panorama_8.jpg";
 import Hrana1 from "../images/pice_1.jpg";
-import Hrana2 from "../images/kalamari.jpg";
-import Hrana4 from "../images/pice_2.jpg";
-import Hrana3 from "../images/pica_klasika.jpg";
+import Hrana2 from "../images/kalamari.jpeg";
+import Hrana3 from "../images/home_sladica.jpg";
+import Hrana4 from "../images/plosca.png";
 import { Naslovnica } from "..";
 
 function getGalleryImages(category) {

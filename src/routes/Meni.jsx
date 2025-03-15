@@ -11,6 +11,7 @@ function Meni() {
   const pice = t("pice", { returnObjects: true });
   const ostala_ponudba = t("ostala_ponudba", { returnObjects: true });
   const sladice = t("sladice", { returnObjects: true });
+  const sladice_poleti = t("sladice_poleti", { returnObjects: true });
   const dodatki = t("dodatki", { returnObjects: true });
 
   const [selectedCategory, setSelectedCategory] = useState("pice");
@@ -22,13 +23,14 @@ function Meni() {
       menuRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
     }, 200);
   };
-
   const selectedData =
     selectedCategory === "pice"
       ? pice
       : selectedCategory === "ostala_ponudba"
       ? ostala_ponudba
-      : sladice;
+      : selectedCategory === "sladice"
+      ? { ...sladice, ...sladice_poleti } // Merge the two objects
+      : {};
 
   return (
     <>
@@ -41,8 +43,8 @@ function Meni() {
       <div ref={menuRef}>
         <MeniFood title={selectedCategory} translations={selectedData} />
       </div>
-
-      <MeniFood title="Dodatki" translations={dodatki} />
+      {/* 
+      <MeniFood title="Dodatki" translations={dodatki} /> */}
     </>
   );
 }

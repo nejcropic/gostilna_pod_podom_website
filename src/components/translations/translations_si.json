@@ -14,7 +14,7 @@
     "uvod": {
       "main": "Pice",
       "naslov": "Prava pica, prava izkušnja!",
-      "tekst": "Vabimo vas, da poskusite naše odlične pice, pripravljene z ljubeznijo in mojstrsko roko izkušenega picopeka. Poleg hrustljavih pic vam nudimo tudi druge dobrote, ki jih pripravljava posebej za vas.",
+      "tekst": "Vabimo vas, da poskusite naše odlične pice, pripravljene z ljubeznijo in mojstrsko roko izkušenega picopeka. Poleg hrustljavih pic vam nudimo tudi druge dobrote, ki jih pripravljava posebej za vas. Nudimo tudi kosila za zaključene družbe od 15 oseb naprej po predhodnem naročilu na telefon 031/307-279.",
       "button": "Meni"
     },
     "ambient": {
@@ -42,12 +42,13 @@
     "opis_2": "Vsak vaš obisk in vsaka pohvala nama pomenita ogromno – to naju žene naprej in nama daje še večjo motivacijo za delo. Hvala, ker verjamete v najin trud!"
   },
   "lokacija": {
-    "naslov": "Lokacija/Okolica",
+    "naslov": "Okolica",
     "opis_1": "Na terasi vas bo razvajal prelep pogled na dolino reke Krke. V vseh letnih časih ponuja edinstveno podobo - od zelenih pomladnih gričev, poletne igre svetlobe na vodi, do jesenskih barv in mirne zimske beline.",
     "opis_2": "Dobrih 20min hoje od gostišča se dviga hrib Bovljek, ki je priljubljena destinacija za krajše pohode. Pot do vrha je nezahtevna in primerna za vse generacije. V bližnji prihodnosti bo na vrhu hriba Bovljek zrasel razgledni stolp, ki bo obiskovalcem ponudil pogled na celotno Suho krajino in širšo okolico. Stolp bo postal nova atrakcija, ki bo privabljala ljubitelje narave, fotografije in sprostitve v objemu hribov."
   },
   "kontakt": {
     "naslov": "Kontaktirajte nas",
+    "navodila": "Navodila za pot",
     "odpiralnicas": "Odpiralni čas",
     "dnevi": {
       "petek": "Petek",
@@ -305,7 +306,8 @@
   "sladice": {
     "palacinke_marmelada": {
       "ime": "Palačinke z marelično marmelado",
-      "cena": "3,50"
+      "cena": "3,50",
+      "slika": "../../images/sladice_1.jpg"
     },
     "palacinke_nutella": {
       "ime": "Palačinke z nutello",

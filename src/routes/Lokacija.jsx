@@ -7,10 +7,10 @@ import HomeTextList from "../components/Home/HomeTextList";
 import HomeImage from "../components/Home/HomeImage";
 
 import HeroSlika from "../images/panorama_8.jpg";
-import Slika1 from "../images/terasa_main.jpg";
-import Slika2 from "../images/panorama_7_wide.jpg";
-import Slika4 from "../images/bovljek_hrib.jpg";
-import Slika5 from "../images/terasa_main.jpg";
+import Slika1 from "../images/terasa.jpg";
+import Slika2 from "../images/kozolcek.jpg";
+import Slika3 from "../images/bovljek_stolp.jpg";
+import Slika4 from "../images/lokacija_2.jpg";
 import SiteText from "../components/SiteText/SiteText";
 import SiteImage from "../components/SiteImage/SiteImage";
 
@@ -27,9 +27,10 @@ function Lokacija() {
 
         <SiteImage image={Slika4} />
         {/* 
+        <SiteText description={t("lokacija.opis_2")} />*/}
+
         <SiteText description={t("lokacija.opis_2")} />
-        <SiteText description={t("lokacija.opis_2")} /> */}
-        <SiteImage image={Slika5} />
+        <SiteImage image={Slika3} />
       </div>
       {/* <HomeTextList
         description={t("okolica.tekst")}
