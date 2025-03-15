@@ -5,7 +5,7 @@ import Home from "./routes/Home";
 import Galerija from "./routes/Galerija";
 import Meni from "./routes/Meni";
 import Gostisce from "./routes/Gostisce";
-import Lokacija from "./routes/Lokacija";
+import Okolica from "./routes/Okolica";
 import NavBar from "./components/NavBar/NavBar";
 import Kontakt from "./components/Kontakt/Kontakt";
 
@@ -22,7 +22,7 @@ export default function App() {
           <Route path="/galerija" element={<Galerija />} />
           <Route path="/meni" element={<Meni />} />
           <Route path="/gostisce" element={<Gostisce />} />
-          <Route path="/Lokacija" element={<Lokacija />} />
+          <Route path="/okolica" element={<Okolica />} />
         </Routes>
         <Kontakt />
       </div>

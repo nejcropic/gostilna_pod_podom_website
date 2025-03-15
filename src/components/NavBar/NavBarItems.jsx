@@ -12,8 +12,8 @@ export const getNavBarItems = (t) => [
     url: "/gostisce",
   },
   {
-    key: t("nav.lokacija"),
-    url: "/lokacija",
+    key: t("nav.okolica"),
+    url: "/okolica",
   },
   {
     key: t("nav.galerija"),

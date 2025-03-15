@@ -6,7 +6,7 @@
     "domov": "domov",
     "meni": "meni",
     "gostisce": "gostišče",
-    "lokacija": "lokacija",
+    "okolica": "okolica",
     "galerija": "galerija",
     "naroci": "Naroči"
   },
@@ -277,11 +277,11 @@
       "cena": "1,00"
     },
     "embalaza_pica": {
-      "ime": "Embalža za pico",
+      "ime": "Embalaža za pico",
       "cena": "0,70"
     },
     "embalaza_mala": {
-      "ime": "Embalža mala",
+      "ime": "Embalaža mala",
       "cena": "0,30"
     }
   },

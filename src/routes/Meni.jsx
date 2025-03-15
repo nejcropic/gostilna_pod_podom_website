@@ -6,6 +6,7 @@ import MeniFood from "../components/Meni/MeniFood";
 import MeniFoodPizza from "../components/Meni/MeniPizza"; // Keep only for "pice"
 
 import HeroSlika from "../images/naslovna1.jpg";
+import MeniDodatki from "../components/Meni/MeniDodatki";
 
 function Meni() {
   const { t } = useTranslation("global");
@@ -46,7 +47,7 @@ function Meni() {
         {selectedCategory === "pice" ? (
           <>
             <MeniFoodPizza title="Pice" translations={selectedData} />
-            <MeniFoodPizza title="Dodatki" translations={dodatki} />
+            <MeniDodatki title="Dodatki" translations={dodatki} />
           </>
         ) : selectedCategory === "sladice" ? (
           <>
