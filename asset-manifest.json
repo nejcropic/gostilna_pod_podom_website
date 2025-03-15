@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gostilna_pod_podom_website/static/css/main.40b37892.css",
-    "main.js": "/gostilna_pod_podom_website/static/js/main.431597d2.js",
+    "main.css": "/gostilna_pod_podom_website/static/css/main.c02560c4.css",
+    "main.js": "/gostilna_pod_podom_website/static/js/main.82f58efa.js",
     "static/media/okolica_kozolec.jpg": "/gostilna_pod_podom_website/static/media/okolica_kozolec.69b32c2e59d7ad0b6de8.jpg",
     "static/media/pice_peka_1.jpg": "/gostilna_pod_podom_website/static/media/pice_peka_1.228fc9d5de536aebd62a.jpg",
     "static/media/okolica_terasa.jpg": "/gostilna_pod_podom_website/static/media/okolica_terasa.9d81c073ac2150ef1835.jpg",
@@ -93,11 +93,11 @@
     "static/media/ostala_solata.png": "/gostilna_pod_podom_website/static/media/ostala_solata.883ac84645b5d8e5ea1a.png",
     "static/media/tripadvisor.png": "/gostilna_pod_podom_website/static/media/tripadvisor.3952bd93c1ca96a6af49.png",
     "index.html": "/gostilna_pod_podom_website/index.html",
-    "main.40b37892.css.map": "/gostilna_pod_podom_website/static/css/main.40b37892.css.map",
-    "main.431597d2.js.map": "/gostilna_pod_podom_website/static/js/main.431597d2.js.map"
+    "main.c02560c4.css.map": "/gostilna_pod_podom_website/static/css/main.c02560c4.css.map",
+    "main.82f58efa.js.map": "/gostilna_pod_podom_website/static/js/main.82f58efa.js.map"
   },
   "entrypoints": [
-    "static/css/main.40b37892.css",
-    "static/js/main.431597d2.js"
+    "static/css/main.c02560c4.css",
+    "static/js/main.82f58efa.js"
   ]
 }
