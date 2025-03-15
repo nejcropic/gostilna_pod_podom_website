@@ -20,7 +20,7 @@
     "ambient": {
       "main": "Ambient",
       "naslov": "Prijetno vzdušje za vse generacije",
-      "tekst": "Naša notranjost je zasnovana 'iz poda' - lesenega kmečkega objekta. Srce prostora je kuršna peč, katera daje toplino, sproščeno vzdušje in prijazno osebje. ",
+      "tekst": "Naša notranjost je zasnovana 'iz poda' - lesenega kmečkega objekta. Srce prostora je krušna peč, katera daje toplino in sproščeno vzdušje. ",
       "list1": "Večerje v dvoje",
       "list2": "Družinska srečanja",
       "list3": "Prijetna druženja s prijatelji",
@@ -38,13 +38,21 @@
   },
   "gostilna": {
     "naslov": "Gostišče",
-    "opis_1": "Pred časom so se nama uresničile sanje. V Suhi krajini, v vasi Kuželjevec, sva odprla svoje Gostišče Pod Podom. Vabiva vas, da poskusite naše odlične pice, pripravljene z ljubeznijo, in druge dobrote, ki jih ustvarjava za vas.",
+    "opis_1": "Pred časom so se nama uresničile sanje. V Suhi krajini, v vasi Kuželjevec, sva odprla Gostišče Pod Podom. Vabiva vas, da poskusite naše odlične pice, pripravljene z ljubeznijo, in druge dobrote, ki jih ustvarjava za vas.",
     "opis_2": "Vsak vaš obisk in vsaka pohvala nama pomenita ogromno – to naju žene naprej in nama daje še večjo motivacijo za delo. Hvala, ker verjamete v najin trud!"
   },
   "lokacija": {
     "naslov": "Okolica",
-    "opis_1": "Na terasi vas bo razvajal prelep pogled na okoliške griče, zelene gozdove spomladi, jesenske barve, pozimipa na idilo zime - skratka, v vseh letnih časih. Občutite mir, sprostitev, zaslišite čričke ptičke, lahko se sprehodite po poti na bližnji hirb Bovljek. Doživite to pri nas, vabljeni!",
-    "opis_2": "Dobrih 20min hoje od gostišča se dviga hrib Bovljek, ki je priljubljena destinacija za krajše pohode. Pot do vrha je nezahtevna in primerna za vse generacije. V bližnji prihodnosti bo na vrhu hriba Bovljek zrasel razgledni stolp, ki bo obiskovalcem ponudil pogled na celotno Suho krajino in širšo okolico. Stolp bo postal nova atrakcija, ki bo privabljala ljubitelje narave, fotografije in sprostitve v objemu hribov."
+    "opis_1": "Na terasi vas bo razvajal prelep pogled na okoliške griče, zelene gozdove spomladi, jesenske barve, pozimi pa na idilo zime - skratka, v vseh letnih časih. Občutili boste mir, se sprostili, zaslišali ptičke. Lahko se bote sprehodili na bližnji hrib Bovljek. Doživite to pri nas, vabljeni!",
+    "opis_2": "Dobrih 20 min hoje od gostišča se dviga hrib Bovljek, ki je priljubljena destinacija za krajše pohode. Pot do vrha je nezahtevna in primerna za vse generacije. V bližnji prihodnosti bo na vrhu hriba zrasel razgledni stolp, ki bo obiskovalcem ponudil pogled na celotno Suho krajino in širšo okolico. Stolp bo postal nova atrakcija, ki bo privabljala ljubitelje narave, fotografije in sprostitve v objemu hribov."
+  },
+  "galerija": {
+    "all": "Prikaži vse",
+    "okolica": "Okolica",
+    "ostale": "Ostale jedi",
+    "sladice": "Sladice",
+    "pice": "Pice",
+    "prostori": "Prostori"
   },
   "kontakt": {
     "naslov": "Kontaktirajte nas",
@@ -60,12 +68,56 @@
     "klasika": {
       "ime": "Klasika",
       "sestavine": "pelati, sir, kuhan pršut, sveži šampinjoni, oliva",
-      "cena": "10,90"
+      "cena": "10,90",
+      "slika": "pice_klasika.png"
     },
     "kuhan_prsut": {
       "ime": "Kuhan pršut",
       "sestavine": "pelati, sir, kuhan pršut, oliva",
-      "cena": "10,00"
+      "cena": "10,00",
+      "slika": "pice_kuhan_prsut.png"
+    },
+    "picopek": {
+      "ime": "Picopek",
+      "sestavine": "pelati, mozzarela, panceta, pršut, pesto, sušen in češnjev paradižnik, rukola, oliva",
+      "cena": "12,70",
+      "slika": "pice_picopek.png"
+    },
+    "kraska": {
+      "ime": "Kraška",
+      "sestavine": "pelati, sir, šampinjoni, pršut, oliva",
+      "cena": "11,70",
+      "slika": "pice_kraska.png"
+    },
+    "morska": {
+      "ime": "Morska",
+      "sestavine": "pelati, sir, morski sadeži, tuna, česnova omaka, oliva",
+      "cena": "12,50",
+      "slika": "pice_morska.png"
+    },
+    "tuna": {
+      "ime": "Tuna",
+      "sestavine": "pelati, sir, tuna, česnova omaka, oliva",
+      "cena": "11,90",
+      "slika": "pice_tuna.png"
+    },
+    "lignji": {
+      "ime": "Lignji",
+      "sestavine": "pelati, mozzarela, lignji, kapre, česnova omaka,  oliva",
+      "cena": "12,00",
+      "slika": "pice_lignji.png"
+    },
+    "tartufi": {
+      "ime": "Tartufi",
+      "sestavine": "omaka iz kisle smetane in tartufate, buffala sir, panceta, sveži jurčki, oljčno olje z okusom tartufoc, črne olive",
+      "cena": "13,70",
+      "slika": "pice_tartufi.png"
+    },
+    "sadna": {
+      "ime": "Sadna",
+      "sestavine": "testo, nutella, ricotta sir, banana, ananas",
+      "cena": "10,00",
+      "slika": "pice_sadna.png"
     },
     "pod_podom": {
       "ime": "Pod podom",
@@ -82,11 +134,6 @@
       "sestavine": "pelati, sir, ogrska salama, kuhan pršut, panceta, sveži šampinjoni, pekoči feferoni, oliva",
       "cena": "11,90"
     },
-    "kraska": {
-      "ime": "Kraška",
-      "sestavine": "pelati, sir, šampinjoni, pršut, oliva",
-      "cena": "11,70"
-    },
     "mexicana": {
       "ime": "Mexicana",
       "sestavine": "pelati, sir, bolonjska omaka, koruza, paprika, nacho sir, oliva",
@@ -96,21 +143,6 @@
       "ime": "Piščančja",
       "sestavine": "pelati, sir, piščančji file, paprika, češnjev paradižnik, domača tatarska omaka, oliva",
       "cena": "11,90"
-    },
-    "morska": {
-      "ime": "Morska",
-      "sestavine": "pelati, sir, morski sadeži, tuna, česnova omaka, oliva",
-      "cena": "12,50"
-    },
-    "tuna": {
-      "ime": "Tuna",
-      "sestavine": "pelati, sir, tuna, česnova omaka, oliva",
-      "cena": "11,90"
-    },
-    "lignji": {
-      "ime": "Lignji",
-      "sestavine": "pelati, mozzarela, lignji, kapre, česnova omaka,  oliva",
-      "cena": "12,00"
     },
     "ribic": {
       "ime": "Ribič",
@@ -126,16 +158,6 @@
       "ime": "Poletna",
       "sestavine": "pelati, mozzarela, sušen in češnjev paradižnik, sveži šampinjoni, oliva",
       "cena": "12,30"
-    },
-    "picopek": {
-      "ime": "Picopek",
-      "sestavine": "pelati, mozzarela, panceta, pršut, pesto, sušen in češnjev paradižnik, rukola, oliva",
-      "cena": "12,70"
-    },
-    "tartufi": {
-      "ime": "Tartufi",
-      "sestavine": "omaka iz kisle smetane in tartufate, buffala sir, panceta, sveži jurčki, oljčno olje z okusom tartufoc, črne olive",
-      "cena": "13,70"
     },
     "buffala": {
       "ime": "Buffala",
@@ -156,11 +178,6 @@
       "ime": "Pičiči",
       "sestavine": "testo, sir + omake: domača tatarska omaka, nacho sir, pelati, kisla smetana ",
       "cena": "9,50"
-    },
-    "sadna": {
-      "ime": "Sadna",
-      "sestavine": "testo, nutella, ricotta sir, banana, ananas",
-      "cena": "10,00"
     }
   },
   "dodatki": {

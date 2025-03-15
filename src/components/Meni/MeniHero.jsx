@@ -1,7 +1,7 @@
 import React from "react";
 import "./MeniHero.css";
 
-import PicaMeni from "../../meni/meni_pice.png";
+import PicaMeni from "../../meni/pice_picopek.png";
 import OstaleJedi from "../../meni/ostala_kalamari.png";
 import Sladice from "../../meni/sladice_cokoladne.png";
 

@@ -3,11 +3,11 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import HeroSite from "../components/Hero/HeroSite";
 
-import HeroSlika from "../images/panorama_8.jpg";
-import Slika1 from "../images/terasa.jpg";
-import Slika2 from "../images/kozolcek.jpg";
-import Slika3 from "../images/bovljek_stolp.jpg";
-import Slika4 from "../images/lokacija_2.jpg";
+import HeroSlika from "../images/okolica_panorama.jpg";
+import Slika1 from "../images/okolica_terasa.jpg";
+import Slika2 from "../images/okolica_kozolec.jpg";
+import Slika3 from "../images/okolica_bovljek_stolp.jpg";
+import Slika4 from "../images/okolica_znak.jpg";
 import SiteText from "../components/Site/SiteText";
 import SiteImage from "../components/Site/SiteImage";
 

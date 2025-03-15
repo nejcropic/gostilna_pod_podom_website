@@ -1,24 +1,30 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import Hero from "../components/Hero/Hero";
 import Mnenja from "../components/Mnenja/Mnenja";
 
 /* Slike */
-import Slika1 from "../images/panorama_2_lowered.jpg";
-import Slika2 from "../images/panorama_8.jpg";
-import Hrana1 from "../images/pice_1.jpg";
-import Hrana2 from "../images/kalamari.jpeg";
-import Hrana3 from "../images/home_sladica.jpg";
-import Hrana4 from "../images/plosca.png";
-import { Naslovnica } from "..";
+import NaslovnicaPlaceholder from "../meni/pice_pec_small.jpg";
+import {
+  Naslovnica,
+  Home1,
+  Home2,
+  HomeHrana1,
+  HomeHrana2,
+  HomeHrana3,
+  HomeHrana4,
+} from "..";
+import NaslovnicaSmall from "../meni/pice_pec_small.jpg"; // 480px width
+import NaslovnicaMedium from "../meni/pice_pec_medium.jpg"; // 768px width
+import NaslovnicaLarge from "../images/pice_pec.jpg";
 import SiteImage from "../components/Site/SiteImage";
 import SiteGallery from "../components/Site/SiteGallery";
 import SiteText from "../components/Site/SiteText";
 
 function getGalleryImages(category) {
   const imageSets = {
-    hrana: [Hrana1, Hrana2, Hrana3, Hrana4],
-    prostori: [Slika1, Slika2],
+    hrana: [HomeHrana1, HomeHrana2, HomeHrana3, HomeHrana4],
+    prostori: [Home1, Home2],
   };
 
   return imageSets[category] || [];
@@ -26,9 +32,26 @@ function getGalleryImages(category) {
 
 function Home() {
   const { t } = useTranslation("global");
+  const [imageSrc, setImageSrc] = useState(NaslovnicaPlaceholder);
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = Naslovnica;
+    img.onload = () => {
+      setImageSrc(Naslovnica);
+      setLoaded(true);
+    };
+  }, []);
   return (
     <div>
-      <Hero image={Naslovnica} title="Gostišče" span="pod podom" />
+      <Hero
+        imageSmall={NaslovnicaSmall}
+        imageMedium={NaslovnicaMedium}
+        imageLarge={NaslovnicaLarge}
+        title="Gostišče"
+        span="Pod Podom"
+      />
       {/* Uvod */}
       <SiteText
         main={t("home.uvod.main")}
@@ -39,7 +62,7 @@ function Home() {
       />
       {/* Ambient - notranjost */}
       <div className="site-gallery full">
-        <SiteImage image={Slika1} />
+        <SiteImage image={Home1} />
       </div>
       <SiteText
         main={t("home.ambient.main")}
@@ -59,7 +82,7 @@ function Home() {
       <Mnenja />
       {/* Terasa */}
       <div className="site-gallery full">
-        <SiteImage image={Slika2} />
+        <SiteImage image={Home2} />
       </div>
       <SiteText
         main={t("home.okolica.main")}

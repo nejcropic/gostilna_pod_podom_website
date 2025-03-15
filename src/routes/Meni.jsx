@@ -5,7 +5,7 @@ import MeniHero from "../components/Meni/MeniHero";
 import MeniFood from "../components/Meni/MeniFood";
 import MeniFoodPizza from "../components/Meni/MeniPizza"; // Keep only for "pice"
 
-import HeroSlika from "../images/naslovna1.jpg";
+import HeroSlika from "../images/prostori_pec.jpg";
 import MeniDodatki from "../components/Meni/MeniDodatki";
 
 function Meni() {
