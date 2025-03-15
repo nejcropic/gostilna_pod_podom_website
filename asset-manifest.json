@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gostilna_pod_podom_website/static/css/main.68cef879.css",
-    "main.js": "/gostilna_pod_podom_website/static/js/main.67251844.js",
+    "main.css": "/gostilna_pod_podom_website/static/css/main.9d726f45.css",
+    "main.js": "/gostilna_pod_podom_website/static/js/main.84f9acfe.js",
     "static/media/kozolcek.jpg": "/gostilna_pod_podom_website/static/media/kozolcek.69b32c2e59d7ad0b6de8.jpg",
     "static/media/terasa.jpg": "/gostilna_pod_podom_website/static/media/terasa.9d81c073ac2150ef1835.jpg",
     "static/media/naslovna1.jpg": "/gostilna_pod_podom_website/static/media/naslovna1.6e907b8e149dba9c37ab.jpg",
@@ -66,14 +66,13 @@
     "static/media/pica_burrata.jpg": "/gostilna_pod_podom_website/static/media/pica_burrata.bcc30e4bb2e39c2533c3.jpg",
     "static/media/sladice_ledena_kava.png": "/gostilna_pod_podom_website/static/media/sladice_ledena_kava.09677c1b169e12d0a775.png",
     "static/media/ostala_solata.png": "/gostilna_pod_podom_website/static/media/ostala_solata.883ac84645b5d8e5ea1a.png",
-    "static/media/bovljek_hrib.jpg": "/gostilna_pod_podom_website/static/media/bovljek_hrib.f931527440020d75f517.jpg",
     "static/media/tripadvisor.png": "/gostilna_pod_podom_website/static/media/tripadvisor.3952bd93c1ca96a6af49.png",
     "index.html": "/gostilna_pod_podom_website/index.html",
-    "main.68cef879.css.map": "/gostilna_pod_podom_website/static/css/main.68cef879.css.map",
-    "main.67251844.js.map": "/gostilna_pod_podom_website/static/js/main.67251844.js.map"
+    "main.9d726f45.css.map": "/gostilna_pod_podom_website/static/css/main.9d726f45.css.map",
+    "main.84f9acfe.js.map": "/gostilna_pod_podom_website/static/js/main.84f9acfe.js.map"
   },
   "entrypoints": [
-    "static/css/main.68cef879.css",
-    "static/js/main.67251844.js"
+    "static/css/main.9d726f45.css",
+    "static/js/main.84f9acfe.js"
   ]
 }
