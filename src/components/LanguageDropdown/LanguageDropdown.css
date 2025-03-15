@@ -3,6 +3,7 @@
   z-index: 5;
   margin: 0;
   padding: 1.2rem 0.5rem;
+  width: 3.5rem;
   justify-content: center;
 }
 .language-dropdown button {
