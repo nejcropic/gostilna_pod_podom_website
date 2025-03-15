@@ -99,3 +99,41 @@
   align-items: center;
   justify-content: center;
 }
+.kontakt-item-button {
+  height: 2.5rem;
+  width: 200px;
+  background-color: var(--mainColor);
+  margin-top: 1rem;
+}
+
+.kontakt-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  max-width: 200px;
+  font-family: var(--fontSecond);
+  font-size: var(--fontSizePhone);
+  color: var(--white);
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border 0.3s ease;
+  box-sizing: border-box;
+}
+
+.kontakt-button:hover {
+  border: 1px solid var(--mainColor);
+  background-color: var(--white);
+  color: var(--mainColor);
+}
+
+@media screen and (max-width: 768px) {
+  .kontakt-button {
+    font-size: var(--fontSizePhone);
+  }
+}

@@ -7,8 +7,14 @@
   text-align: center;
   color: var(--mainColor);
   font-family: var(--fontSecond);
+  padding: 1rem 0;
 }
 
+.meni-hero-wrapper h2 {
+  padding: 0.5rem;
+  border-radius: 2px;
+  border: 1px solid var(--mainColor);
+}
 .meni-hero-top {
   display: flex;
   align-items: center;

@@ -30,9 +30,13 @@ export default function Kontakt() {
                 </button>
               </Link>
             </div>
-            <a href="https://maps.app.goo.gl/jK11yzpicywKAyr17">
-              <button> {t("kontakt.navodila")}</button>
-            </a>
+            <div className="kontakt-item-button">
+              <a href="https://maps.app.goo.gl/jK11yzpicywKAyr17">
+                <button className="kontakt-button">
+                  {t("kontakt.navodila")}
+                </button>
+              </a>
+            </div>
           </div>
           <div className="kontakt-item">
             <h2>{t("kontakt.odpiralnicas")}:</h2>

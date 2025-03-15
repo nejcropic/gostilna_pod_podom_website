@@ -16,14 +16,14 @@ function Gostisce() {
     <>
       <HeroSite title={t("gostilna.naslov")} image={HeroSlika} className="" />
       <div className="site-gallery">
-        <SiteText description={t("gostilna.opis_1")} />
+        <SiteText adjust="adjust" description={t("gostilna.opis_1")} />
         <SiteImage image={Slika1} />
       </div>
       <div className="site-gallery full">
         <SiteImage image={Slika2} />
       </div>
       <div className="site-gallery">
-        <SiteText description={t("gostilna.opis_2")} />
+        <SiteText adjust="adjust" description={t("gostilna.opis_2")} />
         <SiteImage image={Slika3} />
 
         <SiteImage image={Slika4} />

@@ -14,13 +14,13 @@
     "uvod": {
       "main": "Pice",
       "naslov": "Prava pica, prava izkušnja!",
-      "tekst": "Vabimo vas, da poskusite naše odlične pice, pripravljene z ljubeznijo in mojstrsko roko izkušenega picopeka. Poleg hrustljavih pic vam nudimo tudi druge dobrote, ki jih pripravljava posebej za vas. Nudimo tudi kosila za zaključene družbe od 15 oseb naprej po predhodnem naročilu na telefon 031/307-279.",
+      "tekst": "Vabimo vas, da poskusite naše odlične pice, pripravljene z ljubeznijo in mojstrsko roko izkušenega picopeka Marka. Poleg hrustljavih pic vam nudimo tudi druge dobrote, ki jih pripravljamo posebej za vas. Nudimo tudi kosila za zaključene družbe od 15 oseb naprej po predhodnem naročilu na telefon 031/307-279.",
       "button": "Meni"
     },
     "ambient": {
       "main": "Ambient",
       "naslov": "Prijetno vzdušje za vse generacije",
-      "tekst": "Naša notranjost je zasnovana tako, da vam omogoča sproščeno uživanje v hrani, ob tem pa vas pričakuje prijazna postrežba in domače vzdušje.",
+      "tekst": "Naša notranjost je zasnovana 'iz poda' - lesenega kmečkega objekta. Srce prostora je kuršna peč, katera daje toplino, sproščeno vzdušje in prijazno osebje. ",
       "list1": "Večerje v dvoje",
       "list2": "Družinska srečanja",
       "list3": "Prijetna druženja s prijatelji",
@@ -29,7 +29,7 @@
     "okolica": {
       "main": "Okolica",
       "naslov": "Narava in razgledi",
-      "tekst": "Naše gostišče se nahaja na slikovitem hribu, s prekrasnim razgledom na dolino reke Krke. Le nekaj korakov stran se dviga hrib Bovljek, priljubljena točka za krajše pohode in sprostitev v naravi. Po osvežujočem pohodu ali izletu se lahko pri nas okrepite z okusnimi picami, osvežilnimi pijačami ter uživate v svežem zraku in prijetnem ambientu.",
+      "tekst": "Naše gostišče se nahaja na slikovitem hribu, s prekrasnim razgledom na dolino reke Krke. Le nekaj korakov stran se dviga hrib Bovljek, priljubljena točka za krajše pohode in sprostitev v naravi. Po osvežujočem pohodu ali izletu se lahko pri nas okrepite z okusnimi picami napolitana, osvežilnimi pijačami ter uživate v svežem zraku in prijetnem ambientu.",
       "list1": "Nepozaben razgled na dolino reke Krke",
       "list2": "Odlično izhodišče za krajše pohode",
       "list3": "Prijetno okolje za sprostitev in druženje",
@@ -43,7 +43,7 @@
   },
   "lokacija": {
     "naslov": "Okolica",
-    "opis_1": "Na terasi vas bo razvajal prelep pogled na dolino reke Krke. V vseh letnih časih ponuja edinstveno podobo - od zelenih pomladnih gričev, poletne igre svetlobe na vodi, do jesenskih barv in mirne zimske beline.",
+    "opis_1": "Na terasi vas bo razvajal prelep pogled na okoliške griče, zelene gozdove spomladi, jesenske barve, pozimipa na idilo zime - skratka, v vseh letnih časih. Občutite mir, sprostitev, zaslišite čričke ptičke, lahko se sprehodite po poti na bližnji hirb Bovljek. Doživite to pri nas, vabljeni!",
     "opis_2": "Dobrih 20min hoje od gostišča se dviga hrib Bovljek, ki je priljubljena destinacija za krajše pohode. Pot do vrha je nezahtevna in primerna za vse generacije. V bližnji prihodnosti bo na vrhu hriba Bovljek zrasel razgledni stolp, ki bo obiskovalcem ponudil pogled na celotno Suho krajino in širšo okolico. Stolp bo postal nova atrakcija, ki bo privabljala ljubitelje narave, fotografije in sprostitve v objemu hribov."
   },
   "kontakt": {
@@ -79,37 +79,37 @@
     },
     "bovljek": {
       "ime": "Bovljek",
-      "sestavine": "pelati, sir, ogrska salama, kuhan pršut,panceta, sveži šampinjoni, pekoči feferoni, oliva",
+      "sestavine": "pelati, sir, ogrska salama, kuhan pršut, panceta, sveži šampinjoni, pekoči feferoni, oliva",
       "cena": "11,90"
     },
     "kraska": {
       "ime": "Kraška",
-      "sestavine": "pelati, sir,  šampinjoni, pršut, oliva",
+      "sestavine": "pelati, sir, šampinjoni, pršut, oliva",
       "cena": "11,70"
     },
     "mexicana": {
       "ime": "Mexicana",
-      "sestavine": "pelati, sir, bolonjska omaka, koruza,paprika,nacho sir, oliva",
+      "sestavine": "pelati, sir, bolonjska omaka, koruza, paprika, nacho sir, oliva",
       "cena": "11,90"
     },
     "piscancja": {
       "ime": "Piščančja",
-      "sestavine": "pelati, sir,piščančji file, paprika,češnjev paradižnik, domača tatarska omaka, oliva",
+      "sestavine": "pelati, sir, piščančji file, paprika, češnjev paradižnik, domača tatarska omaka, oliva",
       "cena": "11,90"
     },
     "morska": {
       "ime": "Morska",
-      "sestavine": "pelati, sir, morski sadeži, tuna,česnova omaka, oliva",
+      "sestavine": "pelati, sir, morski sadeži, tuna, česnova omaka, oliva",
       "cena": "12,50"
     },
     "tuna": {
       "ime": "Tuna",
-      "sestavine": "pelati, sir,tuna,česnova omaka, oliva",
+      "sestavine": "pelati, sir, tuna, česnova omaka, oliva",
       "cena": "11,90"
     },
     "lignji": {
       "ime": "Lignji",
-      "sestavine": "pelati,mozzarela, lignji,kapre,česnova omaka,  oliva",
+      "sestavine": "pelati, mozzarela, lignji, kapre, česnova omaka,  oliva",
       "cena": "12,00"
     },
     "ribic": {
@@ -119,7 +119,7 @@
     },
     "vegia": {
       "ime": "Vegi",
-      "sestavine": "pelati, sir,marinirani melancani, bučke, paprika, koruza, česnjev paradižnik,  sveži šampinjoni, oliva",
+      "sestavine": "pelati, sir, marinirani melancani, bučke, paprika, koruza, česnjev paradižnik, sveži šampinjoni, oliva",
       "cena": "10,90"
     },
     "poletna": {
@@ -129,7 +129,7 @@
     },
     "picopek": {
       "ime": "Picopek",
-      "sestavine": "pelati, mozzarela, panceta, pršut,pesto,sušen in češnjev paradižnik, rukola, oliva",
+      "sestavine": "pelati, mozzarela, panceta, pršut, pesto, sušen in češnjev paradižnik, rukola, oliva",
       "cena": "12,70"
     },
     "tartufi": {
@@ -139,12 +139,12 @@
     },
     "buffala": {
       "ime": "Buffala",
-      "sestavine": "pelati, buffala sir, kuhan pršut,češnjev paradižnik, bazilika",
+      "sestavine": "pelati, buffala sir, kuhan pršut, češnjev paradižnik, bazilika",
       "cena": "13,70"
     },
     "burrata": {
       "ime": "Burrata",
-      "sestavine": "omaka iz kisle smetan in pesta, burrata sir, kuhan pršut, pistacija, sušen in češnjev paradižnik, rukola, extra deviško oljčno olje",
+      "sestavine": "omaka iz kisle smetane in pesta, burrata sir, kuhan pršut, pistacija, sušen in češnjev paradižnik, rukola, extra deviško oljčno olje",
       "cena": "14,50"
     },
     "margerita": {
@@ -288,48 +288,57 @@
   "ostala_ponudba": {
     "puranji_dunajski_zrezek": {
       "ime": "Puranji dunajski zrezek",
-      "cena": "14,00"
+      "cena": "14,00",
+      "slika": "ostala_dunajc.png"
     },
     "ocvrti_kalamari": {
       "ime": "Ocvrti kalamari s pomfrijem",
-      "cena": "14,50"
+      "cena": "14,50",
+      "slika": "ostala_kalamari.png"
     },
     "pomfri": {
       "ime": "Pomfri",
-      "cena": "3,00"
+      "cena": "3,00",
+      "slika": "ostala_pomfri.png"
     },
     "mesana_solata": {
       "ime": "Mešana solata",
-      "cena": "3,00"
+      "cena": "3,00",
+      "slika": "ostala_solata.png"
     }
   },
   "sladice": {
     "palacinke_marmelada": {
       "ime": "Palačinke z marelično marmelado",
       "cena": "3,50",
-      "slika": "../../images/sladice_1.jpg"
+      "slika": "sladice_marmeladne.png"
     },
     "palacinke_nutella": {
       "ime": "Palačinke z nutello",
-      "cena": "4,00"
+      "cena": "4,00",
+      "slika": "sladice_cokoladne.png"
     },
     "palacinke_orehi": {
       "ime": "Palačinke z orehovim nadevom",
-      "cena": "4,50"
+      "cena": "4,50",
+      "slika": "sladice_orehove.png"
     },
     "pannacotta": {
       "ime": "Panna cotta z gozdnimi sadeži",
-      "cena": "4,00"
+      "cena": "4,00",
+      "slika": "sladice_panacota.png"
     }
   },
   "sladice_poleti": {
     "domaca_ledena_kava": {
       "ime": "Domača ledena kava",
-      "cena": "4,50"
+      "cena": "4,50",
+      "slika": "sladice_ledena_kava.png"
     },
-    "sladoled_razlini": {
+    "sladoled_razlicni": {
       "ime": "Sladoled različni okusi",
-      "cena": ""
+      "cena": "",
+      "slika": "sladice_sladoled.jpg"
     }
   }
 }

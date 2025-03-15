@@ -27,13 +27,19 @@
 }
 
 .meni-card {
+  height: 180px;
   width: 100%;
-  padding: 0.5rem;
+  padding: 1rem; /* Increased padding for better spacing */
   transition: transform 0.2s ease-in-out;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: var(--mainColor);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1); /* Modern line under the card */
+  background: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+  border-radius: 8px; /* Smooth rounded corners */
 }
-
 .meni-card:hover {
   transform: scale(1.05);
 }
@@ -47,15 +53,27 @@
   font-size: 1rem;
   color: #666;
 }
+.meni-card img {
+  width: 50%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+}
 .meni-text {
   margin: 0;
-  max-width: 80%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.meni-text h3 {
+  margin-left: 0;
 }
 .meni-price {
   font-weight: bold;
   font-size: 1.2rem;
   color: var(--secondaryColor);
-  margin-right: 0;
+  margin-left: 0;
   margin-top: 0;
 }
 
@@ -64,4 +82,59 @@
   margin-top: 2rem;
   background-color: var(--mainColor);
   height: 4px;
+}
+
+/* Odmakni ko bodo slike za pice */
+.meni-card-pizza {
+  height: auto;
+  width: 100%;
+  padding: 1rem; /* Increased padding for better spacing */
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--mainColor);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1); /* Modern line under the card */
+  background: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+  border-radius: 8px; /* Smooth rounded corners */
+}
+.meni-card-pizza:hover {
+  transform: scale(1.05);
+}
+
+.meni-card-pizza h3 {
+  font-size: calc(var(--fontSizePc) - 0.3rem);
+  margin-bottom: 5px;
+}
+
+.meni-card-pizza p {
+  font-size: 1rem;
+  color: #666;
+}
+.meni-card-pizza img {
+  width: 50%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+}
+.meni-text-pizza {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.meni-text-pizza h3,
+.meni-text-pizza p {
+  margin-left: 0;
+  width: 80%;
+}
+.meni-price-pizza {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--secondaryColor);
+  margin-right: 0;
+  margin-top: 0;
 }

@@ -1,14 +1,16 @@
 import React from "react";
 import "./MeniHero.css";
 
-import PicaMeni from "../../icons/meni_pice.png";
-import OstaleJedi from "../../icons/meni_ostala_ponudba.png";
-import Sladice from "../../icons/meni_sladice.png";
+import PicaMeni from "../../meni/meni_pice.png";
+import OstaleJedi from "../../meni/ostala_kalamari.png";
+import Sladice from "../../meni/sladice_cokoladne.png";
 
 export default function MeniHero({ onCategoryClick }) {
   return (
     <section className="meni-hero-wrapper">
-      <h2>Izberi ponudbo</h2>
+      <h2>
+        Izberi ponudbo <i class="fa-regular fa-hand-pointer"></i>
+      </h2>
       <div className="meni-hero-container">
         <div className="meni-hero-card" onClick={() => onCategoryClick("pice")}>
           <div className="meni-card-text">
@@ -22,8 +24,6 @@ export default function MeniHero({ onCategoryClick }) {
         >
           <div className="meni-card-text">
             <h1>Ostala ponudba</h1>
-            {/*    <p>Opis? Nudimo tudi ostale jedi, dunajc, kalamari.. </p>
-             */}{" "}
           </div>
           <img src={OstaleJedi} alt="Ostala Ponudba" />
         </div>
@@ -33,8 +33,6 @@ export default function MeniHero({ onCategoryClick }) {
         >
           <div className="meni-card-text">
             <h1>Sladice</h1>
-            {/*    <p>Sladice poleti..</p>
-             */}{" "}
           </div>
           <img src={Sladice} alt="Sladice" />
         </div>

@@ -18,11 +18,11 @@ function Lokacija() {
       <HeroSite title={t("lokacija.naslov")} image={HeroSlika} />
 
       <div className="site-gallery">
-        <SiteText className="adjust" description={t("lokacija.opis_1")} />
+        <SiteText adjust="adjust" description={t("lokacija.opis_1")} />
         <SiteImage image={Slika1} />
         <SiteImage image={Slika2} />
         <SiteImage image={Slika4} />
-        <SiteText description={t("lokacija.opis_2")} />
+        <SiteText adjust="adjust" description={t("lokacija.opis_2")} />
         <SiteImage image={Slika3} />
       </div>
     </>

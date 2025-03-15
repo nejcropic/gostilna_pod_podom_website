@@ -14,6 +14,7 @@
 }
 .adjust {
   width: 100%;
+  padding: 10vh 7.5%;
 }
 .site-text {
   width: 100%;
@@ -29,6 +30,9 @@
   }
   .site-text {
     width: calc(100% - 40px);
+  }
+  .adjust {
+    padding: 10vh 0;
   }
 }
 
