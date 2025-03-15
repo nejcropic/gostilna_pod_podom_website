@@ -14,7 +14,11 @@ function Gostisce() {
   const { t } = useTranslation("global");
   return (
     <>
-      <HeroSite title={t("gostilna.naslov")} image={HeroSlika} className="" />
+      <HeroSite
+        title={t("gostilna.naslov")}
+        imageLarge={HeroSlika}
+        className=""
+      />
       <div className="site-gallery">
         <SiteText adjust="adjust" description={t("gostilna.opis_1")} />
         <SiteImage image={Slika1} />

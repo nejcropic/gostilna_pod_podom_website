@@ -40,7 +40,7 @@ function Meni() {
 
   return (
     <>
-      <HeroSite title="Meni" image={HeroSlika} className="moveLeft" />
+      <HeroSite title="Meni" imageLarge={HeroSlika} className="moveLeft" />
       <MeniHero onCategoryClick={handleCategoryClick} />
 
       <div ref={menuRef}>

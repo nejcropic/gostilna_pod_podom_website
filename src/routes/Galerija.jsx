@@ -6,7 +6,7 @@ import GalerijaMain from "../components/Galerija/GalerijaHero";
 function Galerija() {
   return (
     <>
-      <HeroSite title="Galerija" image={HeroSlika} className="" />
+      <HeroSite title="Galerija" imageLarge={HeroSlika} className="" />
       <GalerijaMain />
     </>
   );

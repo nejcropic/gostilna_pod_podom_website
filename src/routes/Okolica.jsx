@@ -15,7 +15,7 @@ function Lokacija() {
   const { t } = useTranslation("global");
   return (
     <>
-      <HeroSite title={t("lokacija.naslov")} image={HeroSlika} />
+      <HeroSite title={t("lokacija.naslov")} imageLarge={HeroSlika} />
 
       <div className="site-gallery">
         <SiteText adjust="adjust" description={t("lokacija.opis_1")} />
