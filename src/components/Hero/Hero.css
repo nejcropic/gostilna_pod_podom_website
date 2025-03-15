@@ -1,38 +1,36 @@
 .hero-container {
   position: relative;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100vh;
   filter: brightness(0.7);
   background-image: url("../../images/naslovna.jpg");
-  background-attachment: fixed;
-  background-position: center;
   background-size: cover;
-}
-@media (max-width: 768px) {
-  .moveLeft {
-    background-position: 20% center;
-  }
-  .moveRight {
-    background-position: 80% center;
-  }
+  background-position: center;
+  z-index: 0;
+  will-change: transform;
+  transition: transform 0.05s ease-out;
 }
 
 .hero-title {
-  position: absolute;
+  position: relative;
   z-index: 2;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 70%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-family: var(--fontMain);
+  text-transform: uppercase;
   background: none;
 }
 
@@ -78,5 +76,4 @@
 
 .herosite {
   bottom: 0%;
-  transform: translate(-50%, 0%);
 }

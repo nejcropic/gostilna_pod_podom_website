@@ -3,11 +3,11 @@
     "title": "Gostišče pod podom"
   },
   "nav": {
-    "ponudba": "ponudba",
-    "prednosti": "prednosti",
-    "dimenzije": "dimenzije",
-    "cenik": "cenik",
-    "kontakt": "kontakt",
+    "domov": "domov",
+    "meni": "meni",
+    "gostisce": "gostišče",
+    "lokacija": "lokacija",
+    "galerija": "galerija",
     "naroci": "Naroči"
   },
   "home": {
@@ -37,7 +37,7 @@
     }
   },
   "gostilna": {
-    "naslov": "Gostišče/Prostori/Opis",
+    "naslov": "Gostišče",
     "opis_1": "Pred časom so se nama uresničile sanje. V Suhi krajini, v vasi Kuželjevec, sva odprla svoje Gostišče Pod Podom. Vabiva vas, da poskusite naše odlične pice, pripravljene z ljubeznijo, in druge dobrote, ki jih ustvarjava za vas.",
     "opis_2": "Vsak vaš obisk in vsaka pohvala nama pomenita ogromno – to naju žene naprej in nama daje še večjo motivacijo za delo. Hvala, ker verjamete v najin trud!"
   },

@@ -1,23 +1,22 @@
-// NavBarItems.jsx
-export const NavBarItems = [
+export const getNavBarItems = (t) => [
   {
-    key: "domov",
+    key: t("nav.domov"),
     url: "/",
   },
   {
-    key: "meni",
+    key: t("nav.meni"),
     url: "/meni",
   },
   {
-    key: "prostori",
-    url: "/prostori",
+    key: t("nav.gostisce"),
+    url: "/gostisce",
   },
   {
-    key: "lokacija",
+    key: t("nav.lokacija"),
     url: "/lokacija",
   },
   {
-    key: "galerija",
+    key: t("nav.galerija"),
     url: "/galerija",
   },
 ];

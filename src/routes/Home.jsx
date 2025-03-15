@@ -1,10 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import Hero from "../components/Hero/Hero";
-import HomeText from "../components/Home/HomeText";
-import HomeTextList from "../components/Home/HomeTextList";
-import HomeGallery from "../components/Home/HomeGallery";
-import HomeImage from "../components/Home/HomeImage";
 import Mnenja from "../components/Mnenja/Mnenja";
 
 /* Slike */
@@ -15,6 +11,9 @@ import Hrana2 from "../images/kalamari.jpeg";
 import Hrana3 from "../images/home_sladica.jpg";
 import Hrana4 from "../images/plosca.png";
 import { Naslovnica } from "..";
+import SiteImage from "../components/Site/SiteImage";
+import SiteGallery from "../components/Site/SiteGallery";
+import SiteText from "../components/Site/SiteText";
 
 function getGalleryImages(category) {
   const imageSets = {
@@ -31,7 +30,7 @@ function Home() {
     <div>
       <Hero image={Naslovnica} title="Gostišče" span="pod podom" />
       {/* Uvod */}
-      <HomeText
+      <SiteText
         main={t("home.uvod.main")}
         title={t("home.uvod.naslov")}
         description={t("home.uvod.tekst")}
@@ -39,8 +38,10 @@ function Home() {
         link="/meni"
       />
       {/* Ambient - notranjost */}
-      <HomeImage image={Slika1} />
-      <HomeTextList
+      <div className="site-gallery full">
+        <SiteImage image={Slika1} />
+      </div>
+      <SiteText
         main={t("home.ambient.main")}
         title={t("home.ambient.naslov")}
         description={t("home.ambient.tekst")}
@@ -53,12 +54,14 @@ function Home() {
         link="/prostori"
       />
       {/* Galerija */}
-      <HomeGallery images={getGalleryImages("hrana")} />
+      <SiteGallery images={getGalleryImages("hrana")} />
       {/* Mnenja */}
       <Mnenja />
       {/* Terasa */}
-      <HomeImage image={Slika2} />
-      <HomeTextList
+      <div className="site-gallery full">
+        <SiteImage image={Slika2} />
+      </div>
+      <SiteText
         main={t("home.okolica.main")}
         title={t("home.okolica.naslov")}
         description={t("home.okolica.tekst")}

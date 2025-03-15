@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./SiteImage.css";
+import "./SiteGallery.css";
 
 function SiteImage({ image }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,10 +12,9 @@ function SiteImage({ image }) {
 
   return (
     <>
-      <section className="site-image" onClick={() => setIsOpen(true)}>
+      <section onClick={() => setIsOpen(true)}>
         <img src={image} alt="Site" />
       </section>
-
       {isOpen && (
         <div className="lightbox" onClick={closeLightbox}>
           <button className="close-button" onClick={() => setIsOpen(false)}>

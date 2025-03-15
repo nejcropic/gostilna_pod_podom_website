@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
-import { NavBarItems } from "./NavBarItems";
+import { getNavBarItems } from "./NavBarItems";
 import LanguageDropdown from "../LanguageDropdown/LanguageDropdown";
 import { navAnimation, navAnimationPhone } from "../animations";
 import { motion } from "framer-motion";
@@ -11,6 +11,7 @@ import MenuWhite from "../../icons/menu_white.png";
 import MenuCross from "../../icons/cross.png";
 function NavBar() {
   const { t } = useTranslation("global");
+  const navItems = getNavBarItems(t);
   const [navState, setNavState] = useState(false);
   const [navMenu, setNavMenu] = useState(false);
   const [showBorder, setShowBorder] = useState(false);
@@ -37,7 +38,7 @@ function NavBar() {
           <Link to="/">pod podom</Link>
         </div>
         <div className={navMenu ? "nav-container active" : "nav-container"}>
-          {NavBarItems.map((item, index) => (
+          {navItems.map((item, index) => (
             <Link
               key={index}
               className="nav-links"

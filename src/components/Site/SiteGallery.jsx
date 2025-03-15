@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./HomeGallery.css";
+import "./SiteGallery.css";
 
-function HomeGallery({ images }) {
+function SiteGallery({ images }) {
   const [selectedIndex, setSelectedIndex] = useState(null);
 
   const handleNext = () => {
@@ -21,7 +21,7 @@ function HomeGallery({ images }) {
   };
 
   return (
-    <div className="home-gallery">
+    <div className="site-gallery">
       {images.map((image, index) => (
         <section key={index} onClick={() => setSelectedIndex(index)}>
           <img src={image} alt={`Gallery ${index + 1}`} />
@@ -53,4 +53,4 @@ function HomeGallery({ images }) {
   );
 }
 
-export default HomeGallery;
+export default SiteGallery;
