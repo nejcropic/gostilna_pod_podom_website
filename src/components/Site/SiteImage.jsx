@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./SiteGallery.css";
+import { motion } from "framer-motion";
+import { textUp, textLeftToCenter, fadeIn } from "../animations";
 
 function SiteImage({ image }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +15,14 @@ function SiteImage({ image }) {
   return (
     <>
       <section onClick={() => setIsOpen(true)}>
-        <img src={image} alt="Site" />
+        <motion.img
+          src={image}
+          alt="Site"
+          variants={fadeIn}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+        />
       </section>
       {isOpen && (
         <div className="lightbox" onClick={closeLightbox}>

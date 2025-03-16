@@ -102,13 +102,13 @@
   z-index: 5;
   margin: 1rem;
   padding: 0.2rem;
-  width: 130px;
+  width: 200px;
   justify-content: center;
 }
 
 .galerija-dropdown-toggle {
   height: 2rem;
-  width: 130px;
+  width: 200px;
   border: 1px solid var(--mainColor);
   cursor: pointer;
   background: white;
@@ -134,7 +134,7 @@
   padding: 0;
   margin: 0;
   z-index: 1000;
-  width: 130px;
+  width: 200px;
 }
 .galerija-dropdown-menu li {
   width: auto;
@@ -151,10 +151,16 @@
 }
 
 @media screen and (max-width: 1000px) {
-  /* .galerija-dropdown-toggle {
-    height: 1.5rem;
-    width: 2.5rem;
-  } */
+  .galerija-dropdown {
+    width: 150px;
+  }
+
+  .galerija-dropdown-toggle {
+    width: 150px;
+  }
+  .galerija-dropdown-menu {
+    width: 150px;
+  }
 
   .galerija-dropdown-menu li {
     padding: 5px 0;

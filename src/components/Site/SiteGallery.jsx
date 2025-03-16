@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./SiteGallery.css";
+import { motion } from "framer-motion";
+import { fadeInLeft, fadeInRight } from "../animations";
 
 function SiteGallery({ images }) {
   const [selectedIndex, setSelectedIndex] = useState(null);
@@ -24,7 +26,14 @@ function SiteGallery({ images }) {
     <div className="site-gallery">
       {images.map((image, index) => (
         <section key={index} onClick={() => setSelectedIndex(index)}>
-          <img src={image} alt={`Gallery ${index + 1}`} />
+          <motion.img
+            src={image}
+            variants={index % 2 === 0 ? fadeInLeft : fadeInRight}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            alt={`Gallery ${index + 1}`}
+          />
         </section>
       ))}
 

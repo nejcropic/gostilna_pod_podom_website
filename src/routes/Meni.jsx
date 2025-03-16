@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import HeroSite from "../components/Hero/HeroSite";
 import MeniHero from "../components/Meni/MeniHero";
 import MeniFood from "../components/Meni/MeniFood";
-import MeniFoodPizza from "../components/Meni/MeniPizza"; // Keep only for "pice"
 
 import HeroSlika from "../images/prostori_pec.jpg";
 import MeniDodatki from "../components/Meni/MeniDodatki";
@@ -28,14 +27,13 @@ function Meni() {
     }, 200);
   };
 
-  // Select menu data based on the selected category
   const selectedData =
     selectedCategory === "pice"
       ? pice
       : selectedCategory === "ostala_ponudba"
       ? ostala_ponudba
       : selectedCategory === "sladice"
-      ? { sladice, sladice_poleti } // Keep them as separate objects
+      ? { sladice, sladice_poleti }
       : [];
 
   return (
@@ -46,7 +44,7 @@ function Meni() {
       <div ref={menuRef}>
         {selectedCategory === "pice" ? (
           <>
-            <MeniFoodPizza title="Pice" translations={selectedData} />
+            <MeniFood title="Pice" translations={selectedData} />
             <MeniDodatki title="Dodatki" translations={dodatki} />
           </>
         ) : selectedCategory === "sladice" ? (

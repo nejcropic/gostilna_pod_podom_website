@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import "./Galerija.css";
-import GalerijaDropdown from "./GalerijaDropdown"; // Import the dropdown component
+import GalerijaDropdown from "./GalerijaDropdown";
+import { motion } from "framer-motion";
+import { fadeInLeft, fadeInRight } from "../animations";
 
 // Manually define the groups
 const groups = [
@@ -75,7 +77,14 @@ function GalerijaMain() {
       <div className="home-gallery">
         {filteredImages.map((image, index) => (
           <section key={index} onClick={() => setSelectedIndex(index)}>
-            <img loading="lazy" src={image.src} alt={`Gallery ${index + 1}`} />
+            <motion.img
+              variants={index % 2 === 0 ? fadeInLeft : fadeInRight}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              src={image.src}
+              alt={`Gallery ${index + 1}`}
+            />
           </section>
         ))}
       </div>
