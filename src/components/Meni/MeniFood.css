@@ -27,7 +27,7 @@
 }
 
 .meni-card {
-  height: auto;
+  height: 150px;
   width: 100%;
   padding: 1rem; /* Increased padding for better spacing */
   transition: transform 0.2s ease-in-out;
@@ -43,6 +43,11 @@
 .meni-card:hover {
   transform: scale(1.05);
 }
+@media screen and (max-width: 768px) {
+  .meni-card {
+    height: auto;
+  }
+}
 
 .meni-card h3 {
   font-size: calc(var(--fontSizePc) - 0.3rem);
@@ -57,7 +62,7 @@
 .meni-card img {
   width: 40%;
   height: auto;
-  max-height: 180px;
+  max-height: 120px;
   object-fit: contain;
   margin: 0;
 }

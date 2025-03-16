@@ -63,26 +63,6 @@ function NavBar() {
         <button onClick={showNavBar}>
           <img src={navMenu ? MenuCross : MenuWhite} alt="Menu Icon" />
         </button>
-
-        {/* <div className={navMenu ? "nav-container active" : "nav-container"}>
-          {NavBarItems.map((item, index) => (
-            <Link
-              key={index}
-              className={item.cName}
-              to={item.url}
-              onClick={() => {
-                window.scroll({
-                  top: 0,
-                  left: 0,
-                  behavior: "smooth",
-                });
-                showNavBar();
-              }}
-            >
-              {item.key}
-            </Link>
-          ))}
-        </div> */}
       </nav>
     </>
   );

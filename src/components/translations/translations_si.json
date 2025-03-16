@@ -307,24 +307,24 @@
   },
   "ostala_ponudba": {
     "puranji_dunajski_zrezek": {
-      "ime": "Puranji dunajski zrezek",
+      "ime": "Puranji dunajski zrezek s pomfrijem",
       "cena": "14,00",
-      "slika": "ostala_dunajc.png"
+      "slika": "ostale_jedi_dunajc.png"
     },
     "ocvrti_kalamari": {
       "ime": "Ocvrti kalamari s pomfrijem",
       "cena": "14,50",
-      "slika": "ostala_kalamari.png"
+      "slika": "ostale_jedi_kalamari.png"
     },
     "pomfri": {
       "ime": "Pomfri",
       "cena": "3,00",
-      "slika": "ostala_pomfri.png"
+      "slika": "ostale_jedi_pomfri.png"
     },
     "mesana_solata": {
       "ime": "Mešana solata",
       "cena": "3,00",
-      "slika": "ostala_solata.png"
+      "slika": "ostale_jedi_solata.png"
     }
   },
   "sladice": {
