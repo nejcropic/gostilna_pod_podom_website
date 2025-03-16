@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gostilna_pod_podom_website/static/css/main.a492bbbe.css",
-    "main.js": "/gostilna_pod_podom_website/static/js/main.21fa3e7b.js",
+    "main.js": "/gostilna_pod_podom_website/static/js/main.f283c0ca.js",
     "static/css/162.83d21c27.chunk.css": "/gostilna_pod_podom_website/static/css/162.83d21c27.chunk.css",
     "static/js/162.848fd8cb.chunk.js": "/gostilna_pod_podom_website/static/js/162.848fd8cb.chunk.js",
     "static/css/363.51c6b200.chunk.css": "/gostilna_pod_podom_website/static/css/363.51c6b200.chunk.css",
@@ -110,7 +110,7 @@
     "static/media/tripadvisor.png": "/gostilna_pod_podom_website/static/media/tripadvisor.3952bd93c1ca96a6af49.png",
     "index.html": "/gostilna_pod_podom_website/index.html",
     "main.a492bbbe.css.map": "/gostilna_pod_podom_website/static/css/main.a492bbbe.css.map",
-    "main.21fa3e7b.js.map": "/gostilna_pod_podom_website/static/js/main.21fa3e7b.js.map",
+    "main.f283c0ca.js.map": "/gostilna_pod_podom_website/static/js/main.f283c0ca.js.map",
     "162.83d21c27.chunk.css.map": "/gostilna_pod_podom_website/static/css/162.83d21c27.chunk.css.map",
     "162.848fd8cb.chunk.js.map": "/gostilna_pod_podom_website/static/js/162.848fd8cb.chunk.js.map",
     "363.51c6b200.chunk.css.map": "/gostilna_pod_podom_website/static/css/363.51c6b200.chunk.css.map",
@@ -124,6 +124,6 @@
   },
   "entrypoints": [
     "static/css/main.a492bbbe.css",
-    "static/js/main.21fa3e7b.js"
+    "static/js/main.f283c0ca.js"
   ]
 }
