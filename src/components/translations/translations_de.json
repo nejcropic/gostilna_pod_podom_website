@@ -1,103 +1,367 @@
 {
-  "home": {
-    "button": "Preisübersicht"
+  "hero": {
+    "title": "Gasthaus Unter dem Boden"
   },
   "nav": {
-    "ponudba": "Angebot",
-    "prednosti": "Vorteile",
-    "dimenzije": "Abmessungen",
-    "cenik": "Preisübersicht",
-    "kontakt": "Kontakt"
+    "domov": "Startseite",
+    "meni": "Menü",
+    "gostisce": "Gasthaus",
+    "okolica": "Umgebung",
+    "galerija": "Galerie",
+    "naroci": "Bestellen"
   },
-  "ponudba": {
-    "naslov": "ANGEBOT",
-    "komplet_1": {
-      "naslov": "SET 1",
-      "stojalo": "Ständer mit Ablage vorne",
-      "navadno": "Gewöhnlicher Ständer 2x"
+  "home": {
+    "uvod": {
+      "main": "Pizzen",
+      "naslov": "Echte Pizza, echtes Erlebnis!",
+      "tekst": "Wir laden Sie ein, unsere ausgezeichneten Pizzen zu probieren, die mit Liebe und der geschickten Hand unseres erfahrenen Pizzabäckers Marko zubereitet werden. Neben knusprigen Pizzen bieten wir auch weitere köstliche Gerichte an, die wir speziell für Sie zubereiten. Für Gruppen ab 15 Personen bieten wir auch Mittagessen nach vorheriger Reservierung unter 031/307-279 an.",
+      "button": "Menü"
     },
-    "komplet_2": {
-      "naslov": "SET 2",
-      "stojalo": "Ständer mit seitlicher Ablage 1x",
-      "navadno": "Gewöhnlicher Ständer 1x"
+    "ambient": {
+      "main": "Ambiente",
+      "naslov": "Ein gemütliches Ambiente für alle Generationen",
+      "tekst": "Unser Innenraum ist aus einem rustikalen Holzgebäude gestaltet. Das Herzstück des Raumes ist ein Holzofen, der Wärme und eine entspannte Atmosphäre schafft.",
+      "list1": "Romantische Abendessen",
+      "list2": "Familientreffen",
+      "list3": "Geselliges Beisammensein mit Freunden",
+      "button": "Räume entdecken"
     },
-    "posamicno": {
-      "naslov": "EINZELN",
-      "stojalo": "Schrank mit Ablage vorne 1x",
-      "navadno": "Schrank mit seitlichen Ablagen 1x",
-      "stojalo2": "Gewöhnlicher Ständer 3x"
+    "okolica": {
+      "main": "Umgebung",
+      "naslov": "Natur und Ausblick",
+      "tekst": "Unser Gasthaus befindet sich auf einem malerischen Hügel mit herrlichem Blick auf das Tal des Flusses Krka. Nur wenige Schritte entfernt erhebt sich der Hügel Bovljek – ein beliebter Ort für kurze Wanderungen und Entspannung in der Natur. Nach einer erfrischenden Wanderung oder einem Ausflug können Sie sich bei uns mit neapolitanischen Pizzen, erfrischenden Getränken und angenehmem Ambiente stärken.",
+      "list1": "Unvergesslicher Ausblick auf das Krka-Tal",
+      "list2": "Perfekter Ausgangspunkt für kurze Wanderungen",
+      "list3": "Angenehme Umgebung zum Entspannen und Beisammensein",
+      "button": "Umgebung entdecken"
     }
   },
-  "prednosti": {
-    "stik": {
-      "title": "Direkter Kontakt",
-      "text": "Ermöglicht Ihnen die direkte Interaktion mit Ihren Kunden. Dies stärkt das Vertrauen und die Beziehungen zu potenziellen Käufern."
-    },
-    "prepoznavnost": {
-      "title": "Erhöhte Sichtbarkeit",
-      "text": "Ein kreativ gestalteter Ständer zieht Aufmerksamkeit auf sich und kann zu einem markanten Punkt auf Veranstaltungen werden."
-    },
-    "prihranek": {
-      "title": "Kosteneinsparung",
-      "text": "Durch die Miete unseres Ständers sparen Sie Geld und können professionelle Ausstattung nur dann nutzen, wenn Sie sie benötigen."
-    },
-    "predstavitev": {
-      "title": "Neue Produktpräsentation",
-      "text": "Das Mieten eines Ständers schafft einen idealen Raum zur Präsentation neuer Produkte oder Dienstleistungen und fördert direkt den Verkauf."
-    },
-    "marketing": {
-      "title": "Effektives Marketing und Werbung",
-      "text": "Ermöglicht kreative Ansätze, die die Markenbotschaft unterstützen und die Sichtbarkeit erhöhen."
-    },
-    "dogodki": {
-      "title": "Ideal für Veranstaltungen",
-      "text": "Die Teilnahme an Messen und anderen Veranstaltungen mit einem professionellen Ständer steigert die Aufmerksamkeit und Attraktivität Ihrer Marke."
-    }
+  "gostilna": {
+    "naslov": "Gasthaus",
+    "opis_1": "Vor einiger Zeit ging unser Traum in Erfüllung. In Suha Krajina, im Dorf Kuželjevec, eröffneten wir das Gasthaus Unter dem Boden. Wir laden Sie ein, unsere köstlichen, mit Liebe zubereiteten Pizzen und weitere Leckereien zu probieren.",
+    "opis_2": "Jeder Besuch und jedes Lob bedeutet uns sehr viel – es motiviert uns und treibt uns weiter an. Danke, dass Sie an unsere Arbeit glauben!"
   },
-  "dimenzije": {
-    "naslov": "ABMESSUNGEN DER LED-BELEUCHTETEN STÄNDER",
-    "sirina": "BREITE",
-    "visina": "HÖHE",
-    "globina": "TIEFE",
-    "enote": {
-      "first": "1. EINHEIT",
-      "second": "2. EINHEIT",
-      "third": "3. EINHEIT",
-      "fourth": "4. EINHEIT",
-      "fifth": "5. EINHEIT"
-    }
+  "lokacija": {
+    "naslov": "Umgebung",
+    "opis_1": "Auf der Terrasse genießen Sie einen wunderschönen Blick auf die umliegenden Hügel, grüne Wälder im Frühling, herbstliche Farben und eine Winteridylle – einfach in jeder Jahreszeit. Sie spüren die Ruhe, entspannen sich und hören die Vögel zwitschern. Ein Spaziergang auf den nahegelegenen Bovljek-Hügel lohnt sich. Erleben Sie es bei uns – Sie sind herzlich willkommen!",
+    "opis_2": "Etwa 20 Gehminuten vom Gasthaus entfernt erhebt sich der Hügel Bovljek – ein beliebtes Ziel für kurze Wanderungen. Der Weg zum Gipfel ist einfach und für alle Altersgruppen geeignet. In naher Zukunft wird auf dem Gipfel ein Aussichtsturm errichtet, der den Besuchern einen Blick über ganz Suha Krajina und die weitere Umgebung bieten wird. Der Turm wird eine neue Attraktion für Naturliebhaber, Fotografen und Ruhesuchende."
   },
-  "najem": {
-    "naslov": "STÄNDER MIETEN",
-    "podnaslov": "Wählen Sie die Mietdauer",
-    "trajanje": {
-      "one": "1 Woche",
-      "two": "2 Wochen",
-      "three": "3 Wochen",
-      "four": "1 Monat"
-    },
-
-    "tabela": {
-      "stevilo_enot": "Anzahl der Einheiten",
-      "popust": "Rabatt",
-      "dodatni_popust": "Zusätzlicher Rabatt",
-      "cena": "Preis pro Einheit pro Woche",
-      "skupna": "Gesamtpreis"
-    },
-    "enote": {
-      "third": "3/SET 1",
-      "fifth": "5/SET 2"
-    },
-    "cene_ddv": "Preise ohne Mehrwertsteuer",
-    "pripada_orange": "Bei der Miete des Ständers erhalten Sie:",
-    "pripada": "Personalisierter Ständer mit Logo • Werbeplane • Transport und Montage",
-    "dodatna_orange": "Zusätzliches Angebot",
-    "dodatna_ponudba": "Transport und Montage des Ständers an den gewünschten Standort in Slowenien • Beleuchtetes Logo • Ständer in Wunschfarbe bekleben • Langzeitmiete • Erstellung weiterer Werbematerialien.",
-    "kontakt": "Kontakt",
-    "kontakt_popup": "Kontaktieren Sie uns",
-    "kontakt_zapri": "Schließen"
+  "galerija": {
+    "all": "Alle anzeigen",
+    "okolica": "Umgebung",
+    "ostale": "Weitere Gerichte",
+    "sladice": "Desserts",
+    "pice": "Pizzen",
+    "prostori": "Ambiente"
   },
   "kontakt": {
-    "naslov": "Kontaktieren Sie uns"
+    "naslov": "Kontaktieren Sie uns",
+    "navodila": "Anfahrt",
+    "odpiralnicas": "Öffnungszeiten",
+    "dnevi": {
+      "petek": "Freitag",
+      "sobota": "Samstag",
+      "nedelja": "Sonntag"
+    }
+  },
+  "pice": {
+    "klasika": {
+      "ime": "Klasika",
+      "sestavine": "Tomatensauce, Käse, gekochter Schinken, frische Champignons, Olive",
+      "cena": "10,90",
+      "slika": "pice_klasika.png"
+    },
+    "kuhan_prsut": {
+      "ime": "Kuhan pršut",
+      "sestavine": "Tomatensauce, Käse, gekochter Schinken, Olive",
+      "cena": "10,00",
+      "slika": "pice_kuhan_prsut.png"
+    },
+    "picopek": {
+      "ime": "Picopek",
+      "sestavine": "Tomatensauce, Mozzarella, Pancetta, Prosciutto, Pesto, getrocknete und Kirschtomaten, Rucola, Olive",
+      "cena": "12,70",
+      "slika": "pice_picopek.png"
+    },
+    "kraska": {
+      "ime": "Kraška",
+      "sestavine": "Tomatensauce, Käse, Champignons, Prosciutto, Olive",
+      "cena": "11,70",
+      "slika": "pice_kraska.png"
+    },
+    "morska": {
+      "ime": "Morska",
+      "sestavine": "Tomatensauce, Käse, Meeresfrüchte, Thunfisch, Knoblauchsauce, Olive",
+      "cena": "12,50",
+      "slika": "pice_morska.png"
+    },
+    "tuna": {
+      "ime": "Tuna",
+      "sestavine": "Tomatensauce, Käse, Thunfisch, Mais, rote Zwiebel, Olive",
+      "cena": "11,90",
+      "slika": "pice_tuna.png"
+    },
+    "lignji": {
+      "ime": "Lignji",
+      "sestavine": "Tomatensauce, Mozzarella, Tintenfisch, Kapern, Knoblauchsauce, Olive",
+      "cena": "12,00",
+      "slika": "pice_lignji.png"
+    },
+    "tartufi": {
+      "ime": "Tartufi",
+      "sestavine": "Sauerrahm-Trüffel-Sauce, Büffelkäse, Pancetta, frische Steinpilze, Trüffel-Olivenöl, schwarze Oliven",
+      "cena": "13,70",
+      "slika": "pice_tartufi.png"
+    },
+    "sadna": {
+      "ime": "Sadna",
+      "sestavine": "Teig, Nutella, Ricotta, Banane, Ananas",
+      "cena": "10,00",
+      "slika": "pice_sadna.png"
+    },
+    "pod_podom": {
+      "ime": "Pod podom",
+      "sestavine": "Tomatensauce, Käse, Hartwurst, gekochter Schinken, Pancetta, Speck, frische Steinpilze, Olive",
+      "cena": "12,90",
+      "slika": "pice_pod_podom.png"
+    },
+    "pikantna": {
+      "ime": "Pikantna",
+      "sestavine": "Tomatensauce, Käse, gekochter Schinken, pikante Salami, scharfe Pfefferoni, frische Champignons, scharfes Öl, Olive",
+      "cena": "11,70"
+    },
+    "bovljek": {
+      "ime": "Bovljek",
+      "sestavine": "Tomatensauce, Käse, ungarische Salami, gekochter Schinken, Pancetta, frische Champignons, scharfe Pfefferoni, Olive",
+      "cena": "11,90",
+      "slika": "pice_bovljek.png"
+    },
+    "mexicana": {
+      "ime": "Mexicana",
+      "sestavine": "Tomatensauce, Käse, Bolognese-Sauce, Mais, Paprika, Nachokäse, Olive",
+      "cena": "11,90"
+    },
+    "piscancja": {
+      "ime": "Piščančja",
+      "sestavine": "Tomatensauce, Käse, Hähnchenfilet, Paprika, Kirschtomate, hausgemachte Tartarsauce, Olive",
+      "cena": "11,90"
+    },
+    "ribic": {
+      "ime": "Ribič",
+      "sestavine": "Tomatensauce, Mozzarella, Forellenfilet, Kirschtomate, Garnelen, Knoblauchsauce, Olive",
+      "cena": "13,80",
+      "slika": "pice_ribic.png"
+    },
+    "vegi": {
+      "ime": "Vegi",
+      "sestavine": "Tomatensauce, Käse, marinierte Aubergine, Zucchini, Paprika, Mais, Kirschtomate, frische Champignons, Olive",
+      "cena": "10,90"
+    },
+    "poletna": {
+      "ime": "Poletna",
+      "sestavine": "Tomatensauce, Mozzarella, getrocknete und Kirschtomaten, Pesto, Rucola, Grana Padano Käse, Olive",
+      "cena": "12,30"
+    },
+    "buffala": {
+      "ime": "Buffala",
+      "sestavine": "Tomatensauce, Büffelkäse, gekochter Schinken, Kirschtomate, Basilikum",
+      "cena": "13,70"
+    },
+    "burrata": {
+      "ime": "Burrata",
+      "sestavine": "omaka iz kisle smetane in pesta, Burrata, gekochter Schinken, Pistazie, getrocknete und Kirschtomaten, Rucola, natives Olivenöl extra",
+      "cena": "14,50",
+      "slika": "pice_burrata.png"
+    },
+    "margerita": {
+      "ime": "Margerita",
+      "sestavine": "Tomatensauce, Käse, Olive",
+      "cena": "9,00",
+      "slika": "pice_margerita.png"
+    },
+    "picici": {
+      "ime": "Pičiči",
+      "sestavine": "Teig, sir + omake: domača tatarska omaka, Nachokäse, Tomatensauce, sour cream",
+      "cena": "9,50"
+    }
+  },
+
+  "dodatki": {
+    "kuhan_prsut": {
+      "ime": "Gekochter Schinken",
+      "cena": "1,50"
+    },
+    "prsut": {
+      "ime": "Prosciutto",
+      "cena": "2,00"
+    },
+    "slanina": {
+      "ime": "Speck",
+      "cena": "1,00"
+    },
+    "panceta": {
+      "ime": "Pancetta",
+      "cena": "1,50"
+    },
+    "suha_salama": {
+      "ime": "Hartwurst",
+      "cena": "1,50"
+    },
+    "pikantna_salama": {
+      "ime": "Würzige Salami",
+      "cena": "1,50"
+    },
+    "ogrska_salama": {
+      "ime": "Ungarische Salami",
+      "cena": "1,50"
+    },
+    "hrenovke": {
+      "ime": "Würstchen",
+      "cena": "1,00"
+    },
+    "svezi_jurcki": {
+      "ime": "Frische Steinpilze",
+      "cena": "3,00"
+    },
+    "svezi_sampinjoni": {
+      "ime": "Frische Champignons",
+      "cena": "1,50"
+    },
+    "cesnjev_paradiznik": {
+      "ime": "Kirschtomaten",
+      "cena": "2,00"
+    },
+    "rukola": {
+      "ime": "Rucola",
+      "cena": "1,00"
+    },
+    "pekoci_feferoni": {
+      "ime": "Scharfe Pfefferoni",
+      "cena": "0,80"
+    },
+    "koruza": {
+      "ime": "Mais",
+      "cena": "0,60"
+    },
+    "olive": {
+      "ime": "Oliven",
+      "cena": "1,00"
+    },
+    "paprika": {
+      "ime": "Paprika",
+      "cena": "1,00"
+    },
+    "bucke": {
+      "ime": "Zucchini",
+      "cena": "1,00"
+    },
+    "melancani": {
+      "ime": "Auberginen",
+      "cena": "1,00"
+    },
+    "cebula": {
+      "ime": "Zwiebel",
+      "cena": "0,80"
+    },
+    "mozzarela": {
+      "ime": "Mozzarella",
+      "cena": "1,50"
+    },
+    "burrata": {
+      "ime": "Burrata",
+      "cena": "3,00"
+    },
+    "buffala": {
+      "ime": "Büffelkäse",
+      "cena": "2,50"
+    },
+    "kisla_smetana": {
+      "ime": "Sauerrahm",
+      "cena": "0,80"
+    },
+    "tatarska": {
+      "ime": "Hausgemachte Tartarsauce",
+      "cena": "2,00"
+    },
+    "cesnova_omaka": {
+      "ime": "Knoblauchsauce",
+      "cena": "1,50"
+    },
+    "nacho_sir": {
+      "ime": "Nachokäse",
+      "cena": "2,50"
+    },
+    "porcijski_kecap": {
+      "ime": "Portionsketchup",
+      "cena": "0,80"
+    },
+    "jajce": {
+      "ime": "Ei",
+      "cena": "1,00"
+    },
+    "embalaza_pica": {
+      "ime": "Pizzaverpackung",
+      "cena": "0,70"
+    },
+    "embalaza_mala": {
+      "ime": "Kleine Verpackung",
+      "cena": "0,30"
+    }
+  },
+  "ostala_ponudba": {
+    "puranji_dunajski_zrezek": {
+      "ime": "Putenschnitzel mit Pommes",
+      "cena": "14,00",
+      "slika": "ostale_jedi_dunajc.png"
+    },
+    "ocvrti_kalamari": {
+      "ime": "Frittierte Calamari mit Pommes",
+      "cena": "14,50",
+      "slika": "ostale_jedi_kalamari.png"
+    },
+    "pomfri": {
+      "ime": "Pommes Frites",
+      "cena": "3,00",
+      "slika": "ostale_jedi_pomfri.png"
+    },
+    "mesana_solata": {
+      "ime": "Gemischter Salat",
+      "cena": "3,00",
+      "slika": "ostale_jedi_solata.png"
+    }
+  },
+  "sladice": {
+    "palacinke_marmelada": {
+      "ime": "Palatschinken mit Marillenmarmelade",
+      "cena": "3,50",
+      "slika": "sladice_marmeladne.png"
+    },
+    "palacinke_nutella": {
+      "ime": "Palatschinken mit Nutella",
+      "cena": "4,00",
+      "slika": "sladice_cokoladne.png"
+    },
+    "palacinke_orehi": {
+      "ime": "Palatschinken mit Walnussfüllung",
+      "cena": "4,50",
+      "slika": "sladice_orehove.png"
+    },
+    "pannacotta": {
+      "ime": "Panna Cotta mit Waldfrüchten",
+      "cena": "4,00",
+      "slika": "sladice_panacota.png"
+    }
+  },
+  "sladice_poleti": {
+    "domaca_ledena_kava": {
+      "ime": "Hausgemachter Eiskaffee",
+      "cena": "4,50",
+      "slika": "sladice_ledena_kava.png"
+    },
+    "sladoled_razlicni": {
+      "ime": "Eis (verschiedene Sorten)",
+      "cena": "",
+      "slika": "sladice_sladoled.jpg"
+    }
   }
 }

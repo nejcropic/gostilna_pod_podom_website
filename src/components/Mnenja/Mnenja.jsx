@@ -18,7 +18,7 @@ function Mnenja() {
     if (isMobile) {
       const interval = setInterval(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % MnenjaOptions.length);
-      }, 3000);
+      }, 8000);
       return () => clearInterval(interval);
     }
   }, [isMobile]);

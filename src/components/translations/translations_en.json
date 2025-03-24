@@ -1,103 +1,367 @@
 {
-  "home": {
-    "button": "Pricing"
+  "hero": {
+    "title": "Inn Under the Floor"
   },
   "nav": {
-    "ponudba": "Offer",
-    "prednosti": "Advantages",
-    "dimenzije": "Dimensions",
-    "cenik": "Pricing",
-    "kontakt": "Contact"
+    "domov": "home",
+    "meni": "menu",
+    "gostisce": "inn",
+    "okolica": "surroundings",
+    "galerija": "gallery",
+    "naroci": "Order"
   },
-  "ponudba": {
-    "naslov": "OFFER",
-    "komplet_1": {
-      "naslov": "SET 1",
-      "stojalo": "Stand with a shelf in front",
-      "navadno": "Regular stand 2x"
+  "home": {
+    "uvod": {
+      "main": "Pizzas",
+      "naslov": "Real pizza, real experience!",
+      "tekst": "We invite you to try our excellent pizzas, prepared with love and the skilled hand of experienced pizzaiolo Marko. In addition to crispy pizzas, we also offer other delicious dishes made especially for you. We also provide group lunches for 15 or more people upon prior reservation at 031/307-279.",
+      "button": "Menu"
     },
-    "komplet_2": {
-      "naslov": "SET 2",
-      "stojalo": "Stand with a side shelf 1x",
-      "navadno": "Regular stand 1x"
+    "ambient": {
+      "main": "Ambience",
+      "naslov": "A cozy atmosphere for all generations",
+      "tekst": "Our interior is designed 'from the floor' – of a wooden rustic building. The heart of the space is the wood-fired oven, which brings warmth and a relaxed atmosphere.",
+      "list1": "Romantic dinners",
+      "list2": "Family gatherings",
+      "list3": "Pleasant get-togethers with friends",
+      "button": "Explore spaces"
     },
-    "posamicno": {
-      "naslov": "INDIVIDUAL",
-      "stojalo": "Cabinet with a front shelf 1x",
-      "navadno": "Cabinet with side shelves 1x",
-      "stojalo2": "Regular stand 3x"
+    "okolica": {
+      "main": "Surroundings",
+      "naslov": "Nature and views",
+      "tekst": "Our inn is located on a picturesque hill with a stunning view of the Krka River valley. Just a few steps away rises Bovljek Hill, a popular spot for short hikes and relaxation in nature. After a refreshing hike or trip, you can recharge here with Neapolitan pizzas, refreshing drinks, and enjoy the fresh air and pleasant ambience.",
+      "list1": "Unforgettable view of the Krka River valley",
+      "list2": "Great starting point for short hikes",
+      "list3": "Pleasant environment for relaxation and socializing",
+      "button": "Discover the area"
     }
   },
-  "prednosti": {
-    "stik": {
-      "title": "Direct Contact",
-      "text": "Allows you to interact directly with your customers. This strengthens trust and relationships with potential buyers."
-    },
-    "prepoznavnost": {
-      "title": "Increased Visibility",
-      "text": "A creatively designed stand attracts attention and can become a recognizable point at events."
-    },
-    "prihranek": {
-      "title": "Cost Savings",
-      "text": "By renting our stand, you save money and can use professional equipment only when needed."
-    },
-    "predstavitev": {
-      "title": "New Product Presentation",
-      "text": "Renting a stand creates a great space for showcasing your new products or services, directly boosting sales."
-    },
-    "marketing": {
-      "title": "Effective Marketing and Advertising",
-      "text": "Allows for creative approaches that support your brand message and increase visibility."
-    },
-    "dogodki": {
-      "title": "Ideal for Events",
-      "text": "Participation in fairs and other events with a professional stand increases attention and attractiveness of your brand."
-    }
+  "gostilna": {
+    "naslov": "Guesthouse",
+    "opis_1": "Some time ago, our dream came true. In Suha Krajina, in the village of Kuželjevec, we opened Inn Under the Floor. We invite you to try our delicious pizzas made with love and other treats we create for you.",
+    "opis_2": "Every visit and every compliment means a lot to us – it drives us forward and gives us even more motivation to work. Thank you for believing in our efforts!"
   },
-  "dimenzije": {
-    "naslov": "DIMENSIONS OF LED-LIT STANDS",
-    "sirina": "WIDTH",
-    "visina": "HEIGHT",
-    "globina": "DEPTH",
-    "enote": {
-      "first": "1ST UNIT",
-      "second": "2ND UNIT",
-      "third": "3RD UNIT",
-      "fourth": "4TH UNIT",
-      "fifth": "5TH UNIT"
-    }
+  "lokacija": {
+    "naslov": "Surroundings",
+    "opis_1": "On the terrace, you'll enjoy a beautiful view of the surrounding hills, green forests in spring, autumn colors, and a winter wonderland – in all seasons. You'll feel peace, relax, and hear birds chirping. You can take a walk up nearby Bovljek Hill. Experience it with us – you're warmly invited!",
+    "opis_2": "Just 20 minutes' walk from the inn rises Bovljek Hill, a popular destination for short hikes. The trail to the top is easy and suitable for all ages. In the near future, a lookout tower will be built at the top, offering visitors a view of the entire Suha Krajina region and beyond. The tower will become a new attraction for nature lovers, photographers, and anyone seeking peace in the hills."
   },
-  "najem": {
-    "naslov": "STAND RENTAL",
-    "podnaslov": "Select rental duration",
-    "trajanje": {
-      "one": "1 week",
-      "two": "2 weeks",
-      "three": "3 weeks",
-      "four": "1 month"
-    },
-
-    "tabela": {
-      "stevilo_enot": "Number of units",
-      "popust": "Discount",
-      "dodatni_popust": "Additional discount",
-      "cena": "Unit price per week",
-      "skupna": "Total price"
-    },
-    "enote": {
-      "third": "3/SET 1",
-      "fifth": "5/SET 2"
-    },
-    "cene_ddv": "Prices exclude VAT",
-    "pripada_orange": "With stand rental you get:",
-    "pripada": "Personalized stand with logo • Promotional canvas • Transport and assembly",
-    "dodatna_orange": "Additional Offer",
-    "dodatna_ponudba": "Transport and assembly of the stand to the desired location in Slovenia • Illuminated logo • Stand wrapping in desired color • Long-term rental • Production of other promotional materials.",
-    "kontakt": "Contact",
-    "kontakt_popup": "Contact us",
-    "kontakt_zapri": "Close"
+  "galerija": {
+    "all": "Show all",
+    "okolica": "Surroundings",
+    "ostale": "Other dishes",
+    "sladice": "Desserts",
+    "pice": "Pizzas",
+    "prostori": "Ambience"
   },
   "kontakt": {
-    "naslov": "Contact Us"
+    "naslov": "Contact us",
+    "navodila": "Directions",
+    "odpiralnicas": "Opening hours",
+    "dnevi": {
+      "petek": "Friday",
+      "sobota": "Saturday",
+      "nedelja": "Sunday"
+    }
+  },
+  "pice": {
+    "klasika": {
+      "ime": "Klasika",
+      "sestavine": "tomato sauce, cheese, cooked ham, fresh mushrooms, olive",
+      "cena": "10,90",
+      "slika": "pice_klasika.png"
+    },
+    "kuhan_prsut": {
+      "ime": "Kuhan pršut",
+      "sestavine": "tomato sauce, cheese, cooked ham, olive",
+      "cena": "10,00",
+      "slika": "pice_kuhan_prsut.png"
+    },
+    "picopek": {
+      "ime": "Picopek",
+      "sestavine": "tomato sauce, mozzarella, pancetta, prosciutto, pesto, sun-dried and cherry tomatoes, arugula, olive",
+      "cena": "12,70",
+      "slika": "pice_picopek.png"
+    },
+    "kraska": {
+      "ime": "Kraška",
+      "sestavine": "tomato sauce, cheese, mushrooms, prosciutto, olive",
+      "cena": "11,70",
+      "slika": "pice_kraska.png"
+    },
+    "morska": {
+      "ime": "Morska",
+      "sestavine": "tomato sauce, cheese, seafood, tuna, garlic sauce, olive",
+      "cena": "12,50",
+      "slika": "pice_morska.png"
+    },
+    "tuna": {
+      "ime": "Tuna",
+      "sestavine": "tomato sauce, cheese, tuna, corn, red onion, olive",
+      "cena": "11,90",
+      "slika": "pice_tuna.png"
+    },
+    "lignji": {
+      "ime": "Lignji",
+      "sestavine": "tomato sauce, mozzarella, squid, capers, garlic sauce, olive",
+      "cena": "12,00",
+      "slika": "pice_lignji.png"
+    },
+    "tartufi": {
+      "ime": "Tartufi",
+      "sestavine": "sour cream and truffle sauce, buffalo cheese, pancetta, fresh porcini mushrooms, truffle-flavored olive oil, black olives",
+      "cena": "13,70",
+      "slika": "pice_tartufi.png"
+    },
+    "sadna": {
+      "ime": "Sadna",
+      "sestavine": "dough, Nutella, ricotta cheese, banana, pineapple",
+      "cena": "10,00",
+      "slika": "pice_sadna.png"
+    },
+    "pod_podom": {
+      "ime": "Pod podom",
+      "sestavine": "tomato sauce, cheese, dry sausage, cooked ham, pancetta, bacon, fresh porcini mushrooms, olive",
+      "cena": "12,90",
+      "slika": "pice_pod_podom.png"
+    },
+    "pikantna": {
+      "ime": "Pikantna",
+      "sestavine": "tomato sauce, cheese, cooked ham, spicy salami, hot peppers, fresh mushrooms, spicy oil, olive",
+      "cena": "11,70"
+    },
+    "bovljek": {
+      "ime": "Bovljek",
+      "sestavine": "tomato sauce, cheese, Hungarian salami, cooked ham, pancetta, fresh mushrooms, hot peppers, olive",
+      "cena": "11,90",
+      "slika": "pice_bovljek.png"
+    },
+    "mexicana": {
+      "ime": "Mexicana",
+      "sestavine": "tomato sauce, cheese, Bolognese sauce, corn, bell pepper, nacho cheese, olive",
+      "cena": "11,90"
+    },
+    "piscancja": {
+      "ime": "Piščančja",
+      "sestavine": "tomato sauce, cheese, chicken fillet, bell pepper, cherry tomato, homemade tartar sauce, olive",
+      "cena": "11,90"
+    },
+    "ribic": {
+      "ime": "Ribič",
+      "sestavine": "tomato sauce, mozzarella, trout fillet, cherry tomato, prawns, garlic sauce, olive",
+      "cena": "13,80",
+      "slika": "pice_ribic.png"
+    },
+    "vegi": {
+      "ime": "Vegi",
+      "sestavine": "tomato sauce, cheese, marinated eggplant, zucchini, bell pepper, corn, cherry tomato, fresh mushrooms, olive",
+      "cena": "10,90"
+    },
+    "poletna": {
+      "ime": "Poletna",
+      "sestavine": "tomato sauce, mozzarella, sun-dried and cherry tomatoes, pesto, arugula, Grana Padano cheese, olive",
+      "cena": "12,30"
+    },
+    "buffala": {
+      "ime": "Buffala",
+      "sestavine": "tomato sauce, buffalo cheese, cooked ham, cherry tomato, basil",
+      "cena": "13,70"
+    },
+    "burrata": {
+      "ime": "Burrata",
+      "sestavine": "omaka iz kisle smetane in pesta, burrata cheese, cooked ham, pistachio, sun-dried and cherry tomatoes, arugula, extra virgin olive oil",
+      "cena": "14,50",
+      "slika": "pice_burrata.png"
+    },
+    "margerita": {
+      "ime": "Margerita",
+      "sestavine": "tomato sauce, cheese, olive",
+      "cena": "9,00",
+      "slika": "pice_margerita.png"
+    },
+    "picici": {
+      "ime": "Pičiči",
+      "sestavine": "dough, sir + omake: domača tatarska omaka, nacho cheese, tomato sauce, sour cream",
+      "cena": "9,50"
+    }
+  },
+
+  "dodatki": {
+    "kuhan_prsut": {
+      "ime": "Cooked ham",
+      "cena": "1,50"
+    },
+    "prsut": {
+      "ime": "Prosciutto",
+      "cena": "2,00"
+    },
+    "slanina": {
+      "ime": "Bacon",
+      "cena": "1,00"
+    },
+    "panceta": {
+      "ime": "Pancetta",
+      "cena": "1,50"
+    },
+    "suha_salama": {
+      "ime": "Dry sausage",
+      "cena": "1,50"
+    },
+    "pikantna_salama": {
+      "ime": "Spicy salami",
+      "cena": "1,50"
+    },
+    "ogrska_salama": {
+      "ime": "Hungarian salami",
+      "cena": "1,50"
+    },
+    "hrenovke": {
+      "ime": "Sausages",
+      "cena": "1,00"
+    },
+    "svezi_jurcki": {
+      "ime": "Fresh porcini mushrooms",
+      "cena": "3,00"
+    },
+    "svezi_sampinjoni": {
+      "ime": "Fresh mushrooms",
+      "cena": "1,50"
+    },
+    "cesnjev_paradiznik": {
+      "ime": "Cherry tomato",
+      "cena": "2,00"
+    },
+    "rukola": {
+      "ime": "Arugula",
+      "cena": "1,00"
+    },
+    "pekoci_feferoni": {
+      "ime": "Hot peppers",
+      "cena": "0,80"
+    },
+    "koruza": {
+      "ime": "Corn",
+      "cena": "0,60"
+    },
+    "olive": {
+      "ime": "Olives",
+      "cena": "1,00"
+    },
+    "paprika": {
+      "ime": "Bell pepper",
+      "cena": "1,00"
+    },
+    "bucke": {
+      "ime": "Zucchini",
+      "cena": "1,00"
+    },
+    "melancani": {
+      "ime": "Eggplant",
+      "cena": "1,00"
+    },
+    "cebula": {
+      "ime": "Onion",
+      "cena": "0,80"
+    },
+    "mozzarela": {
+      "ime": "Mozzarella",
+      "cena": "1,50"
+    },
+    "burrata": {
+      "ime": "Burrata cheese",
+      "cena": "3,00"
+    },
+    "buffala": {
+      "ime": "Buffalo cheese",
+      "cena": "2,50"
+    },
+    "kisla_smetana": {
+      "ime": "Sour cream",
+      "cena": "0,80"
+    },
+    "tatarska": {
+      "ime": "Homemade tartar sauce",
+      "cena": "2,00"
+    },
+    "cesnova_omaka": {
+      "ime": "Garlic sauce",
+      "cena": "1,50"
+    },
+    "nacho_sir": {
+      "ime": "Nacho cheese",
+      "cena": "2,50"
+    },
+    "porcijski_kecap": {
+      "ime": "Portion ketchup",
+      "cena": "0,80"
+    },
+    "jajce": {
+      "ime": "Egg",
+      "cena": "1,00"
+    },
+    "embalaza_pica": {
+      "ime": "Pizza box",
+      "cena": "0,70"
+    },
+    "embalaza_mala": {
+      "ime": "Small container",
+      "cena": "0,30"
+    }
+  },
+  "ostala_ponudba": {
+    "puranji_dunajski_zrezek": {
+      "ime": "Turkey schnitzel with fries",
+      "cena": "14,00",
+      "slika": "ostale_jedi_dunajc.png"
+    },
+    "ocvrti_kalamari": {
+      "ime": "Fried calamari with fries",
+      "cena": "14,50",
+      "slika": "ostale_jedi_kalamari.png"
+    },
+    "pomfri": {
+      "ime": "French fries",
+      "cena": "3,00",
+      "slika": "ostale_jedi_pomfri.png"
+    },
+    "mesana_solata": {
+      "ime": "Mixed salad",
+      "cena": "3,00",
+      "slika": "ostale_jedi_solata.png"
+    }
+  },
+  "sladice": {
+    "palacinke_marmelada": {
+      "ime": "Crepes with apricot jam",
+      "cena": "3,50",
+      "slika": "sladice_marmeladne.png"
+    },
+    "palacinke_nutella": {
+      "ime": "Crepes with Nutella",
+      "cena": "4,00",
+      "slika": "sladice_cokoladne.png"
+    },
+    "palacinke_orehi": {
+      "ime": "Crepes with walnut filling",
+      "cena": "4,50",
+      "slika": "sladice_orehove.png"
+    },
+    "pannacotta": {
+      "ime": "Panna cotta with forest fruits",
+      "cena": "4,00",
+      "slika": "sladice_panacota.png"
+    }
+  },
+  "sladice_poleti": {
+    "domaca_ledena_kava": {
+      "ime": "Homemade iced coffee",
+      "cena": "4,50",
+      "slika": "sladice_ledena_kava.png"
+    },
+    "sladoled_razlicni": {
+      "ime": "Ice cream (various flavors)",
+      "cena": "",
+      "slika": "sladice_sladoled.jpg"
+    }
   }
 }

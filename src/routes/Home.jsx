@@ -74,7 +74,7 @@ function Home() {
           tekst3: t("home.ambient.list3"),
         }}
         buttonText={t("home.ambient.button")}
-        link="/prostori"
+        link="/gostisce"
       />
       {/* Galerija */}
       <SiteGallery images={getGalleryImages("hrana")} />
@@ -94,7 +94,7 @@ function Home() {
           tekst3: t("home.okolica.list3"),
         }}
         buttonText={t("home.okolica.button")}
-        link="/lokacija"
+        link="/okolica"
       />
     </div>
   );

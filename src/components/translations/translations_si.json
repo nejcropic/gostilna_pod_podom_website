@@ -149,9 +149,10 @@
     "ribic": {
       "ime": "Ribič",
       "sestavine": "pelati, mozzarela, file šarenke, češnjev paradižnik, gamberi, česnova omaka, oliva",
-      "cena": "13,80"
+      "cena": "13,80",
+      "slika": "pice_ribic.png"
     },
-    "vegia": {
+    "vegi": {
       "ime": "Vegi",
       "sestavine": "pelati, sir, marinirani melancani, bučke, paprika, koruza, češnjev paradižnik, sveži šampinjoni, oliva",
       "cena": "10,90"
@@ -169,7 +170,8 @@
     "burrata": {
       "ime": "Burrata",
       "sestavine": "omaka iz kisle smetane in pesta, burrata sir, kuhan pršut, pistacija, sušen in češnjev paradižnik, rukola, extra deviško oljčno olje",
-      "cena": "14,50"
+      "cena": "14,50",
+      "slika": "pice_burrata.png"
     },
     "margerita": {
       "ime": "Margerita",

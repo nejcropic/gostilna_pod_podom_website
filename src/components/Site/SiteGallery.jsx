@@ -32,6 +32,8 @@ function SiteGallery({ images }) {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 300 }}
             alt={`Gallery ${index + 1}`}
           />
         </section>
