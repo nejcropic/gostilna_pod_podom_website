@@ -1,50 +1,51 @@
 {
   "hero": {
-    "title": "Inn Under the Floor"
+    "title": "Guesthouse Pod Podom"
   },
   "nav": {
     "domov": "home",
     "meni": "menu",
-    "gostisce": "inn",
+    "gostisce": "guesthouse",
     "okolica": "surroundings",
     "galerija": "gallery",
     "naroci": "Order"
   },
   "home": {
+    "mnenja": "Guest reviews",
     "uvod": {
       "main": "Pizzas",
       "naslov": "Real pizza, real experience!",
-      "tekst": "We invite you to try our excellent pizzas, prepared with love and the skilled hand of experienced pizzaiolo Marko. In addition to crispy pizzas, we also offer other delicious dishes made especially for you. We also provide group lunches for 15 or more people upon prior reservation at 031/307-279.",
+      "tekst": "We invite you to try our excellent pizzas, prepared with love and the skilled hands of experienced pizza maker Marko. In addition to crispy pizzas, we also offer other delicacies prepared especially for you. Vegan cheese is also available for vegans. We also provide lunches for closed groups of 15 people or more by prior reservation at +386 31 307 279.",
       "button": "Menu"
     },
     "ambient": {
       "main": "Ambience",
-      "naslov": "A cozy atmosphere for all generations",
-      "tekst": "Our interior is designed 'from the floor' – of a wooden rustic building. The heart of the space is the wood-fired oven, which brings warmth and a relaxed atmosphere.",
-      "list1": "Romantic dinners",
+      "naslov": "A pleasant atmosphere for all generations",
+      "tekst": "Our interior is designed 'from the barn floor' – a traditional wooden rural building. The heart of the space is a bread oven that provides warmth and a relaxed atmosphere.",
+      "list1": "Romantic dinners for two",
       "list2": "Family gatherings",
-      "list3": "Pleasant get-togethers with friends",
-      "button": "Explore spaces"
+      "list3": "Friendly get-togethers",
+      "button": "View spaces"
     },
     "okolica": {
       "main": "Surroundings",
       "naslov": "Nature and views",
-      "tekst": "Our inn is located on a picturesque hill with a stunning view of the Krka River valley. Just a few steps away rises Bovljek Hill, a popular spot for short hikes and relaxation in nature. After a refreshing hike or trip, you can recharge here with Neapolitan pizzas, refreshing drinks, and enjoy the fresh air and pleasant ambience.",
+      "tekst": "Our guesthouse is located on a picturesque hill with a beautiful view of the Krka River valley. Just a few steps away rises Mount Bovljek, a popular destination for short hikes and relaxation in nature. After a refreshing walk or trip, you can enjoy delicious Neapolitan pizzas, refreshing drinks, and a pleasant atmosphere.",
       "list1": "Unforgettable view of the Krka River valley",
-      "list2": "Great starting point for short hikes",
+      "list2": "Excellent starting point for short hikes",
       "list3": "Pleasant environment for relaxation and socializing",
       "button": "Discover the area"
     }
   },
   "gostilna": {
     "naslov": "Guesthouse",
-    "opis_1": "Some time ago, our dream came true. In Suha Krajina, in the village of Kuželjevec, we opened Inn Under the Floor. We invite you to try our delicious pizzas made with love and other treats we create for you.",
-    "opis_2": "Every visit and every compliment means a lot to us – it drives us forward and gives us even more motivation to work. Thank you for believing in our efforts!"
+    "opis_1": "Some time ago, our dream came true. In the Suha Krajina region, in the village of Kuželjevec, we opened Guesthouse Pod Podom. We invite you to try our delicious pizzas prepared with love and other delicacies we create for you.",
+    "opis_2": "Every visit and every compliment means a lot to us – it drives us forward and gives us even more motivation to work. Thank you for believing in our effort!"
   },
   "lokacija": {
     "naslov": "Surroundings",
-    "opis_1": "On the terrace, you'll enjoy a beautiful view of the surrounding hills, green forests in spring, autumn colors, and a winter wonderland – in all seasons. You'll feel peace, relax, and hear birds chirping. You can take a walk up nearby Bovljek Hill. Experience it with us – you're warmly invited!",
-    "opis_2": "Just 20 minutes' walk from the inn rises Bovljek Hill, a popular destination for short hikes. The trail to the top is easy and suitable for all ages. In the near future, a lookout tower will be built at the top, offering visitors a view of the entire Suha Krajina region and beyond. The tower will become a new attraction for nature lovers, photographers, and anyone seeking peace in the hills."
+    "opis_1": "On the terrace, you will be spoiled with a beautiful view of the surrounding hills, green forests in spring, autumn colors, and winter idyll – in all seasons. You will feel peace, relax, and hear birds. You can also take a walk to nearby Mount Bovljek. Experience it with us – welcome!",
+    "opis_2": "About a 20-minute walk from the guesthouse rises Mount Bovljek, a popular destination for short hikes. The path to the top is easy and suitable for all generations. In the near future, a lookout tower will be built on the summit, offering views of the entire Suha Krajina and beyond."
   },
   "galerija": {
     "all": "Show all",
@@ -52,7 +53,7 @@
     "ostale": "Other dishes",
     "sladice": "Desserts",
     "pice": "Pizzas",
-    "prostori": "Ambience"
+    "prostori": "Interior"
   },
   "kontakt": {
     "naslov": "Contact us",
@@ -64,304 +65,185 @@
       "nedelja": "Sunday"
     }
   },
-  "pice": {
+  "meniHero": {
+    "title": "Choose an offer",
+    "pice": "Neapolitan pizzas",
+    "ostala": "Other dishes",
+    "sladice": "Desserts"
+  },
+  "mesne_pice": {
     "klasika": {
-      "ime": "Klasika",
-      "sestavine": "tomato sauce, cheese, cooked ham, fresh mushrooms, olive",
-      "cena": "10,90",
-      "slika": "pice_klasika.png"
+      "name": "Classic",
+      "ingredients": "tomato sauce, cheese, cooked ham, fresh mushrooms, olives"
     },
     "kuhan_prsut": {
-      "ime": "Kuhan pršut",
-      "sestavine": "tomato sauce, cheese, cooked ham, olive",
-      "cena": "10,00",
-      "slika": "pice_kuhan_prsut.png"
+      "name": "Cooked ham",
+      "ingredients": "tomato sauce, cheese, cooked ham, olives"
     },
     "picopek": {
-      "ime": "Picopek",
-      "sestavine": "tomato sauce, mozzarella, pancetta, prosciutto, pesto, sun-dried and cherry tomatoes, arugula, olive",
-      "cena": "12,70",
-      "slika": "pice_picopek.png"
+      "name": "Pizza maker's choice",
+      "ingredients": "tomato sauce, mozzarella, pancetta, prosciutto, pesto, sun-dried and cherry tomatoes, arugula, olives"
     },
     "kraska": {
-      "ime": "Kraška",
-      "sestavine": "tomato sauce, cheese, mushrooms, prosciutto, olive",
-      "cena": "11,70",
-      "slika": "pice_kraska.png"
-    },
-    "morska": {
-      "ime": "Morska",
-      "sestavine": "tomato sauce, cheese, seafood, tuna, garlic sauce, olive",
-      "cena": "12,50",
-      "slika": "pice_morska.png"
-    },
-    "tuna": {
-      "ime": "Tuna",
-      "sestavine": "tomato sauce, cheese, tuna, corn, red onion, olive",
-      "cena": "11,90",
-      "slika": "pice_tuna.png"
-    },
-    "lignji": {
-      "ime": "Lignji",
-      "sestavine": "tomato sauce, mozzarella, squid, capers, garlic sauce, olive",
-      "cena": "12,00",
-      "slika": "pice_lignji.png"
+      "name": "Karst style",
+      "ingredients": "tomato sauce, cheese, mushrooms, prosciutto, olives"
     },
     "tartufi": {
-      "ime": "Tartufi",
-      "sestavine": "sour cream and truffle sauce, buffalo cheese, pancetta, fresh porcini mushrooms, truffle-flavored olive oil, black olives",
-      "cena": "13,70",
-      "slika": "pice_tartufi.png"
-    },
-    "sadna": {
-      "ime": "Sadna",
-      "sestavine": "dough, Nutella, ricotta cheese, banana, pineapple",
-      "cena": "10,00",
-      "slika": "pice_sadna.png"
+      "name": "Truffle",
+      "ingredients": "sour cream and truffle sauce, buffalo mozzarella, pancetta, fresh porcini mushrooms, truffle oil, black olives"
     },
     "pod_podom": {
-      "ime": "Pod podom",
-      "sestavine": "tomato sauce, cheese, dry sausage, cooked ham, pancetta, bacon, fresh porcini mushrooms, olive",
-      "cena": "12,90",
-      "slika": "pice_pod_podom.png"
+      "name": "Pod Podom",
+      "ingredients": "tomato sauce, cheese, dry salami, cooked ham, pancetta, bacon, fresh porcini mushrooms, olives"
     },
     "pikantna": {
-      "ime": "Pikantna",
-      "sestavine": "tomato sauce, cheese, cooked ham, spicy salami, hot peppers, fresh mushrooms, spicy oil, olive",
-      "cena": "11,70"
+      "name": "Spicy",
+      "ingredients": "tomato sauce, cheese, cooked ham, spicy salami, chili peppers, fresh mushrooms, spicy oil, olives"
     },
     "bovljek": {
-      "ime": "Bovljek",
-      "sestavine": "tomato sauce, cheese, Hungarian salami, cooked ham, pancetta, fresh mushrooms, hot peppers, olive",
-      "cena": "11,90",
-      "slika": "pice_bovljek.png"
+      "name": "Bovljek",
+      "ingredients": "tomato sauce, cheese, Hungarian salami, cooked ham, pancetta, fresh mushrooms, chili peppers, olives"
     },
     "mexicana": {
-      "ime": "Mexicana",
-      "sestavine": "tomato sauce, cheese, Bolognese sauce, corn, bell pepper, nacho cheese, olive",
-      "cena": "11,90"
+      "name": "Mexicana",
+      "ingredients": "tomato sauce, cheese, bolognese sauce, corn, peppers, nacho cheese, olives"
     },
     "piscancja": {
-      "ime": "Piščančja",
-      "sestavine": "tomato sauce, cheese, chicken fillet, bell pepper, cherry tomato, homemade tartar sauce, olive",
-      "cena": "11,90"
-    },
-    "ribic": {
-      "ime": "Ribič",
-      "sestavine": "tomato sauce, mozzarella, trout fillet, cherry tomato, prawns, garlic sauce, olive",
-      "cena": "13,80",
-      "slika": "pice_ribic.png"
+      "name": "Chicken",
+      "ingredients": "tomato sauce, cheese, chicken fillet, peppers, cherry tomatoes, homemade tartar sauce, olives"
     },
     "vegi": {
-      "ime": "Vegi",
-      "sestavine": "tomato sauce, cheese, marinated eggplant, zucchini, bell pepper, corn, cherry tomato, fresh mushrooms, olive",
-      "cena": "10,90"
-    },
-    "poletna": {
-      "ime": "Poletna",
-      "sestavine": "tomato sauce, mozzarella, sun-dried and cherry tomatoes, pesto, arugula, Grana Padano cheese, olive",
-      "cena": "12,30"
+      "name": "Veggie",
+      "ingredients": "tomato sauce, cheese, marinated eggplant, zucchini, peppers, corn, cherry tomatoes, fresh mushrooms, olives"
     },
     "buffala": {
-      "ime": "Buffala",
-      "sestavine": "tomato sauce, buffalo cheese, cooked ham, cherry tomato, basil",
-      "cena": "13,70"
+      "name": "Buffalo mozzarella",
+      "ingredients": "tomato sauce, buffalo mozzarella, cooked ham, cherry tomatoes, basil"
     },
     "burrata": {
-      "ime": "Burrata",
-      "sestavine": "omaka iz kisle smetane in pesta, burrata cheese, cooked ham, pistachio, sun-dried and cherry tomatoes, arugula, extra virgin olive oil",
-      "cena": "14,50",
-      "slika": "pice_burrata.png"
-    },
-    "margerita": {
-      "ime": "Margerita",
-      "sestavine": "tomato sauce, cheese, olive",
-      "cena": "9,00",
-      "slika": "pice_margerita.png"
-    },
-    "picici": {
-      "ime": "Pičiči",
-      "sestavine": "dough, sir + omake: domača tatarska omaka, nacho cheese, tomato sauce, sour cream",
-      "cena": "9,50"
+      "name": "Burrata",
+      "ingredients": "sour cream and pesto sauce, burrata cheese, cooked ham, pistachio, sun-dried and cherry tomatoes, arugula, extra virgin olive oil"
     }
   },
 
-  "dodatki": {
-    "kuhan_prsut": {
-      "ime": "Cooked ham",
-      "cena": "1,50"
+  "morske_pice": {
+    "morska": {
+      "name": "Seafood",
+      "ingredients": "tomato sauce, cheese, seafood, tuna, garlic sauce, olives"
     },
-    "prsut": {
-      "ime": "Prosciutto",
-      "cena": "2,00"
+    "tuna": {
+      "name": "Tuna",
+      "ingredients": "tomato sauce, cheese, tuna, corn, red onion, olives"
     },
-    "slanina": {
-      "ime": "Bacon",
-      "cena": "1,00"
+    "lignji": {
+      "name": "Squid",
+      "ingredients": "tomato sauce, mozzarella, squid, capers, garlic sauce, olives"
     },
-    "panceta": {
-      "ime": "Pancetta",
-      "cena": "1,50"
-    },
-    "suha_salama": {
-      "ime": "Dry sausage",
-      "cena": "1,50"
-    },
-    "pikantna_salama": {
-      "ime": "Spicy salami",
-      "cena": "1,50"
-    },
-    "ogrska_salama": {
-      "ime": "Hungarian salami",
-      "cena": "1,50"
-    },
-    "hrenovke": {
-      "ime": "Sausages",
-      "cena": "1,00"
-    },
-    "svezi_jurcki": {
-      "ime": "Fresh porcini mushrooms",
-      "cena": "3,00"
-    },
-    "svezi_sampinjoni": {
-      "ime": "Fresh mushrooms",
-      "cena": "1,50"
-    },
-    "cesnjev_paradiznik": {
-      "ime": "Cherry tomato",
-      "cena": "2,00"
-    },
-    "rukola": {
-      "ime": "Arugula",
-      "cena": "1,00"
-    },
-    "pekoci_feferoni": {
-      "ime": "Hot peppers",
-      "cena": "0,80"
-    },
-    "koruza": {
-      "ime": "Corn",
-      "cena": "0,60"
-    },
-    "olive": {
-      "ime": "Olives",
-      "cena": "1,00"
-    },
-    "paprika": {
-      "ime": "Bell pepper",
-      "cena": "1,00"
-    },
-    "bucke": {
-      "ime": "Zucchini",
-      "cena": "1,00"
-    },
-    "melancani": {
-      "ime": "Eggplant",
-      "cena": "1,00"
-    },
-    "cebula": {
-      "ime": "Onion",
-      "cena": "0,80"
-    },
-    "mozzarela": {
-      "ime": "Mozzarella",
-      "cena": "1,50"
-    },
-    "burrata": {
-      "ime": "Burrata cheese",
-      "cena": "3,00"
-    },
-    "buffala": {
-      "ime": "Buffalo cheese",
-      "cena": "2,50"
-    },
-    "kisla_smetana": {
-      "ime": "Sour cream",
-      "cena": "0,80"
-    },
-    "tatarska": {
-      "ime": "Homemade tartar sauce",
-      "cena": "2,00"
-    },
-    "cesnova_omaka": {
-      "ime": "Garlic sauce",
-      "cena": "1,50"
-    },
-    "nacho_sir": {
-      "ime": "Nacho cheese",
-      "cena": "2,50"
-    },
-    "porcijski_kecap": {
-      "ime": "Portion ketchup",
-      "cena": "0,80"
-    },
-    "jajce": {
-      "ime": "Egg",
-      "cena": "1,00"
-    },
-    "embalaza_pica": {
-      "ime": "Pizza box",
-      "cena": "0,70"
-    },
-    "embalaza_mala": {
-      "ime": "Small container",
-      "cena": "0,30"
+    "ribic": {
+      "name": "Fisherman’s",
+      "ingredients": "tomato sauce, mozzarella, trout fillet, cherry tomatoes, shrimp, garlic sauce, olives"
     }
   },
-  "ostala_ponudba": {
-    "puranji_dunajski_zrezek": {
-      "ime": "Turkey schnitzel with fries",
-      "cena": "14,00",
-      "slika": "ostale_jedi_dunajc.png"
+
+  "vegi_pice": {
+    "napolitana": {
+      "name": "Neapolitan",
+      "ingredients": "tomato sauce, mozzarela, basil"
     },
-    "ocvrti_kalamari": {
-      "ime": "Fried calamari with fries",
-      "cena": "14,50",
-      "slika": "ostale_jedi_kalamari.png"
+    "poletna": {
+      "name": "Summer",
+      "ingredients": "tomato sauce, mozzarella, sun-dried and cherry tomatoes, pesto, arugula, Grana Padano, olives"
     },
-    "pomfri": {
-      "ime": "French fries",
-      "cena": "3,00",
-      "slika": "ostale_jedi_pomfri.png"
+    "margerita": {
+      "name": "Margherita",
+      "ingredients": "tomato sauce, cheese, olives"
     },
-    "mesana_solata": {
-      "ime": "Mixed salad",
-      "cena": "3,00",
-      "slika": "ostale_jedi_solata.png"
+    "picici": {
+      "name": "Pičiči",
+      "ingredients": "dough, cheese + sauces: homemade tartar sauce, nacho cheese, tomato sauce, sour cream"
+    },
+    "vegi": {
+      "name": "Veggie",
+      "ingredients": "tomato sauce, cheese, marinated eggplant, zucchini, peppers, corn, cherry tomatoes, fresh mushrooms, olives"
     }
+  },
+
+  "veganske_pice": {
+    "tartufata_veganska": {
+      "name": "Vegan truffle",
+      "ingredients": "tomato sauce, vegan cheese, truffle spread, grilled eggplant, black olives"
+    },
+    "balzamik_veganska": {
+      "name": "Vegan balsamic",
+      "ingredients": "tomato sauce, vegan cheese, grilled tofu with smoked paprika, onion, corn, fresh mushrooms, cherry tomatoes, balsamic glaze, pumpkin seeds"
+    },
+    "sveza_veganska": {
+      "name": "Fresh vegan",
+      "ingredients": "tomato sauce, vegan cheese, vegan pesto, fresh porcini mushrooms, sun-dried tomatoes, radicchio, garlic sauce, walnuts"
+    },
+    "zelenjavna_veganska": {
+      "name": "Vegetable vegan",
+      "ingredients": "tomato sauce, vegan cheese, grilled eggplant, zucchini, peppers, corn, cherry tomatoes, fresh mushrooms, olives"
+    }
+  },
+
+  "ostala_ponudba": {
+    "puranji_dunajski_zrezek": { "name": "Turkey schnitzel with fries" },
+    "ocvrti_kalamari": { "name": "Fried calamari with fries" },
+    "pomfri": { "name": "French fries" },
+    "mesana_solata": { "name": "Mixed salad" }
   },
   "sladice": {
-    "palacinke_marmelada": {
-      "ime": "Crepes with apricot jam",
-      "cena": "3,50",
-      "slika": "sladice_marmeladne.png"
-    },
-    "palacinke_nutella": {
-      "ime": "Crepes with Nutella",
-      "cena": "4,00",
-      "slika": "sladice_cokoladne.png"
-    },
-    "palacinke_orehi": {
-      "ime": "Crepes with walnut filling",
-      "cena": "4,50",
-      "slika": "sladice_orehove.png"
-    },
-    "pannacotta": {
-      "ime": "Panna cotta with forest fruits",
-      "cena": "4,00",
-      "slika": "sladice_panacota.png"
-    }
+    "palacinke_marmelada": { "name": "Pancakes with apricot jam" },
+    "palacinke_nutella": { "name": "Pancakes with Nutella" },
+    "palacinke_orehi": { "name": "Pancakes with walnut filling" },
+    "pannacotta": { "name": "Panna cotta with forest fruits" }
   },
-  "sladice_poleti": {
-    "domaca_ledena_kava": {
-      "ime": "Homemade iced coffee",
-      "cena": "4,50",
-      "slika": "sladice_ledena_kava.png"
-    },
-    "sladoled_razlicni": {
-      "ime": "Ice cream (various flavors)",
-      "cena": "",
-      "slika": "sladice_sladoled.jpg"
-    }
+
+  "dodatki": {
+    "kuhan_prsut": { "name": "Cooked ham" },
+    "prsut": { "name": "Prosciutto" },
+    "slanina": { "name": "Bacon" },
+    "panceta": { "name": "Pancetta" },
+    "suha_salama": { "name": "Dry salami" },
+    "pikantna_salama": { "name": "Spicy salami" },
+    "ogrska_salama": { "name": "Hungarian salami" },
+    "hrenovke": { "name": "Sausages" },
+    "piscancji_file": { "name": "Chicken fillet" },
+    "bolonjska_omaka": { "name": "Bolognese sauce" },
+    "svezi_jurcki": { "name": "Fresh porcini mushrooms" },
+    "svezi_sampinjoni": { "name": "Fresh mushrooms" },
+    "cesnjev_paradiznik": { "name": "Cherry tomatoes" },
+    "suseni_paradiznik": { "name": "Sun-dried tomatoes" },
+    "rukola": { "name": "Arugula" },
+    "pekoci_feferoni": { "name": "Chili peppers" },
+    "koruza": { "name": "Corn" },
+    "olive": { "name": "Olives" },
+    "paprika": { "name": "Peppers" },
+    "bucke": { "name": "Zucchini" },
+    "melancani": { "name": "Eggplant" },
+    "cebula": { "name": "Onion" },
+    "pesto": { "name": "Pesto" },
+    "tartufata": { "name": "Truffle spread" },
+    "sir": { "name": "Cheese" },
+    "mozzarela": { "name": "Mozzarella" },
+    "burrata": { "name": "Burrata cheese" },
+    "buffala": { "name": "Buffalo mozzarella" },
+    "parmezan": { "name": "Parmesan" },
+    "veganski_sir": { "name": "Vegan cheese" },
+    "jajce": { "name": "Egg" },
+    "morski_sadezi": { "name": "Seafood" },
+    "tuna": { "name": "Tuna" },
+    "lignji": { "name": "Squid" },
+    "kapre": { "name": "Capers" },
+    "gamberi": { "name": "Shrimp" },
+    "pelati": { "name": "Tomato sauce" },
+    "kisla_smetana": { "name": "Sour cream" },
+    "tatarska": { "name": "Homemade tartar sauce" },
+    "cesnova_omaka": { "name": "Garlic sauce" },
+    "nacho_sir": { "name": "Nacho cheese" },
+    "porcijski_kecap": { "name": "Ketchup" },
+    "embalaza_pica": { "name": "Pizza box" },
+    "embalaza_mala": { "name": "Small packaging" }
   }
 }

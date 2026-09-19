@@ -1,0 +1,110 @@
+{
+  "mesne_pice": {
+    "klasika": { "price": 10.9, "image": "pice_klasika.webp" },
+    "kuhan_prsut": { "price": 10.0, "image": "pice_kuhan_prsut.webp" },
+    "pod_podom": { "price": 13.5, "image": "pice_pod_podom.webp" },
+    "pikantna": { "price": 11.7, "image": "pice_pikantna.webp" },
+    "bovljek": { "price": 11.9, "image": "pice_bovljek.webp" },
+    "kraska": { "price": 12.5, "image": "pice_kraska.webp" },
+    "mexicana": { "price": 13.5, "image": "pice_mehiska.webp" },
+    "piscancja": { "price": 12.9, "image": "pice_piscancja.webp" },
+    "picopek": { "price": 12.7, "image": "pice_picopek.webp" },
+    "tartufi": { "price": 13.7, "image": "pice_tartufi.webp" },
+    "buffala": { "price": 13.7, "image": "pice_buffala.webp" },
+    "burrata": { "price": 14.5, "image": "pice_burrata.webp" }
+  },
+  "morske_pice": {
+    "morska": { "price": 12.5, "image": "pice_morska.webp" },
+    "tuna": { "price": 11.9, "image": "pice_tuna.webp" },
+    "lignji": { "price": 12.5, "image": "pice_lignji.webp" },
+    "ribic": { "price": 13.8, "image": "pice_ribic.webp" }
+  },
+
+  "vegi_pice": {
+    "napolitana": { "price": 11, "image": "pice_napolitana.webp" },
+    "poletna": { "price": 12.3, "image": "pice_poletna.webp" },
+    "margerita": { "price": 9.0, "image": "pice_margerita.webp" },
+    "picici": { "price": 9.5, "image": "pice_picici.webp" },
+    "vegi": { "price": 10.9, "image": "pice_vegi.webp" }
+  },
+
+  "veganske_pice": {
+    "tartufata_veganska": {
+      "price": 15,
+      "image": "pice_tartufata_veganska.webp"
+    },
+    "balzamik_veganska": {
+      "price": 14.5,
+      "image": "pice_balzamik_veganska.webp"
+    },
+    "sveza_veganska": { "price": 14.5, "image": "pice_sveza_veganska.webp" },
+    "zelenjavna_veganska": {
+      "price": 14,
+      "image": "pice_zelenjavna_veganska.webp"
+    }
+  },
+  "dodatki": {
+    "kuhan_prsut": { "price": 1.5 },
+    "prsut": { "price": 2.5 },
+    "slanina": { "price": 1.5 },
+    "panceta": { "price": 1.5 },
+    "suha_salama": { "price": 1.5 },
+    "pikantna_salama": { "price": 1.5 },
+    "ogrska_salama": { "price": 1.5 },
+    "hrenovke": { "price": 1.5 },
+    "piscancji_file": { "price": 2.0 },
+    "bolonjska_omaka": { "price": 1.5 },
+    "svezi_jurcki": { "price": 3.0 },
+    "svezi_sampinjoni": { "price": 1.5 },
+    "cesnjev_paradiznik": { "price": 2.0 },
+    "suseni_paradiznik": { "price": 1.5 },
+    "rukola": { "price": 1.2 },
+    "pekoci_feferoni": { "price": 0.8 },
+    "koruza": { "price": 0.8 },
+    "olive": { "price": 1.0 },
+    "paprika": { "price": 1.5 },
+    "bucke": { "price": 1.0 },
+    "melancani": { "price": 1.0 },
+    "cebula": { "price": 0.8 },
+    "pesto": { "price": 1.5 },
+    "tartufata": { "price": 3.5 },
+    "sir": { "price": 1.5 },
+    "mozzarela": { "price": 2 },
+    "burrata": { "price": 4.0 },
+    "buffala": { "price": 3.0 },
+    "parmezan": { "price": 2.0 },
+    "veganski_sir": { "price": 3.0 },
+    "jajce": { "price": 1.0 },
+    "morski_sadezi": { "price": 3.0 },
+    "tuna": { "price": 2.0 },
+    "lignji": { "price": 2.5 },
+    "kapre": { "price": 1.5 },
+    "gamberi": { "price": 3.5 },
+    "pelati": { "price": 0.8 },
+    "kisla_smetana": { "price": 1.0 },
+    "tatarska": { "price": 2.5 },
+    "cesnova_omaka": { "price": 1.5 },
+    "nacho_sir": { "price": 3.0 },
+    "porcijski_kecap": { "price": 0.8 },
+    "embalaza_pica": { "price": 0.8 },
+    "embalaza_mala": { "price": 0.6 }
+  },
+  "ostala_ponudba": {
+    "puranji_dunajski_zrezek": {
+      "price": 14.0,
+      "image": "ostale_jedi_dunajc.webp"
+    },
+    "ocvrti_kalamari": {
+      "price": 14.5,
+      "image": "ostale_jedi_kalamari.webp"
+    },
+    "pomfri": { "price": 4.0, "image": "ostale_jedi_pomfri.webp" },
+    "mesana_solata": { "price": 4.0, "image": "ostale_jedi_solata.webp" }
+  },
+  "sladice": {
+    "palacinke_marmelada": { "price": 4.2, "image": "sladice_marmeladne.webp" },
+    "palacinke_nutella": { "price": 4.5, "image": "sladice_cokoladne.webp" },
+    "palacinke_orehi": { "price": 4.8, "image": "sladice_orehove.webp" },
+    "pannacotta": { "price": 4.5, "image": "sladice_panacota.webp" }
+  }
+}

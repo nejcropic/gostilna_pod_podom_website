@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./Mnenja.css";
+import { useTranslation } from "react-i18next";
 import { MnenjaOptions } from "./MnenjaItems";
 
 function Mnenja() {
+  const { t } = useTranslation("global");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
@@ -37,7 +39,7 @@ function Mnenja() {
   return (
     <div className="mnenja-wrapper">
       <div className="mnenja-title">
-        <h3>Mnenja strank</h3>
+        <h3>{t("home.mnenja")}</h3>
       </div>
       <hr />
       <div className="mnenja-container">

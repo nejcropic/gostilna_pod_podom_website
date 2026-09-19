@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "Gasthaus Unter dem Boden"
+    "title": "Gasthaus Pod Podom"
   },
   "nav": {
     "domov": "Startseite",
@@ -11,40 +11,41 @@
     "naroci": "Bestellen"
   },
   "home": {
+    "mnenja": "Gästebewertungen",
     "uvod": {
       "main": "Pizzen",
       "naslov": "Echte Pizza, echtes Erlebnis!",
-      "tekst": "Wir laden Sie ein, unsere ausgezeichneten Pizzen zu probieren, die mit Liebe und der geschickten Hand unseres erfahrenen Pizzabäckers Marko zubereitet werden. Neben knusprigen Pizzen bieten wir auch weitere köstliche Gerichte an, die wir speziell für Sie zubereiten. Für Gruppen ab 15 Personen bieten wir auch Mittagessen nach vorheriger Reservierung unter 031/307-279 an.",
+      "tekst": "Wir laden Sie ein, unsere hervorragenden Pizzen zu probieren, die mit Liebe und der geübten Hand unseres erfahrenen Pizzabäckers Marko zubereitet werden. Neben knusprigen Pizzen bieten wir auch weitere Köstlichkeiten an. Für Veganer ist bei uns auch veganer Käse verfügbar. Für geschlossene Gesellschaften ab 15 Personen bieten wir Mittagessen nach Vorbestellung unter +386 31 307 279 an.",
       "button": "Menü"
     },
     "ambient": {
       "main": "Ambiente",
-      "naslov": "Ein gemütliches Ambiente für alle Generationen",
-      "tekst": "Unser Innenraum ist aus einem rustikalen Holzgebäude gestaltet. Das Herzstück des Raumes ist ein Holzofen, der Wärme und eine entspannte Atmosphäre schafft.",
-      "list1": "Romantische Abendessen",
+      "naslov": "Angenehme Atmosphäre für alle Generationen",
+      "tekst": "Unser Interieur ist im Stil eines traditionellen Holzgebäudes gestaltet. Das Herzstück des Raumes ist ein Brotbackofen, der Wärme und eine entspannte Atmosphäre schafft.",
+      "list1": "Abendessen zu zweit",
       "list2": "Familientreffen",
-      "list3": "Geselliges Beisammensein mit Freunden",
-      "button": "Räume entdecken"
+      "list3": "Gemütliche Treffen mit Freunden",
+      "button": "Räume ansehen"
     },
     "okolica": {
       "main": "Umgebung",
-      "naslov": "Natur und Ausblick",
-      "tekst": "Unser Gasthaus befindet sich auf einem malerischen Hügel mit herrlichem Blick auf das Tal des Flusses Krka. Nur wenige Schritte entfernt erhebt sich der Hügel Bovljek – ein beliebter Ort für kurze Wanderungen und Entspannung in der Natur. Nach einer erfrischenden Wanderung oder einem Ausflug können Sie sich bei uns mit neapolitanischen Pizzen, erfrischenden Getränken und angenehmem Ambiente stärken.",
-      "list1": "Unvergesslicher Ausblick auf das Krka-Tal",
-      "list2": "Perfekter Ausgangspunkt für kurze Wanderungen",
-      "list3": "Angenehme Umgebung zum Entspannen und Beisammensein",
+      "naslov": "Natur und Ausblicke",
+      "tekst": "Unser Gasthaus liegt auf einem malerischen Hügel mit wunderschönem Blick auf das Krka-Tal. Nur wenige Schritte entfernt erhebt sich der Hügel Bovljek – ein beliebtes Ziel für kurze Wanderungen und Erholung in der Natur. Nach einem Ausflug können Sie sich bei uns mit köstlichen neapolitanischen Pizzen, erfrischenden Getränken und in angenehmer Atmosphäre stärken.",
+      "list1": "Unvergesslicher Blick auf das Krka-Tal",
+      "list2": "Idealer Ausgangspunkt für kurze Wanderungen",
+      "list3": "Angenehme Umgebung zum Entspannen und Zusammensein",
       "button": "Umgebung entdecken"
     }
   },
   "gostilna": {
     "naslov": "Gasthaus",
-    "opis_1": "Vor einiger Zeit ging unser Traum in Erfüllung. In Suha Krajina, im Dorf Kuželjevec, eröffneten wir das Gasthaus Unter dem Boden. Wir laden Sie ein, unsere köstlichen, mit Liebe zubereiteten Pizzen und weitere Leckereien zu probieren.",
-    "opis_2": "Jeder Besuch und jedes Lob bedeutet uns sehr viel – es motiviert uns und treibt uns weiter an. Danke, dass Sie an unsere Arbeit glauben!"
+    "opis_1": "Vor einiger Zeit ging unser Traum in Erfüllung. In der Region Suha Krajina, im Dorf Kuželjevec, haben wir das Gasthaus Pod Podom eröffnet. Wir laden Sie ein, unsere mit Liebe zubereiteten Pizzen und weitere Köstlichkeiten zu probieren.",
+    "opis_2": "Jeder Besuch und jedes Lob bedeutet uns sehr viel – das motiviert uns und gibt uns noch mehr Antrieb. Danke, dass Sie an unsere Arbeit glauben!"
   },
   "lokacija": {
     "naslov": "Umgebung",
-    "opis_1": "Auf der Terrasse genießen Sie einen wunderschönen Blick auf die umliegenden Hügel, grüne Wälder im Frühling, herbstliche Farben und eine Winteridylle – einfach in jeder Jahreszeit. Sie spüren die Ruhe, entspannen sich und hören die Vögel zwitschern. Ein Spaziergang auf den nahegelegenen Bovljek-Hügel lohnt sich. Erleben Sie es bei uns – Sie sind herzlich willkommen!",
-    "opis_2": "Etwa 20 Gehminuten vom Gasthaus entfernt erhebt sich der Hügel Bovljek – ein beliebtes Ziel für kurze Wanderungen. Der Weg zum Gipfel ist einfach und für alle Altersgruppen geeignet. In naher Zukunft wird auf dem Gipfel ein Aussichtsturm errichtet, der den Besuchern einen Blick über ganz Suha Krajina und die weitere Umgebung bieten wird. Der Turm wird eine neue Attraktion für Naturliebhaber, Fotografen und Ruhesuchende."
+    "opis_1": "Auf der Terrasse genießen Sie zu jeder Jahreszeit einen wunderschönen Blick auf die umliegenden Hügel: im Frühling grüne Wälder, im Herbst warme Farben und im Winter eine idyllische Schneelandschaft. Sie spüren Ruhe, können entspannen und die Vögel hören. Ein Spaziergang auf den nahegelegenen Hügel Bovljek ist ebenfalls möglich. Erleben Sie es bei uns – herzlich willkommen!",
+    "opis_2": "Etwa 20 Minuten zu Fuß vom Gasthaus entfernt erhebt sich der Hügel Bovljek, ein beliebtes Ziel für kurze Wanderungen. Der Weg zum Gipfel ist leicht und für alle Generationen geeignet. In naher Zukunft wird auf dem Gipfel ein Aussichtsturm entstehen, der einen Blick über die gesamte Region Suha Krajina und die weitere Umgebung bieten wird."
   },
   "galerija": {
     "all": "Alle anzeigen",
@@ -52,11 +53,11 @@
     "ostale": "Weitere Gerichte",
     "sladice": "Desserts",
     "pice": "Pizzen",
-    "prostori": "Ambiente"
+    "prostori": "Räume"
   },
   "kontakt": {
-    "naslov": "Kontaktieren Sie uns",
-    "navodila": "Anfahrt",
+    "naslov": "Kontakt",
+    "navodila": "Anfahrtsbeschreibung",
     "odpiralnicas": "Öffnungszeiten",
     "dnevi": {
       "petek": "Freitag",
@@ -64,304 +65,204 @@
       "nedelja": "Sonntag"
     }
   },
-  "pice": {
+
+  "meniHero": {
+    "title": "Wählen Sie ein Angebot",
+    "pice": "Neapolitanische Pizzen",
+    "ostala": "Weitere Gerichte",
+    "sladice": "Desserts"
+  },
+
+  "mesne_pice": {
     "klasika": {
-      "ime": "Klasika",
-      "sestavine": "Tomatensauce, Käse, gekochter Schinken, frische Champignons, Olive",
-      "cena": "10,90",
-      "slika": "pice_klasika.png"
+      "name": "Klassisch",
+      "ingredients": "Tomatensauce, Käse, gekochter Schinken, frische Champignons, Oliven"
     },
     "kuhan_prsut": {
-      "ime": "Kuhan pršut",
-      "sestavine": "Tomatensauce, Käse, gekochter Schinken, Olive",
-      "cena": "10,00",
-      "slika": "pice_kuhan_prsut.png"
+      "name": "Gekochter Schinken",
+      "ingredients": "Tomatensauce, Käse, gekochter Schinken, Oliven"
     },
     "picopek": {
-      "ime": "Picopek",
-      "sestavine": "Tomatensauce, Mozzarella, Pancetta, Prosciutto, Pesto, getrocknete und Kirschtomaten, Rucola, Olive",
-      "cena": "12,70",
-      "slika": "pice_picopek.png"
+      "name": "Pizzabäcker",
+      "ingredients": "Tomatensauce, Mozzarella, Pancetta, Prosciutto, Pesto, getrocknete und Kirschtomaten, Rucola, Oliven"
     },
     "kraska": {
-      "ime": "Kraška",
-      "sestavine": "Tomatensauce, Käse, Champignons, Prosciutto, Olive",
-      "cena": "11,70",
-      "slika": "pice_kraska.png"
-    },
-    "morska": {
-      "ime": "Morska",
-      "sestavine": "Tomatensauce, Käse, Meeresfrüchte, Thunfisch, Knoblauchsauce, Olive",
-      "cena": "12,50",
-      "slika": "pice_morska.png"
-    },
-    "tuna": {
-      "ime": "Tuna",
-      "sestavine": "Tomatensauce, Käse, Thunfisch, Mais, rote Zwiebel, Olive",
-      "cena": "11,90",
-      "slika": "pice_tuna.png"
-    },
-    "lignji": {
-      "ime": "Lignji",
-      "sestavine": "Tomatensauce, Mozzarella, Tintenfisch, Kapern, Knoblauchsauce, Olive",
-      "cena": "12,00",
-      "slika": "pice_lignji.png"
+      "name": "Karst",
+      "ingredients": "Tomatensauce, Käse, Champignons, Prosciutto, Oliven"
     },
     "tartufi": {
-      "ime": "Tartufi",
-      "sestavine": "Sauerrahm-Trüffel-Sauce, Büffelkäse, Pancetta, frische Steinpilze, Trüffel-Olivenöl, schwarze Oliven",
-      "cena": "13,70",
-      "slika": "pice_tartufi.png"
-    },
-    "sadna": {
-      "ime": "Sadna",
-      "sestavine": "Teig, Nutella, Ricotta, Banane, Ananas",
-      "cena": "10,00",
-      "slika": "pice_sadna.png"
+      "name": "Trüffel",
+      "ingredients": "Sauce aus Sauerrahm und Trüffelcreme, Büffelkäse, Pancetta, frische Steinpilze, Trüffelöl, schwarze Oliven"
     },
     "pod_podom": {
-      "ime": "Pod podom",
-      "sestavine": "Tomatensauce, Käse, Hartwurst, gekochter Schinken, Pancetta, Speck, frische Steinpilze, Olive",
-      "cena": "12,90",
-      "slika": "pice_pod_podom.png"
+      "name": "Pod Podom",
+      "ingredients": "Tomatensauce, Käse, trockene Salami, gekochter Schinken, Pancetta, Speck, frische Steinpilze, Oliven"
     },
     "pikantna": {
-      "ime": "Pikantna",
-      "sestavine": "Tomatensauce, Käse, gekochter Schinken, pikante Salami, scharfe Pfefferoni, frische Champignons, scharfes Öl, Olive",
-      "cena": "11,70"
+      "name": "Scharf",
+      "ingredients": "Tomatensauce, Käse, gekochter Schinken, scharfe Salami, scharfe Peperoni, frische Champignons, scharfes Öl, Oliven"
     },
     "bovljek": {
-      "ime": "Bovljek",
-      "sestavine": "Tomatensauce, Käse, ungarische Salami, gekochter Schinken, Pancetta, frische Champignons, scharfe Pfefferoni, Olive",
-      "cena": "11,90",
-      "slika": "pice_bovljek.png"
+      "name": "Bovljek",
+      "ingredients": "Tomatensauce, Käse, ungarische Salami, gekochter Schinken, Pancetta, frische Champignons, scharfe Peperoni, Oliven"
     },
     "mexicana": {
-      "ime": "Mexicana",
-      "sestavine": "Tomatensauce, Käse, Bolognese-Sauce, Mais, Paprika, Nachokäse, Olive",
-      "cena": "11,90"
+      "name": "Mexicana",
+      "ingredients": "Tomatensauce, Käse, Bolognese-Sauce, Mais, Paprika, Nacho-Käse, Oliven"
     },
     "piscancja": {
-      "ime": "Piščančja",
-      "sestavine": "Tomatensauce, Käse, Hähnchenfilet, Paprika, Kirschtomate, hausgemachte Tartarsauce, Olive",
-      "cena": "11,90"
-    },
-    "ribic": {
-      "ime": "Ribič",
-      "sestavine": "Tomatensauce, Mozzarella, Forellenfilet, Kirschtomate, Garnelen, Knoblauchsauce, Olive",
-      "cena": "13,80",
-      "slika": "pice_ribic.png"
+      "name": "Hähnchen",
+      "ingredients": "Tomatensauce, Käse, Hähnchenfilet, Paprika, Kirschtomaten, hausgemachte Tartar-Sauce, Oliven"
     },
     "vegi": {
-      "ime": "Vegi",
-      "sestavine": "Tomatensauce, Käse, marinierte Aubergine, Zucchini, Paprika, Mais, Kirschtomate, frische Champignons, Olive",
-      "cena": "10,90"
-    },
-    "poletna": {
-      "ime": "Poletna",
-      "sestavine": "Tomatensauce, Mozzarella, getrocknete und Kirschtomaten, Pesto, Rucola, Grana Padano Käse, Olive",
-      "cena": "12,30"
+      "name": "Vegi",
+      "ingredients": "Tomatensauce, Käse, marinierte Auberginen, Zucchini, Paprika, Mais, Kirschtomaten, frische Champignons, Oliven"
     },
     "buffala": {
-      "ime": "Buffala",
-      "sestavine": "Tomatensauce, Büffelkäse, gekochter Schinken, Kirschtomate, Basilikum",
-      "cena": "13,70"
+      "name": "Buffala",
+      "ingredients": "Tomatensauce, Büffelkäse, gekochter Schinken, Kirschtomaten, Basilikum"
     },
     "burrata": {
-      "ime": "Burrata",
-      "sestavine": "omaka iz kisle smetane in pesta, Burrata, gekochter Schinken, Pistazie, getrocknete und Kirschtomaten, Rucola, natives Olivenöl extra",
-      "cena": "14,50",
-      "slika": "pice_burrata.png"
+      "name": "Burrata",
+      "ingredients": "Sauce aus Sauerrahm und Pesto, Burrata, gekochter Schinken, Pistazie, getrocknete und Kirschtomaten, Rucola, extra natives Olivenöl"
+    }
+  },
+
+  "morske_pice": {
+    "morska": {
+      "name": "Meeresfrüchte",
+      "ingredients": "Tomatensauce, Käse, Meeresfrüchte, Thunfisch, Knoblauchsauce, Oliven"
+    },
+    "tuna": {
+      "name": "Thunfisch",
+      "ingredients": "Tomatensauce, Käse, Thunfisch, Mais, rote Zwiebeln, Oliven"
+    },
+    "lignji": {
+      "name": "Calamari",
+      "ingredients": "Tomatensauce, Mozzarella, Calamari, Kapern, Knoblauchsauce, Oliven"
+    },
+    "ribic": {
+      "name": "Fischer",
+      "ingredients": "Tomatensauce, Mozzarella, Forellenfilet, Kirschtomaten, Garnelen, Knoblauchsauce, Oliven"
+    }
+  },
+
+  "vegi_pice": {
+    "napolitana": {
+      "name": "Napolitana",
+      "ingredients": "Tomatensauce, Mozzarella, Basilikum"
+    },
+    "poletna": {
+      "name": "Sommer",
+      "ingredients": "Tomatensauce, Mozzarella, getrocknete und Kirschtomaten, Pesto, Rucola, Grana Padano, Oliven"
     },
     "margerita": {
-      "ime": "Margerita",
-      "sestavine": "Tomatensauce, Käse, Olive",
-      "cena": "9,00",
-      "slika": "pice_margerita.png"
+      "name": "Margherita",
+      "ingredients": "Tomatensauce, Käse, Oliven"
     },
     "picici": {
-      "ime": "Pičiči",
-      "sestavine": "Teig, sir + omake: domača tatarska omaka, Nachokäse, Tomatensauce, sour cream",
-      "cena": "9,50"
+      "name": "Pičiči",
+      "ingredients": "Teig, Käse + Saucen: hausgemachte Tartar-Sauce, Nacho-Käse, Tomatensauce, Sauerrahm"
+    },
+    "vegi": {
+      "name": "Vegi",
+      "ingredients": "Tomatensauce, Käse, marinierte Auberginen, Zucchini, Paprika, Mais, Kirschtomaten, frische Champignons, Oliven"
+    }
+  },
+
+  "veganske_pice": {
+    "tartufata_veganska": {
+      "name": "Vegane Tartufata",
+      "ingredients": "Tomatensauce, veganer Käse, Tartufata, gebratene Auberginen, schwarze Oliven"
+    },
+    "balzamik_veganska": {
+      "name": "Vegane Balsamico",
+      "ingredients": "Tomatensauce, veganer Käse, gebratener Tofu mit geräuchertem Paprikapulver, Zwiebel, Mais, frische Champignons, Kirschtomaten, Balsamico-Gel, Kürbiskerne"
+    },
+    "sveza_veganska": {
+      "name": "Vegane Frische",
+      "ingredients": "Tomatensauce, veganer Käse, veganes Pesto, frische Steinpilze, getrocknete Tomaten, Radicchio, Knoblauchsauce, Walnüsse"
+    },
+    "zelenjavna_veganska": {
+      "name": "Vegane Gemüse",
+      "ingredients": "Tomatensauce, veganer Käse, gebratene Auberginen, Zucchini, Paprika, Mais, Kirschtomaten, frische Champignons, Oliven"
+    }
+  },
+
+  "ostala_ponudba": {
+    "puranji_dunajski_zrezek": {
+      "name": "Putenschnitzel nach Wiener Art mit Pommes"
+    },
+    "ocvrti_kalamari": {
+      "name": "Frittierte Calamari mit Pommes"
+    },
+    "pomfri": {
+      "name": "Pommes frites"
+    },
+    "mesana_solata": {
+      "name": "Gemischter Salat"
+    }
+  },
+
+  "sladice": {
+    "palacinke_marmelada": {
+      "name": "Pfannkuchen mit Aprikosenmarmelade"
+    },
+    "palacinke_nutella": {
+      "name": "Pfannkuchen mit Nutella"
+    },
+    "palacinke_orehi": {
+      "name": "Pfannkuchen mit Walnussfüllung"
+    },
+    "pannacotta": {
+      "name": "Panna Cotta mit Waldfrüchten"
     }
   },
 
   "dodatki": {
-    "kuhan_prsut": {
-      "ime": "Gekochter Schinken",
-      "cena": "1,50"
-    },
-    "prsut": {
-      "ime": "Prosciutto",
-      "cena": "2,00"
-    },
-    "slanina": {
-      "ime": "Speck",
-      "cena": "1,00"
-    },
-    "panceta": {
-      "ime": "Pancetta",
-      "cena": "1,50"
-    },
-    "suha_salama": {
-      "ime": "Hartwurst",
-      "cena": "1,50"
-    },
-    "pikantna_salama": {
-      "ime": "Würzige Salami",
-      "cena": "1,50"
-    },
-    "ogrska_salama": {
-      "ime": "Ungarische Salami",
-      "cena": "1,50"
-    },
-    "hrenovke": {
-      "ime": "Würstchen",
-      "cena": "1,00"
-    },
-    "svezi_jurcki": {
-      "ime": "Frische Steinpilze",
-      "cena": "3,00"
-    },
-    "svezi_sampinjoni": {
-      "ime": "Frische Champignons",
-      "cena": "1,50"
-    },
-    "cesnjev_paradiznik": {
-      "ime": "Kirschtomaten",
-      "cena": "2,00"
-    },
-    "rukola": {
-      "ime": "Rucola",
-      "cena": "1,00"
-    },
-    "pekoci_feferoni": {
-      "ime": "Scharfe Pfefferoni",
-      "cena": "0,80"
-    },
-    "koruza": {
-      "ime": "Mais",
-      "cena": "0,60"
-    },
-    "olive": {
-      "ime": "Oliven",
-      "cena": "1,00"
-    },
-    "paprika": {
-      "ime": "Paprika",
-      "cena": "1,00"
-    },
-    "bucke": {
-      "ime": "Zucchini",
-      "cena": "1,00"
-    },
-    "melancani": {
-      "ime": "Auberginen",
-      "cena": "1,00"
-    },
-    "cebula": {
-      "ime": "Zwiebel",
-      "cena": "0,80"
-    },
-    "mozzarela": {
-      "ime": "Mozzarella",
-      "cena": "1,50"
-    },
-    "burrata": {
-      "ime": "Burrata",
-      "cena": "3,00"
-    },
-    "buffala": {
-      "ime": "Büffelkäse",
-      "cena": "2,50"
-    },
-    "kisla_smetana": {
-      "ime": "Sauerrahm",
-      "cena": "0,80"
-    },
-    "tatarska": {
-      "ime": "Hausgemachte Tartarsauce",
-      "cena": "2,00"
-    },
-    "cesnova_omaka": {
-      "ime": "Knoblauchsauce",
-      "cena": "1,50"
-    },
-    "nacho_sir": {
-      "ime": "Nachokäse",
-      "cena": "2,50"
-    },
-    "porcijski_kecap": {
-      "ime": "Portionsketchup",
-      "cena": "0,80"
-    },
-    "jajce": {
-      "ime": "Ei",
-      "cena": "1,00"
-    },
-    "embalaza_pica": {
-      "ime": "Pizzaverpackung",
-      "cena": "0,70"
-    },
-    "embalaza_mala": {
-      "ime": "Kleine Verpackung",
-      "cena": "0,30"
-    }
-  },
-  "ostala_ponudba": {
-    "puranji_dunajski_zrezek": {
-      "ime": "Putenschnitzel mit Pommes",
-      "cena": "14,00",
-      "slika": "ostale_jedi_dunajc.png"
-    },
-    "ocvrti_kalamari": {
-      "ime": "Frittierte Calamari mit Pommes",
-      "cena": "14,50",
-      "slika": "ostale_jedi_kalamari.png"
-    },
-    "pomfri": {
-      "ime": "Pommes Frites",
-      "cena": "3,00",
-      "slika": "ostale_jedi_pomfri.png"
-    },
-    "mesana_solata": {
-      "ime": "Gemischter Salat",
-      "cena": "3,00",
-      "slika": "ostale_jedi_solata.png"
-    }
-  },
-  "sladice": {
-    "palacinke_marmelada": {
-      "ime": "Palatschinken mit Marillenmarmelade",
-      "cena": "3,50",
-      "slika": "sladice_marmeladne.png"
-    },
-    "palacinke_nutella": {
-      "ime": "Palatschinken mit Nutella",
-      "cena": "4,00",
-      "slika": "sladice_cokoladne.png"
-    },
-    "palacinke_orehi": {
-      "ime": "Palatschinken mit Walnussfüllung",
-      "cena": "4,50",
-      "slika": "sladice_orehove.png"
-    },
-    "pannacotta": {
-      "ime": "Panna Cotta mit Waldfrüchten",
-      "cena": "4,00",
-      "slika": "sladice_panacota.png"
-    }
-  },
-  "sladice_poleti": {
-    "domaca_ledena_kava": {
-      "ime": "Hausgemachter Eiskaffee",
-      "cena": "4,50",
-      "slika": "sladice_ledena_kava.png"
-    },
-    "sladoled_razlicni": {
-      "ime": "Eis (verschiedene Sorten)",
-      "cena": "",
-      "slika": "sladice_sladoled.jpg"
-    }
+    "kuhan_prsut": { "name": "Gekochter Schinken" },
+    "prsut": { "name": "Prosciutto" },
+    "slanina": { "name": "Speck" },
+    "panceta": { "name": "Pancetta" },
+    "suha_salama": { "name": "Trockene Salami" },
+    "pikantna_salama": { "name": "Scharfe Salami" },
+    "ogrska_salama": { "name": "Ungarische Salami" },
+    "hrenovke": { "name": "Würstchen" },
+    "piscancji_file": { "name": "Hähnchenfilet" },
+    "bolonjska_omaka": { "name": "Bolognese-Sauce" },
+    "svezi_jurcki": { "name": "Frische Steinpilze" },
+    "svezi_sampinjoni": { "name": "Frische Champignons" },
+    "cesnjev_paradiznik": { "name": "Kirschtomaten" },
+    "suseni_paradiznik": { "name": "Getrocknete Tomaten" },
+    "rukola": { "name": "Rucola" },
+    "pekoci_feferoni": { "name": "Scharfe Peperoni" },
+    "koruza": { "name": "Mais" },
+    "olive": { "name": "Oliven" },
+    "paprika": { "name": "Paprika" },
+    "bucke": { "name": "Zucchini" },
+    "melancani": { "name": "Auberginen" },
+    "cebula": { "name": "Zwiebel" },
+    "pesto": { "name": "Pesto" },
+    "tartufata": { "name": "Tartufata" },
+    "sir": { "name": "Käse" },
+    "mozzarela": { "name": "Mozzarella" },
+    "burrata": { "name": "Burrata" },
+    "buffala": { "name": "Büffelkäse" },
+    "parmezan": { "name": "Parmesan" },
+    "veganski_sir": { "name": "Veganer Käse" },
+    "jajce": { "name": "Ei" },
+    "morski_sadezi": { "name": "Meeresfrüchte" },
+    "tuna": { "name": "Thunfisch" },
+    "lignji": { "name": "Calamari" },
+    "kapre": { "name": "Kapern" },
+    "gamberi": { "name": "Garnelen" },
+    "pelati": { "name": "Tomatensauce" },
+    "kisla_smetana": { "name": "Sauerrahm" },
+    "tatarska": { "name": "Hausgemachte Tartar-Sauce" },
+    "cesnova_omaka": { "name": "Knoblauchsauce" },
+    "nacho_sir": { "name": "Nacho-Käse" },
+    "porcijski_kecap": { "name": "Ketchup" },
+    "embalaza_pica": { "name": "Pizzakarton" },
+    "embalaza_mala": { "name": "Kleine Verpackung" }
   }
 }

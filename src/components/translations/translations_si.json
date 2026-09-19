@@ -11,16 +11,17 @@
     "naroci": "Naroči"
   },
   "home": {
+    "mnenja": "Mnenja gostov",
     "uvod": {
       "main": "Pice",
       "naslov": "Prava pica, prava izkušnja!",
-      "tekst": "Vabimo vas, da poskusite naše odlične pice, pripravljene z ljubeznijo in mojstrsko roko izkušenega picopeka Marka. Poleg hrustljavih pic vam nudimo tudi druge dobrote, ki jih pripravljamo posebej za vas. Nudimo tudi kosila za zaključene družbe od 15 oseb naprej po predhodnem naročilu na telefon 031/307-279.",
+      "tekst": "Vabimo vas, da poskusite naše odlične pice, pripravljene z ljubeznijo in mojstrsko roko izkušenega picopeka Marka. Poleg hrustljavih pic vam nudimo tudi druge dobrote, ki jih pripravljamo posebej za vas. Za vse vegane pri nas na voljo tudi veganski sir. Nudimo tudi kosila za zaključene družbe od 15 oseb naprej po predhodnem naročilu na telefon 031/307-279.",
       "button": "Meni"
     },
     "ambient": {
       "main": "Ambient",
       "naslov": "Prijetno vzdušje za vse generacije",
-      "tekst": "Naša notranjost je zasnovana 'iz poda' - lesenega kmečkega objekta. Srce prostora je krušna peč, katera daje toplino in sproščeno vzdušje. ",
+      "tekst": "Naša notranjost je zasnovana 'iz poda' - lesenega kmečkega objekta. Srce prostora je krušna peč, katera daje toplino in sproščeno vzdušje.",
       "list1": "Večerje v dvoje",
       "list2": "Družinska srečanja",
       "list3": "Prijetna druženja s prijatelji",
@@ -34,6 +35,12 @@
       "list2": "Odlično izhodišče za krajše pohode",
       "list3": "Prijetno okolje za sprostitev in druženje",
       "button": "Spoznaj okolico"
+    },
+    "veganski": {
+      "main": "Veganske pice",
+      "naslov": "Ponujamo tudi veganske pice",
+      "tekst": "Vabimo vas, da poskusite naše odlične pice, pripravljene z ljubeznijo in mojstrsko roko izkušenega picopeka Marka. Poleg hrustljavih pic vam nudimo tudi druge dobrote, ki jih pripravljamo posebej za vas. Za vse vegane pri nas na voljo tudi veganski sir. Nudimo tudi kosila za zaključene družbe od 15 oseb naprej po predhodnem naročilu na telefon 031/307-279.",
+      "button": "Meni"
     }
   },
   "gostilna": {
@@ -64,303 +71,187 @@
       "nedelja": "Nedelja"
     }
   },
-  "pice": {
+  "meniHero": {
+    "title": "Izberi ponudbo",
+    "pice": "Pice napolitana",
+    "ostala": "Ostala ponudba",
+    "sladice": "Sladice"
+  },
+  "mesne_pice": {
     "klasika": {
-      "ime": "Klasika",
-      "sestavine": "pelati, sir, kuhan pršut, sveži šampinjoni, oliva",
-      "cena": "10,90",
-      "slika": "pice_klasika.png"
+      "name": "Klasika",
+      "ingredients": "pelati, sir, kuhan pršut, sveži šampinjoni, oliva"
     },
     "kuhan_prsut": {
-      "ime": "Kuhan pršut",
-      "sestavine": "pelati, sir, kuhan pršut, oliva",
-      "cena": "10,00",
-      "slika": "pice_kuhan_prsut.png"
+      "name": "Kuhan pršut",
+      "ingredients": "pelati, sir, kuhan pršut, oliva"
     },
     "picopek": {
-      "ime": "Picopek",
-      "sestavine": "pelati, mozzarela, panceta, pršut, pesto, sušen in češnjev paradižnik, rukola, oliva",
-      "cena": "12,70",
-      "slika": "pice_picopek.png"
+      "name": "Picopek",
+      "ingredients": "pelati, mozzarela, panceta, pršut, pesto, sušen in češnjev paradižnik, rukola, oliva"
     },
     "kraska": {
-      "ime": "Kraška",
-      "sestavine": "pelati, sir, šampinjoni, pršut, oliva",
-      "cena": "11,70",
-      "slika": "pice_kraska.png"
-    },
-    "morska": {
-      "ime": "Morska",
-      "sestavine": "pelati, sir, morski sadeži, tuna, česnova omaka, oliva",
-      "cena": "12,50",
-      "slika": "pice_morska.png"
-    },
-    "tuna": {
-      "ime": "Tuna",
-      "sestavine": "pelati, sir, tuna, koruza, rdeča čebula, oliva",
-      "cena": "11,90",
-      "slika": "pice_tuna.png"
-    },
-    "lignji": {
-      "ime": "Lignji",
-      "sestavine": "pelati, mozzarela, lignji, kapre, česnova omaka,  oliva",
-      "cena": "12,00",
-      "slika": "pice_lignji.png"
+      "name": "Kraška",
+      "ingredients": "pelati, sir, šampinjoni, pršut, oliva"
     },
     "tartufi": {
-      "ime": "Tartufi",
-      "sestavine": "omaka iz kisle smetane in tartufate, buffala sir, panceta, sveži jurčki, oljčno olje z okusom tartufov, črne olive",
-      "cena": "13,70",
-      "slika": "pice_tartufi.png"
-    },
-    "sadna": {
-      "ime": "Sadna",
-      "sestavine": "testo, nutella, ricotta sir, banana, ananas",
-      "cena": "10,00",
-      "slika": "pice_sadna.png"
+      "name": "Tartufi",
+      "ingredients": "omaka iz kisle smetane in tartufate, buffala sir, panceta, sveži jurčki, oljčno olje z okusom tartufov, črne olive"
     },
     "pod_podom": {
-      "ime": "Pod podom",
-      "sestavine": "pelati, sir, suha salama, kuhan pršut, panceta, slanina, sveži jurčki, oliva",
-      "cena": "12,90",
-      "slika": "pice_pod_podom.png"
+      "name": "Pod podom",
+      "ingredients": "pelati, sir, suha salama, kuhan pršut, panceta, slanina, sveži jurčki, oliva"
     },
     "pikantna": {
-      "ime": "Pikantna",
-      "sestavine": "pelati, sir, kuhan pršut, pikantna salama, pekoči feferoni, sveži šampinjoni, pikantno olje, oliva",
-      "cena": "11,70"
+      "name": "Pikantna",
+      "ingredients": "pelati, sir, kuhan pršut, pikantna salama, pekoči feferoni, sveži šampinjoni, pikantno olje, oliva"
     },
     "bovljek": {
-      "ime": "Bovljek",
-      "sestavine": "pelati, sir, ogrska salama, kuhan pršut, panceta, sveži šampinjoni, pekoči feferoni, oliva",
-      "cena": "11,90",
-      "slika": "pice_bovljek.png"
+      "name": "Bovljek",
+      "ingredients": "pelati, sir, ogrska salama, kuhan pršut, panceta, sveži šampinjoni, pekoči feferoni, oliva"
     },
     "mexicana": {
-      "ime": "Mexicana",
-      "sestavine": "pelati, sir, bolonjska omaka, koruza, paprika, nacho sir, oliva",
-      "cena": "11,90"
+      "name": "Mexicana",
+      "ingredients": "pelati, sir, bolonjska omaka, koruza, paprika, nacho sir, oliva"
     },
     "piscancja": {
-      "ime": "Piščančja",
-      "sestavine": "pelati, sir, piščančji file, paprika, češnjev paradižnik, domača tatarska omaka, oliva",
-      "cena": "11,90"
-    },
-    "ribic": {
-      "ime": "Ribič",
-      "sestavine": "pelati, mozzarela, file šarenke, češnjev paradižnik, gamberi, česnova omaka, oliva",
-      "cena": "13,80",
-      "slika": "pice_ribic.png"
+      "name": "Piščančja",
+      "ingredients": "pelati, sir, piščančji file, paprika, češnjev paradižnik, domača tatarska omaka, oliva"
     },
     "vegi": {
-      "ime": "Vegi",
-      "sestavine": "pelati, sir, marinirani melancani, bučke, paprika, koruza, češnjev paradižnik, sveži šampinjoni, oliva",
-      "cena": "10,90"
+      "name": "Vegi",
+      "ingredients": "pelati, sir, marinirani melancani, bučke, paprika, koruza, češnjev paradižnik, sveži šampinjoni, oliva"
+    },
+    "buffala": {
+      "name": "Buffala",
+      "ingredients": "pelati, buffala sir, kuhan pršut, češnjev paradižnik, bazilika"
+    },
+    "burrata": {
+      "name": "Burrata",
+      "ingredients": "omaka iz kisle smetane in pesta, burrata sir, kuhan pršut, pistacija, sušen in češnjev paradižnik, rukola, extra deviško oljčno olje"
+    }
+  },
+
+  "morske_pice": {
+    "morska": {
+      "name": "Morska",
+      "ingredients": "pelati, sir, morski sadeži, tuna, česnova omaka, oliva"
+    },
+    "tuna": {
+      "name": "Tuna",
+      "ingredients": "pelati, sir, tuna, koruza, rdeča čebula, oliva"
+    },
+    "lignji": {
+      "name": "Lignji",
+      "ingredients": "pelati, mozzarela, lignji, kapre, česnova omaka, oliva"
+    },
+    "ribic": {
+      "name": "Ribič",
+      "ingredients": "pelati, mozzarela, file šarenke, češnjev paradižnik, gamberi, česnova omaka, oliva"
+    }
+  },
+
+  "vegi_pice": {
+    "napolitana": {
+      "name": "Napolitana",
+      "ingredients": "pelati, mozzarela, bazilika"
     },
     "poletna": {
-      "ime": "Poletna",
-      "sestavine": "pelati, mozzarela, sušen in češnjev paradižnik, pesto, rukola, grana padano, oliva",
-      "cena": "12,30"
-    },
-    "buffala": {
-      "ime": "Buffala",
-      "sestavine": "pelati, buffala sir, kuhan pršut, češnjev paradižnik, bazilika",
-      "cena": "13,70"
-    },
-    "burrata": {
-      "ime": "Burrata",
-      "sestavine": "omaka iz kisle smetane in pesta, burrata sir, kuhan pršut, pistacija, sušen in češnjev paradižnik, rukola, extra deviško oljčno olje",
-      "cena": "14,50",
-      "slika": "pice_burrata.png"
+      "name": "Poletna",
+      "ingredients": "pelati, mozzarela, sušen in češnjev paradižnik, pesto, rukola, grana padano, oliva"
     },
     "margerita": {
-      "ime": "Margerita",
-      "sestavine": "pelati, sir, oliva",
-      "cena": "9,00",
-      "slika": "pice_margerita.png"
+      "name": "Margerita",
+      "ingredients": "pelati, sir, oliva"
     },
     "picici": {
-      "ime": "Pičiči",
-      "sestavine": "testo, sir + omake: domača tatarska omaka, nacho sir, pelati, kisla smetana ",
-      "cena": "9,50"
+      "name": "Pičiči",
+      "ingredients": "testo, sir + omake: domača tatarska omaka, nacho sir, pelati, kisla smetana"
+    },
+    "vegi": {
+      "name": "Vegi",
+      "ingredients": "pelati, sir, marinirani melancani, bučke, paprika, koruza, češnjev paradižnik, sveži šampinjoni, oliva"
     }
   },
-  "dodatki": {
-    "kuhan_prsut": {
-      "ime": "Kuhan pršut",
-      "cena": "1,50"
+
+  "veganske_pice": {
+    "tartufata_veganska": {
+      "name": "Tartufata veganska",
+      "ingredients": "pelati, veganski sir, tartufata, popečeni melancani, črne olive"
     },
-    "prsut": {
-      "ime": "Pršut",
-      "cena": "2,00"
+    "balzamik_veganska": {
+      "name": "Balzamik veganska",
+      "ingredients": "pelati, veganski sir, popečen tofu, začinjen z mleto dimljeno papriko, čebula, koruza, sveži šampinjoni, češnjev paradižnik, balzamični gel, bučna semena"
     },
-    "slanina": {
-      "ime": "Slanina",
-      "cena": "1,00"
+    "sveza_veganska": {
+      "name": "Sveža veganska",
+      "ingredients": "pelati, veganski sir, pesto vegan, sveži jurčki, sušen paradižnik, radič, česnova omaka, orehi"
     },
-    "panceta": {
-      "ime": "Panceta",
-      "cena": "1,50"
-    },
-    "suha_salama": {
-      "ime": "Suha salama",
-      "cena": "1,50"
-    },
-    "pikantna_salama": {
-      "ime": "Pikantna salama",
-      "cena": "1,50"
-    },
-    "ogrska_salama": {
-      "ime": "Ogrska salama",
-      "cena": "1,50"
-    },
-    "hrenovke": {
-      "ime": "Hrenovke",
-      "cena": "1,00"
-    },
-    "svezi_jurcki": {
-      "ime": "Sveži jurčki",
-      "cena": "3,00"
-    },
-    "svezi_sampinjoni": {
-      "ime": "Sveži šampinjoni",
-      "cena": "1,50"
-    },
-    "cesnjev_paradiznik": {
-      "ime": "Češnjev paradižnik",
-      "cena": "2,00"
-    },
-    "rukola": {
-      "ime": "Rukola",
-      "cena": "1,00"
-    },
-    "pekoci_feferoni": {
-      "ime": "Pekoči feferoni",
-      "cena": "0,80"
-    },
-    "koruza": {
-      "ime": "Koruza",
-      "cena": "0,60"
-    },
-    "olive": {
-      "ime": "Olive",
-      "cena": "1,00"
-    },
-    "paprika": {
-      "ime": "Paprika",
-      "cena": "1,00"
-    },
-    "bucke": {
-      "ime": "Bučke",
-      "cena": "1,00"
-    },
-    "melancani": {
-      "ime": "Melancani",
-      "cena": "1,00"
-    },
-    "cebula": {
-      "ime": "Čebula",
-      "cena": "0,80"
-    },
-    "mozzarela": {
-      "ime": "Mozzarela",
-      "cena": "1,50"
-    },
-    "burrata": {
-      "ime": "Burrata sir",
-      "cena": "3,00"
-    },
-    "buffala": {
-      "ime": "Buffala sir",
-      "cena": "2,50"
-    },
-    "kisla_smetana": {
-      "ime": "Kisla smetana",
-      "cena": "0,80"
-    },
-    "tatarska": {
-      "ime": "Domača tatarska omaka",
-      "cena": "2,00"
-    },
-    "cesnova_omaka": {
-      "ime": "Česnova omaka",
-      "cena": "1,50"
-    },
-    "nacho_sir": {
-      "ime": "Nacho sir",
-      "cena": "2,50"
-    },
-    "porcijski_kecap": {
-      "ime": "Porcijski kečap",
-      "cena": "0,80"
-    },
-    "jajce": {
-      "ime": "Jajce",
-      "cena": "1,00"
-    },
-    "embalaza_pica": {
-      "ime": "Embalaža za pico",
-      "cena": "0,70"
-    },
-    "embalaza_mala": {
-      "ime": "Embalaža mala",
-      "cena": "0,30"
+    "zelenjavna_veganska": {
+      "name": "Zelenjavna veganska",
+      "ingredients": "pelati, veganski sir, popečeni melancani, bučke, paprika, koruza, češnjev paradinik, sveži šampinjoni, oliva"
     }
   },
+
   "ostala_ponudba": {
     "puranji_dunajski_zrezek": {
-      "ime": "Puranji dunajski zrezek s pomfrijem",
-      "cena": "14,00",
-      "slika": "ostale_jedi_dunajc.png"
+      "name": "Puranji dunajski zrezek s pomfrijem"
     },
-    "ocvrti_kalamari": {
-      "ime": "Ocvrti kalamari s pomfrijem",
-      "cena": "14,50",
-      "slika": "ostale_jedi_kalamari.png"
-    },
-    "pomfri": {
-      "ime": "Pomfri",
-      "cena": "3,00",
-      "slika": "ostale_jedi_pomfri.png"
-    },
-    "mesana_solata": {
-      "ime": "Mešana solata",
-      "cena": "3,00",
-      "slika": "ostale_jedi_solata.png"
-    }
+    "ocvrti_kalamari": { "name": "Ocvrti kalamari s pomfrijem" },
+    "pomfri": { "name": "Pomfri" },
+    "mesana_solata": { "name": "Mešana solata" }
   },
   "sladice": {
-    "palacinke_marmelada": {
-      "ime": "Palačinke z marelično marmelado",
-      "cena": "3,50",
-      "slika": "sladice_marmeladne.png"
-    },
-    "palacinke_nutella": {
-      "ime": "Palačinke z nutello",
-      "cena": "4,00",
-      "slika": "sladice_cokoladne.png"
-    },
-    "palacinke_orehi": {
-      "ime": "Palačinke z orehovim nadevom",
-      "cena": "4,50",
-      "slika": "sladice_orehove.png"
-    },
-    "pannacotta": {
-      "ime": "Panna cotta z gozdnimi sadeži",
-      "cena": "4,00",
-      "slika": "sladice_panacota.png"
-    }
+    "palacinke_marmelada": { "name": "Palačinke z marelično marmelado" },
+    "palacinke_nutella": { "name": "Palačinke z nutello" },
+    "palacinke_orehi": { "name": "Palačinke z orehovim nadevom" },
+    "pannacotta": { "name": "Panna cotta z gozdnimi sadeži" }
   },
-  "sladice_poleti": {
-    "domaca_ledena_kava": {
-      "ime": "Domača ledena kava",
-      "cena": "4,50",
-      "slika": "sladice_ledena_kava.png"
-    },
-    "sladoled_razlicni": {
-      "ime": "Sladoled različni okusi",
-      "cena": "",
-      "slika": "sladice_sladoled.jpg"
-    }
+
+  "dodatki": {
+    "kuhan_prsut": { "name": "Kuhan pršut" },
+    "prsut": { "name": "Pršut" },
+    "slanina": { "name": "Slanina" },
+    "panceta": { "name": "Panceta" },
+    "suha_salama": { "name": "Suha salama" },
+    "pikantna_salama": { "name": "Pikantna salama" },
+    "ogrska_salama": { "name": "Ogrska salama" },
+    "hrenovke": { "name": "Hrenovke" },
+    "piscancji_file": { "name": "Piščančji file" },
+    "bolonjska_omaka": { "name": "Bolonjska omaka" },
+    "svezi_jurcki": { "name": "Sveži jurčki" },
+    "svezi_sampinjoni": { "name": "Sveži šampinjoni" },
+    "cesnjev_paradiznik": { "name": "Češnjev paradižnik" },
+    "suseni_paradiznik": { "name": "Sušeni paradižnik" },
+    "rukola": { "name": "Rukola" },
+    "pekoci_feferoni": { "name": "Pekoči feferoni" },
+    "koruza": { "name": "Koruza" },
+    "olive": { "name": "Olive" },
+    "paprika": { "name": "Paprika" },
+    "bucke": { "name": "Bučke" },
+    "melancani": { "name": "Melancani" },
+    "cebula": { "name": "Čebula" },
+    "pesto": { "name": "Pesto" },
+    "tartufata": { "name": "Tartufata" },
+    "sir": { "name": "Sir" },
+    "mozzarela": { "name": "Mozzarela" },
+    "burrata": { "name": "Burrata sir" },
+    "buffala": { "name": "Buffala sir" },
+    "parmezan": { "name": "Parmezan" },
+    "veganski_sir": { "name": "Veganski sir" },
+    "jajce": { "name": "Jajce" },
+    "morski_sadezi": { "name": "Morski sadeži" },
+    "tuna": { "name": "Tuna" },
+    "lignji": { "name": "Lignji" },
+    "kapre": { "name": "Kapre" },
+    "gamberi": { "name": "Gamberi" },
+    "pelati": { "name": "Pelati" },
+    "kisla_smetana": { "name": "Kisla smetana" },
+    "tatarska": { "name": "Domača tatarska omaka" },
+    "cesnova_omaka": { "name": "Česnova omaka" },
+    "nacho_sir": { "name": "Nacho sir" },
+    "porcijski_kecap": { "name": "Porcijski kečap" },
+    "embalaza_pica": { "name": "Embalaža za pico" },
+    "embalaza_mala": { "name": "Embalaža mala" }
   }
 }

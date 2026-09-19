@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import "./Hero.css";
 
+import HeroVideo from "../../videos/hero_video.mp4";
 const Hero = ({
   title,
   image,
@@ -27,7 +28,7 @@ const Hero = ({
       transition={{ duration: 1, ease: "easeInOut" }}
     >
       <div className="hero-image-wrapper">
-        <motion.img
+        {/* <motion.img
           className="hero-image"
           src={image}
           srcSet={`${imageSmall} 480w, ${imageMedium} 768w, ${imageLarge} 1920w`}
@@ -36,6 +37,16 @@ const Hero = ({
           initial={{ scale: 1.1, opacity: 0 }}
           animate={delayedAnimation ? { scale: 1, opacity: 1 } : {}}
           transition={{ duration: 1.5, ease: "easeOut" }}
+        /> */}
+        <video
+          className="hero-image"
+          src={HeroVideo}
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="none"
+          poster={image}
         />
       </div>
       <motion.div

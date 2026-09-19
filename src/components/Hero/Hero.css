@@ -32,7 +32,9 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: filter 0.1s ease-in-out, opacity 0.1s ease-in-out; /* Slower transition */
+  transition:
+    filter 0.1s ease-in-out,
+    opacity 0.1s ease-in-out; /* Slower transition */
 }
 
 .loading {
@@ -43,13 +45,16 @@
 .loaded {
   filter: blur(0);
   opacity: 1;
-  transition: filter 0.1s ease-in-out, opacity 0.1s ease-in-out; /* Smooth transition */
+  transition:
+    filter 0.1s ease-in-out,
+    opacity 0.1s ease-in-out; /* Smooth transition */
 }
 
 .hero-title {
   position: relative;
   z-index: 2;
   text-align: center;
+  top: 3%;
   color: white;
   font-size: 3rem;
   font-family: var(--fontMain);

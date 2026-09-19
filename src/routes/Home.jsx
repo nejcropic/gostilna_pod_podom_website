@@ -21,6 +21,8 @@ import SiteImage from "../components/Site/SiteImage";
 import SiteGallery from "../components/Site/SiteGallery";
 import SiteText from "../components/Site/SiteText";
 
+import MainVideo from "../videos/main_video.mp4";
+import VeganskiVideo from "../videos/veganski_video.mp4";
 function getGalleryImages(category) {
   const imageSets = {
     hrana: [HomeHrana1, HomeHrana2, HomeHrana3, HomeHrana4],
@@ -62,7 +64,8 @@ function Home() {
       />
       {/* Ambient - notranjost */}
       <div className="site-gallery full">
-        <SiteImage image={Home1} />
+        <video src={MainVideo} autoPlay muted loop playsInline />
+        {/* <SiteImage image={Home1} /> */}
       </div>
       <SiteText
         main={t("home.ambient.main")}
@@ -78,6 +81,19 @@ function Home() {
       />
       {/* Galerija */}
       <SiteGallery images={getGalleryImages("hrana")} />
+      {/* Veganske pice */}
+      <SiteText
+        main={t("home.veganski.main")}
+        title={t("home.veganski.naslov")}
+        description={t("home.veganski.tekst")}
+        buttonText={t("home.veganski.button")}
+        link="/meni"
+      />
+      {/* Ambient - notranjost */}
+      <div className="site-gallery full">
+        <video src={VeganskiVideo} autoPlay muted loop playsInline />
+        {/* <SiteImage image={Home1} /> */}
+      </div>
       {/* Mnenja */}
       <Mnenja />
       {/* Terasa */}
