@@ -71,6 +71,7 @@
   width: 60%;
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
 .meni-text h3 {

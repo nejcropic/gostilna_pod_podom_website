@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import "./LanguageDropdown.css";
@@ -48,8 +48,13 @@ const LanguageNav = () => {
 
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
+    localStorage.setItem("language", lang);
     setIsOpen(false);
   };
+
+  useEffect(() => {
+    document.documentElement.lang = i18n.language === "si" ? "sl" : i18n.language;
+  }, [i18n.language]);
 
   // Get only the languages that are NOT selected
   const availableLanguages = Object.keys(languageIcons).filter(
@@ -59,14 +64,17 @@ const LanguageNav = () => {
   return (
     <div className="language-dropdown">
       <motion.button
+        type="button"
         whileTap={{ scale: 0.97 }}
         className="dropdown-toggle"
         onClick={() => setIsOpen(!isOpen)}
+        aria-label="Izberi jezik"
+        aria-expanded={isOpen}
       >
         <div className="selected-language">
           <img
             src={languageIcons[i18n.language]}
-            alt="Selected Language"
+            alt={i18n.language.toUpperCase()}
             className="selected-icon"
           />
         </div>
@@ -83,6 +91,13 @@ const LanguageNav = () => {
             onClick={() => changeLanguage(lang)}
             className={i18n.language === lang ? "active" : ""}
             variants={itemVariants}
+            role="button"
+            tabIndex={0}
+            onKeyDown={(event) => {
+              if (event.key === "Enter" || event.key === " ") {
+                changeLanguage(lang);
+              }
+            }}
           >
             <img src={languageIcons[lang]} alt={lang} />
           </motion.li>

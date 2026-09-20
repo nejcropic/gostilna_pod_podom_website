@@ -1,25 +1,20 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
 import Hero from "../components/Hero/Hero";
 import Mnenja from "../components/Mnenja/Mnenja";
 
 /* Slike */
-import NaslovnicaPlaceholder from "../meni/pice_pec_small.jpg";
-import {
-  Naslovnica,
-  Home1,
-  Home2,
-  HomeHrana1,
-  HomeHrana2,
-  HomeHrana3,
-  HomeHrana4,
-} from "..";
-import NaslovnicaSmall from "../meni/pice_pec_small.jpg"; // 480px width
-import NaslovnicaMedium from "../meni/pice_pec_medium.jpg"; // 768px width
-import NaslovnicaLarge from "../images/pice_pec.jpg";
+import NaslovnicaLarge from "../images/pice_pec.webp";
+import Home1 from "../images/home_1.webp";
+import Home2 from "../images/home_2.webp";
+import HomeHrana1 from "../images/home_colage_1.webp";
+import HomeHrana2 from "../images/home_colage_2.webp";
+import HomeHrana3 from "../images/home_colage_3.webp";
+import HomeHrana4 from "../images/home_colage_4.webp";
 import SiteImage from "../components/Site/SiteImage";
 import SiteGallery from "../components/Site/SiteGallery";
 import SiteText from "../components/Site/SiteText";
+import LazyVideo from "../components/LazyVideo";
 
 import MainVideo from "../videos/main_video.mp4";
 import VeganskiVideo from "../videos/veganski_video.mp4";
@@ -34,26 +29,9 @@ function getGalleryImages(category) {
 
 function Home() {
   const { t } = useTranslation("global");
-  const [imageSrc, setImageSrc] = useState(NaslovnicaPlaceholder);
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    const img = new Image();
-    img.src = Naslovnica;
-    img.onload = () => {
-      setImageSrc(Naslovnica);
-      setLoaded(true);
-    };
-  }, []);
   return (
     <div>
-      <Hero
-        imageSmall={NaslovnicaSmall}
-        imageMedium={NaslovnicaMedium}
-        imageLarge={NaslovnicaLarge}
-        title="Gostišče"
-        span="Pod Podom"
-      />
+      <Hero imageLarge={NaslovnicaLarge} title="Gostišče" span="Pod Podom" />
       {/* Uvod */}
       <SiteText
         main={t("home.uvod.main")}
@@ -64,7 +42,7 @@ function Home() {
       />
       {/* Ambient - notranjost */}
       <div className="site-gallery full">
-        <video src={MainVideo} autoPlay muted loop playsInline />
+        <LazyVideo src={MainVideo} poster={Home1} label="Ambient gostišča" />
         {/* <SiteImage image={Home1} /> */}
       </div>
       <SiteText
@@ -91,7 +69,11 @@ function Home() {
       />
       {/* Ambient - notranjost */}
       <div className="site-gallery full">
-        <video src={VeganskiVideo} autoPlay muted loop playsInline />
+        <LazyVideo
+          src={VeganskiVideo}
+          poster={HomeHrana1}
+          label="Priprava veganske pice"
+        />
         {/* <SiteImage image={Home1} /> */}
       </div>
       {/* Mnenja */}

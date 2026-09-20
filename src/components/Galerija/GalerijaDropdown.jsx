@@ -22,12 +22,15 @@ function GalerijaDropdown({ options, selectedValue, onChange }) {
     <div className="galerija-dropdown">
       {/* Animated Toggle Button */}
       <motion.button
+        type="button"
         className="galerija-dropdown-toggle"
         onClick={() => setIsOpen(!isOpen)}
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.5 } }}
+        aria-expanded={isOpen}
+        aria-haspopup="listbox"
       >
         {t(
           options.find((opt) => opt.id === selectedValue)?.key || "gallery.all"

@@ -6,7 +6,7 @@ import MeniHero from "../components/Meni/MeniHero";
 import MeniFood from "../components/Meni/MeniFood";
 import MeniDodatki from "../components/Meni/MeniDodatki";
 
-import HeroSlika from "../images/prostori_pec.jpg";
+import HeroSlika from "../images/prostori_pec.webp";
 import menu from "../data/menu.json";
 
 /**

@@ -1,43 +1,42 @@
 // NavBar.jsx
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 import { getNavBarItems } from "./NavBarItems";
 import LanguageDropdown from "../LanguageDropdown/LanguageDropdown";
-import { navAnimation, navAnimationPhone } from "../animations";
-import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import MenuWhite from "../../icons/menu_white.png";
 import MenuCross from "../../icons/cross.png";
 function NavBar() {
   const { t } = useTranslation("global");
   const navItems = getNavBarItems(t);
-  const [navState, setNavState] = useState(false);
   const [navMenu, setNavMenu] = useState(false);
-  const [showBorder, setShowBorder] = useState(false);
-  const [lastScrollY, setLastScrollY] = useState(0);
 
-  const changeNavState = () => {
-    if (window.scrollY < 150) {
-      setNavState(false);
-      setShowBorder(false);
-    } else if (window.scrollY < lastScrollY) {
-      setNavState(false);
-      setShowBorder(true);
-    } else {
-      setNavState(true);
-      setShowBorder(true);
-    }
-    setLastScrollY(window.scrollY);
-  };
-  const showNavBar = () => setNavMenu(!navMenu);
+  useEffect(() => {
+    const closeOnEscape = (event) => {
+      if (event.key === "Escape") setNavMenu(false);
+    };
+
+    document.body.style.overflow = navMenu ? "hidden" : "";
+    window.addEventListener("keydown", closeOnEscape);
+    return () => {
+      document.body.style.overflow = "";
+      window.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [navMenu]);
+
+  const showNavBar = () => setNavMenu((isOpen) => !isOpen);
   return (
     <>
       <nav className="nav-wrapper">
         <div className="menu-title">
           <Link to="/">pod podom</Link>
         </div>
-        <div className={navMenu ? "nav-container active" : "nav-container"}>
+        <div
+          id="main-navigation"
+          className={navMenu ? "nav-container active" : "nav-container"}
+          aria-hidden={!navMenu}
+        >
           {navItems.map((item, index) => (
             <Link
               key={index}
@@ -49,19 +48,26 @@ function NavBar() {
                   left: 0,
                   behavior: "smooth",
                 });
-                showNavBar();
+                setNavMenu(false);
               }}
             >
               {item.key}
             </Link>
           ))}
         </div>
-        <button className="nav-icon">
-          <a href="tel:+38631307279">{t("nav.naroci")}</a>
-        </button>
+        <a className="nav-icon" href="tel:+38631307279">
+          {t("nav.naroci")}
+        </a>
         <LanguageDropdown />
-        <button onClick={showNavBar}>
-          <img src={navMenu ? MenuCross : MenuWhite} alt="Menu Icon" />
+        <button
+          type="button"
+          className="menu-toggle"
+          onClick={showNavBar}
+          aria-label={navMenu ? "Zapri meni" : "Odpri meni"}
+          aria-expanded={navMenu}
+          aria-controls="main-navigation"
+        >
+          <img src={navMenu ? MenuCross : MenuWhite} alt="" aria-hidden="true" />
         </button>
       </nav>
     </>

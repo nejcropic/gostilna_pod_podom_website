@@ -1,6 +1,5 @@
 import React from "react";
 import "./Kontakt.css";
-import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import MapComponent from "../MapComponent/MapComponent";
 
@@ -21,20 +20,31 @@ export default function Kontakt() {
             <a href="tel:+38631307279">031/ 307-279</a>
             <a href="mailto:gpodpodom@gmail.com">gpodpodom@gmail.com</a>
             <div className="social-icons">
-              <Link to="https://www.tripadvisor.com/Restaurant_Review-g4581334-d33003913-Reviews-Gostisce_Pod_Podom-Zagradec_Lower_Carniola_Region.html">
-                <img src={Tripadvisor} alt="" />
-              </Link>
-              <Link to="https://www.facebook.com/p/Gostišče-Pod-Podom-61557147044531">
-                <button>
-                  <i class="fa-brands fa-facebook" aria-hidden="true"></i>
-                </button>
-              </Link>
+              <a
+                href="https://www.tripadvisor.com/Restaurant_Review-g4581334-d33003913-Reviews-Gostisce_Pod_Podom-Zagradec_Lower_Carniola_Region.html"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Gostišče Pod Podom na Tripadvisorju"
+              >
+                <img src={Tripadvisor} alt="Tripadvisor" loading="lazy" />
+              </a>
+              <a
+                href="https://www.facebook.com/p/Gostišče-Pod-Podom-61557147044531"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Gostišče Pod Podom na Facebooku"
+              >
+                <i className="fa-brands fa-facebook" aria-hidden="true"></i>
+              </a>
             </div>
             <div className="kontakt-item-button">
-              <a href="https://maps.app.goo.gl/jK11yzpicywKAyr17">
-                <button className="kontakt-button">
-                  {t("kontakt.navodila")}
-                </button>
+              <a
+                className="kontakt-button"
+                href="https://maps.app.goo.gl/jK11yzpicywKAyr17"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {t("kontakt.navodila")}
               </a>
             </div>
           </div>
@@ -49,7 +59,8 @@ export default function Kontakt() {
 
       <hr />
       <p>
-        Copyright @2025 <Link to="https://www.nejc-ropic.si/"> Nejc Ropič</Link>
+        Copyright © {new Date().getFullYear()}{" "}
+        <a href="https://www.nejc-ropic.si/">Nejc Ropič</a>
       </p>
     </div>
   );

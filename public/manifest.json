@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Pod Podom",
+  "name": "Gostišče Pod Podom",
   "icons": [
     {
       "src": "logo.ico",
@@ -20,6 +20,7 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#56342a",
+  "background_color": "#f7efeb",
+  "lang": "sl"
 }

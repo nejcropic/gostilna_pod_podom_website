@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 // Text moves up
 export const textUp = {
   hidden: { opacity: 0, y: 100 },

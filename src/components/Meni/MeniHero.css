@@ -54,6 +54,10 @@
   text-align: center;
   transition: transform 0.2s ease-in-out;
   gap: 1rem;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
 }
 
 .meni-hero-card.active {
@@ -86,7 +90,7 @@
 }
 @media screen and (max-width: 768px) {
   .meni-hero-card img {
-    width: 200px;
+    width: clamp(120px, 45vw, 200px);
     height: auto;
   }
 }

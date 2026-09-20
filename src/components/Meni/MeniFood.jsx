@@ -11,6 +11,10 @@ const fadeInUp = {
   },
 };
 
+const menuImages = require.context("../../meni", false, /\.webp$/);
+
+const getMenuImage = (fileName) => menuImages(`./${fileName}`);
+
 export default function MeniFood({ title, items }) {
   return (
     <motion.section
@@ -49,8 +53,10 @@ export default function MeniFood({ title, items }) {
 
             {item.image && (
               <motion.img
-                src={require(`../../meni/${item.image}`)}
+                src={getMenuImage(item.image)}
                 alt={item.name}
+                loading="lazy"
+                decoding="async"
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}

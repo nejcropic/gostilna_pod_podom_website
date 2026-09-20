@@ -35,6 +35,12 @@
       "list2": "Excellent starting point for short hikes",
       "list3": "Pleasant environment for relaxation and socializing",
       "button": "Discover the area"
+    },
+    "veganski": {
+      "main": "Vegan pizzas",
+      "naslov": "Also for lovers of vegan pizza",
+      "tekst": "You can also enjoy delicious vegan pizzas with us. Selected pizzas can be prepared with vegan cheese and carefully chosen ingredients, so you don't have to compromise on great taste. Take a look at our menu and find your favorite combination.",
+      "button": "Menu"
     }
   },
   "gostilna": {

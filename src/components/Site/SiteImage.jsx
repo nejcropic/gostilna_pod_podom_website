@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./SiteGallery.css";
 import { motion } from "framer-motion";
-import { textUp, textLeftToCenter, fadeIn } from "../animations";
+import { fadeIn } from "../animations";
 
-function SiteImage({ image }) {
+function SiteImage({ image, alt = "Gostišče Pod Podom" }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const closeLightbox = (e) => {
@@ -17,7 +17,9 @@ function SiteImage({ image }) {
       <section onClick={() => setIsOpen(true)}>
         <motion.img
           src={image}
-          alt="Site"
+          alt={alt}
+          loading="lazy"
+          decoding="async"
           variants={fadeIn}
           initial="hidden"
           whileInView="visible"
@@ -25,11 +27,22 @@ function SiteImage({ image }) {
         />
       </section>
       {isOpen && (
-        <div className="lightbox" onClick={closeLightbox}>
-          <button className="close-button" onClick={() => setIsOpen(false)}>
+        <div
+          className="lightbox"
+          onClick={closeLightbox}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Povečana fotografija"
+        >
+          <button
+            type="button"
+            className="close-button"
+            onClick={() => setIsOpen(false)}
+            aria-label="Zapri fotografijo"
+          >
             &times;
           </button>
-          <img src={image} alt="Enlarged view" className="lightbox-image" />
+          <img src={image} alt={alt} className="lightbox-image" />
         </div>
       )}
     </>

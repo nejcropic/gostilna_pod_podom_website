@@ -5,6 +5,7 @@ import Preloader from "./components/Preloader/Preloader";
 import NavBar from "./components/NavBar/NavBar";
 import Kontakt from "./components/Kontakt/Kontakt";
 import ScrollToTop from "./components/ScrollToTop";
+import PageMetadata from "./components/PageMetadata";
 
 // ✅ Lazy Load Pages
 const Home = lazy(() => import("./routes/Home"));
@@ -13,12 +14,12 @@ const Meni = lazy(() => import("./routes/Meni"));
 const Gostisce = lazy(() => import("./routes/Gostisce"));
 const Okolica = lazy(() => import("./routes/Okolica"));
 
-export default function App({ isLoading }) {
+export default function App() {
   return (
     <>
-      {isLoading && <Preloader isLoading={isLoading} />}
-      <div className={`App ${isLoading ? "hidden" : "visible"}`}>
+      <div className="App visible">
         <ScrollToTop />
+        <PageMetadata />
         <NavBar />
         <Suspense fallback={<Preloader isLoading={true} />}>
           <Routes>

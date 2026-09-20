@@ -2,7 +2,7 @@ import React from "react";
 import "./SiteText.css";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { textUp, textLeftToCenter, fadeIn } from "../animations";
+import { textLeftToCenter } from "../animations";
 
 export default function SiteText({
   main,
@@ -15,7 +15,6 @@ export default function SiteText({
 }) {
   return (
     <section className={`site-section ${adjust ? adjust : ""}`}>
-      {" "}
       <div className="site-text">
         <motion.h3
           variants={textLeftToCenter}
@@ -52,7 +51,7 @@ export default function SiteText({
       </div>
       {buttonText && (
         <>
-          <hr className="site-line" />{" "}
+          <hr className="site-line" />
           <Link to={link}>
             <motion.div
               className="site-button"

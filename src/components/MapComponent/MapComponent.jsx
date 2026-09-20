@@ -1,33 +1,40 @@
-import React from "react";
+import React, { lazy, Suspense, useEffect, useRef, useState } from "react";
 import "./MapComponent.css";
-import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
+
+const GoogleMapView = lazy(() => import("./GoogleMapView"));
 
 function MapComponent() {
-  const googleApi = process.env.REACT_APP_API_KEY;
+  const wrapperRef = useRef(null);
+  const [shouldLoad, setShouldLoad] = useState(false);
 
-  const containerStyle = {
-    width: "100%", // Default 100% width
-    height: "100%",
-  };
+  useEffect(() => {
+    const element = wrapperRef.current;
+    if (!element || !("IntersectionObserver" in window)) {
+      setShouldLoad(true);
+      return undefined;
+    }
 
-  const center = {
-    lat: 45.856803887338216,
-    lng: 14.809838864417836,
-  };
-
-  const MapComponentMap = () => {
-    return (
-      <LoadScript googleMapsApiKey={googleApi}>
-        <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={10}>
-          <Marker position={center} />
-        </GoogleMap>
-      </LoadScript>
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setShouldLoad(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "300px" }
     );
-  };
+
+    observer.observe(element);
+    return () => observer.disconnect();
+  }, []);
 
   return (
-    <div className="map-wrapper">
-      <MapComponentMap />
+    <div className="map-wrapper" ref={wrapperRef}>
+      {shouldLoad && (
+        <Suspense fallback={<div className="map-placeholder" aria-hidden="true" />}>
+          <GoogleMapView />
+        </Suspense>
+      )}
     </div>
   );
 }

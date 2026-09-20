@@ -25,6 +25,21 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+html {
+  background: var(--backgroundColor);
+}
+
+body {
+  min-width: 320px;
+  background: var(--backgroundColor);
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
 *::-webkit-scrollbar {
   display: none;
 }
@@ -69,4 +84,15 @@ a {
 
 .visible {
   opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

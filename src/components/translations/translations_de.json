@@ -35,6 +35,12 @@
       "list2": "Idealer Ausgangspunkt für kurze Wanderungen",
       "list3": "Angenehme Umgebung zum Entspannen und Zusammensein",
       "button": "Umgebung entdecken"
+    },
+    "veganski": {
+      "main": "Vegane Pizzen",
+      "naslov": "Auch für Liebhaber veganer Pizza",
+      "tekst": "Bei uns können Sie auch köstliche vegane Pizzen genießen. Ausgewählte Pizzen bereiten wir auf Wunsch mit veganem Käse und sorgfältig ausgewählten Zutaten zu, sodass Sie auf hervorragenden Geschmack nicht verzichten müssen. Werfen Sie einen Blick auf unsere Speisekarte und finden Sie Ihre Lieblingskombination.",
+      "button": "Speisekarte"
     }
   },
   "gostilna": {

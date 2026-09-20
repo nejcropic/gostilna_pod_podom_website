@@ -6,13 +6,16 @@ import { MnenjaOptions } from "./MnenjaItems";
 function Mnenja() {
   const { t } = useTranslation("global");
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  const [isMobile, setIsMobile] = useState(
+    () => window.matchMedia("(max-width: 767px)").matches
+  );
 
   // Update isMobile when screen size changes
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 768);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    const mediaQuery = window.matchMedia("(max-width: 767px)");
+    const handleChange = (event) => setIsMobile(event.matches);
+    mediaQuery.addEventListener("change", handleChange);
+    return () => mediaQuery.removeEventListener("change", handleChange);
   }, []);
 
   // Auto-change opinion every 3 seconds (only on mobile)
@@ -44,7 +47,12 @@ function Mnenja() {
       <hr />
       <div className="mnenja-container">
         {!isMobile && (
-          <button className="prev-button" onClick={handlePrev}>
+          <button
+            type="button"
+            className="mnenja-prev-button"
+            onClick={handlePrev}
+            aria-label="Prejšnje mnenje"
+          >
             &#10094;
           </button>
         )}
@@ -58,17 +66,23 @@ function Mnenja() {
             </h3>
           </div>
         ) : (
-          MnenjaOptions.slice(currentIndex, currentIndex + 3).map(
-            (item, index) => (
-              <div className="mnenja-card" key={index}>
+          [0, 1, 2].map((offset) => {
+            const item = MnenjaOptions[(currentIndex + offset) % MnenjaOptions.length];
+            return (
+              <div className="mnenja-card" key={item.name}>
                 <p className="mnenja-text">{item.opinion}</p>
                 <h3 className="mnenja-name">- {item.name}</h3>
               </div>
-            )
-          )
+            );
+          })
         )}
 
-        <button className="next-button" onClick={handleNext}>
+        <button
+          type="button"
+          className="mnenja-next-button"
+          onClick={handleNext}
+          aria-label="Naslednje mnenje"
+        >
           &#10095;
         </button>
       </div>

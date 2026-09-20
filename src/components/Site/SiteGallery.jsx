@@ -25,7 +25,7 @@ function SiteGallery({ images }) {
   return (
     <div className="site-gallery">
       {images.map((image, index) => (
-        <section key={index} onClick={() => setSelectedIndex(index)}>
+        <section key={image} onClick={() => setSelectedIndex(index)}>
           <motion.img
             src={image}
             variants={index % 2 === 0 ? fadeInLeft : fadeInRight}
@@ -34,28 +34,38 @@ function SiteGallery({ images }) {
             viewport={{ once: true }}
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 300 }}
-            alt={`Gallery ${index + 1}`}
+            alt={`Fotografija ponudbe ${index + 1}`}
+            loading="lazy"
+            decoding="async"
           />
         </section>
       ))}
 
       {selectedIndex !== null && (
-        <div className="lightbox" onClick={closeLightbox}>
+        <div
+          className="lightbox"
+          onClick={closeLightbox}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Galerija fotografij"
+        >
           <button
+            type="button"
             className="close-button"
             onClick={() => setSelectedIndex(null)}
+            aria-label="Zapri galerijo"
           >
             &times;
           </button>
-          <button className="prev-button" onClick={handlePrev}>
+          <button type="button" className="prev-button" onClick={handlePrev} aria-label="Prejšnja fotografija">
             &#10094;
           </button>
           <img
             src={images[selectedIndex]}
-            alt="Selected"
+            alt={`Fotografija ponudbe ${selectedIndex + 1}`}
             className="lightbox-image"
           />
-          <button className="next-button" onClick={handleNext}>
+          <button type="button" className="next-button" onClick={handleNext} aria-label="Naslednja fotografija">
             &#10095;
           </button>
         </div>
